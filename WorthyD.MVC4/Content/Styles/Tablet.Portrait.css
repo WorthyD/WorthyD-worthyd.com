@@ -1,0 +1,107 @@
+﻿@media only screen and (max-width : 959px) {
+    header, #content,
+    footer {
+        position: relative;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+    #content {
+        border:none;
+        border-bottom:2px solid #222;
+    }
+
+    #content .profilePic {
+        background: url(https://graph.facebook.com/worthyd/picture?type=small) 0 0 no-repeat;
+        display: inline-block;
+        height: 50px;
+        top: 0;
+        left: 0;
+        width: 50px;
+    }
+
+    nav {
+        float: none;
+        min-height: 30px;
+        position: relative;
+        overflow: visible;
+        width: 100%;
+    }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav #ddlMenu {
+            margin-top: 0px;
+            padding-bottom: 0px;
+            border-top: none;
+            width: auto;
+            position: absolute;
+            top: inherit;
+            left: inherit;
+            top: 0px;
+            left: 55px;
+        }
+
+            nav #ddlMenu > li {
+                border: none;
+            }
+
+
+
+    .sub {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 200px;
+        height: auto;
+    }
+
+    nav .blogDDL .show {
+        height: 87px;
+    }
+
+
+    nav #btnBlogs {
+        display: inline-block;
+    }
+
+    nav .blogDDL {
+        position: relative;
+        overflow: visible;
+    }
+
+        nav .blogDDL ul {
+            position: absolute;
+            background: #232323;
+            width: 150px;
+            height: 0px;
+            overflow: hidden;
+            transition: height 0.4s ease-in-out;
+            -moz-transition: height 0.4s ease-in-out;
+            -webkit-transition: height 0.4s ease-in-out;
+            -o-transition: height 0.4s ease-in-out;
+            border:1px solid #222;
+        }
+
+        nav .blogDDL li {
+            display: block;
+        }
+        nav .blogDDL li:last-child {
+            border-bottom:none;
+        }
+
+    #main {
+        padding-top:35px;
+    }
+
+        #main > p {
+            margin-bottom:20px;
+        }
+    footer > ul{
+        padding-right:20px;
+    }
+}

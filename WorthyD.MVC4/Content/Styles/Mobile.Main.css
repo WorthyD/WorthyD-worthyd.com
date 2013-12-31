@@ -1,0 +1,115 @@
+﻿@media only screen and (max-width : 600px) {
+    h1 {
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    h2 {
+        font-size:18px;
+    }
+
+    p {
+        font-size:14px;
+        line-height:18px;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+        min-height: 25px;
+        position: relative;
+        overflow: visible;
+    }
+
+
+
+        nav #btnMenu {
+            display: block;
+            padding-left: 60px;
+            padding:10px 0 10px 60px;
+        }
+
+        nav ul {
+            margin-top: 0px;
+            padding-bottom: 0px;
+            border: none;
+            /*background: #232323;*/
+        }
+
+        nav li a {
+            padding:10px;
+        }
+
+        nav #ddlMenu li {
+            width: 50%;
+            float: left;
+            border: 1px solid #fff;
+            background: #232323;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        nav #btnBlogs {
+            display: none;
+        }
+
+        nav #ddlMenu {
+            /*height: auto;*/
+            height: 0;
+            left: 0px;
+            padding-left: 50px;
+            top: 38px;
+            width: auto;
+            transition: height 0.4s ease-in-out;
+            -moz-transition: height 0.4s ease-in-out;
+            -webkit-transition: height 0.4s ease-in-out;
+            -o-transition: height 0.4s ease-in-out;
+            overflow: hidden;
+        }
+
+            nav #ddlMenu.show {
+                height: 200px;
+            }
+
+        nav .blogDDL ul {
+            height: auto;
+            position: static;
+            border: none;
+            width: auto;
+            background: none;
+        }
+
+        nav #ddlMenu li.blogDDL {
+            width: 100%;
+            border: none;
+            background: none;
+        }
+
+    #btnMenu {
+        display: block;
+    }
+
+    .sub {
+        /*visibility: hidden;*/ /* This hides the menu until we hover */
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 200px;
+        overflow: visible;
+        height: auto;
+    }
+     #main {
+        padding-top:15px;
+    }
+    .hpCol {
+        float:none;
+        width:95%;
+        margin:10px auto;
+    }
+
+    .gaminContent a, .gaminContent iframe {
+        display:block;
+        margin:0 auto;
+    }
+}

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B91BDF18-52CF-451F-9E83-CBD1591FCAD5}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorthyD</RootNamespace>
+    <AssemblyName>WorthyD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\dev\WorthyD\Backup1\WorthyD\</UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Rfi, Version=2.0.3380.25502, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Rfi.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
+    <Compile Include="Controllers\ResumeController.cs" />
+    <Compile Include="Framework\Constants\Routing\Actions.cs" />
+    <Compile Include="Framework\Constants\Routing\Controllers.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\Gallery\Index.cs" />
+    <Compile Include="ViewModels\Home\AboutMe.cs" />
+    <Compile Include="ViewModels\Home\Index.cs" />
+    <Compile Include="ViewModels\Portfolio\Index.cs" />
+    <Compile Include="ViewModels\Resume\Index.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\demo.html" />
+    <Content Include="Content\Images\geek\admiral.jpg" />
+    <Content Include="Content\Images\geek\bounty.jpg" />
+    <Content Include="Content\Images\geek\bounty2.jpg" />
+    <Content Include="Content\Images\geek\cookie.jpg" />
+    <Content Include="Content\Images\geek\dice.jpg" />
+    <Content Include="Content\Images\geek\gameoverwrist.jpg" />
+    <Content Include="Content\Images\geek\mariomat.jpg" />
+    <Content Include="Content\Images\geek\mm2.jpg" />
+    <Content Include="Content\Images\geek\momkart.jpg" />
+    <Content Include="Content\Images\geek\Schoolqor.jpg" />
+    <Content Include="Content\Images\geek\scrap-metal.jpg" />
+    <Content Include="Content\Images\geek\Soulmates.jpg" />
+    <Content Include="Content\Images\geek\swordplay.jpg" />
+    <Content Include="Content\Images\geek\teamMario.jpg" />
+    <Content Include="Content\Images\geek\thumb_admiral.jpg" />
+    <Content Include="Content\Images\geek\thumb_bounty.jpg" />
+    <Content Include="Content\Images\geek\thumb_bounty2.jpg" />
+    <Content Include="Content\Images\geek\thumb_cookie.jpg" />
+    <Content Include="Content\Images\geek\thumb_dice.jpg" />
+    <Content Include="Content\Images\geek\thumb_gameoverwrist.jpg" />
+    <Content Include="Content\Images\geek\thumb_mariomat.jpg" />
+    <Content Include="Content\Images\geek\thumb_mm2.jpg" />
+    <Content Include="Content\Images\geek\thumb_Schoolqor.jpg" />
+    <Content Include="Content\Images\geek\thumb_scrapmetal.jpg" />
+    <Content Include="Content\Images\geek\thumb_shirt_momkart.jpg" />
+    <Content Include="Content\Images\geek\thumb_Soulmates.jpg" />
+    <Content Include="Content\Images\geek\thumb_swordplay.jpg" />
+    <Content Include="Content\Images\geek\thumb_teamMario.jpg" />
+    <Content Include="Content\Images\geek\thumb_tron.jpg" />
+    <Content Include="Content\Images\geek\thumb_warranty.jpg" />
+    <Content Include="Content\Images\geek\thumb_will-not-fix.jpg" />
+    <Content Include="Content\Images\geek\thumb_workshirt-geek.jpg" />
+    <Content Include="Content\Images\geek\thumb_Zelda.jpg" />
+    <Content Include="Content\Images\geek\thumb_ZeldaGreen.jpg" />
+    <Content Include="Content\Images\geek\thumb_zeldaworn.jpg" />
+    <Content Include="Content\Images\geek\tron.jpg" />
+    <Content Include="Content\Images\geek\warranty.jpg" />
+    <Content Include="Content\Images\geek\will-not-fix.jpg" />
+    <Content Include="Content\Images\geek\workshirt-geek.jpg" />
+    <Content Include="Content\Images\geek\zelda.jpg" />
+    <Content Include="Content\Images\geek\zeldagreen.jpg" />
+    <Content Include="Content\Images\geek\zeldaworn.jpg" />
+    <Content Include="Content\Images\icons\blogger.png" />
+    <Content Include="Content\Images\icons\bungie.png" />
+    <Content Include="Content\Images\icons\delicious.png" />
+    <Content Include="Content\Images\icons\digg.png" />
+    <Content Include="Content\Images\icons\facebook.png" />
+    <Content Include="Content\Images\icons\foursquare.png" />
+    <Content Include="Content\Images\icons\friendfeed.png" />
+    <Content Include="Content\Images\icons\friendster.png" />
+    <Content Include="Content\Images\icons\lastfm.png" />
+    <Content Include="Content\Images\icons\linkedin.png" />
+    <Content Include="Content\Images\icons\livejournal.png" />
+    <Content Include="Content\Images\icons\reddit.png" />
+    <Content Include="Content\Images\icons\stumbleupon.png" />
+    <Content Include="Content\Images\icons\twitter.png" />
+    <Content Include="Content\Images\icons\youtube.png" />
+    <Content Include="Content\Images\jquery\lightbox-blank.gif" />
+    <Content Include="Content\Images\jquery\lightbox-btn-close.gif" />
+    <Content Include="Content\Images\jquery\lightbox-btn-next.gif" />
+    <Content Include="Content\Images\jquery\lightbox-btn-prev.gif" />
+    <Content Include="Content\Images\jquery\lightbox-ico-loading.gif" />
+    <Content Include="Content\Images\Logos\479logo.jpg" />
+    <Content Include="Content\Images\Logos\BSAlogo.jpg" />
+    <Content Include="Content\Images\Logos\controller.jpg" />
+    <Content Include="Content\Images\Logos\mywalmart1.jpg" />
+    <Content Include="Content\Images\Logos\pnlLogo.jpg" />
+    <Content Include="Content\Images\Logos\unlikestuffThumb.jpg" />
+    <Content Include="Content\Images\me.jpg" />
+    <Content Include="Content\Images\me_animetar.jpg" />
+    <Content Include="Content\Images\mywalmart1.jpg" />
+    <Content Include="Content\Images\rotator\Rotator1_03.jpg" />
+    <Content Include="Content\Images\rotator\Rotator2_03.jpg" />
+    <Content Include="Content\Images\rotator\Rotator3_03.jpg" />
+    <Content Include="Content\Images\rotator\Rotator_03.jpg" />
+    <Content Include="Content\orbit.css" />
+    <Content Include="Content\orbit\left-arrow.png" />
+    <Content Include="Content\orbit\loading.gif" />
+    <Content Include="Content\orbit\mask-black.png" />
+    <Content Include="Content\orbit\pause-black.png" />
+    <Content Include="Content\orbit\right-arrow.png" />
+    <Content Include="Content\orbit\rotator-black.png" />
+    <Content Include="Content\orbit\timer-black.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Rfi.dll" />
+    <Content Include="Scripts\Global\Global.js" />
+    <Content Include="Scripts\Jquery\jquery.jcarousel.min.js" />
+    <Content Include="Scripts\Jquery\jquery.lightbox-0.5.min.js" />
+    <Content Include="Scripts\Jquery\jquery.orbit.min.js" />
+    <Content Include="Scripts\js\global.min.js" />
+    <Content Include="Scripts\js\pages.min.js" />
+    <Content Include="Tools\Packer.exe" />
+    <Content Include="Tools\SmallSharpTools.Packer.dll" />
+    <Content Include="Views\Error\PageNotFound.aspx" />
+    <Content Include="Views\Error\WTF.aspx" />
+    <Content Include="Views\Gallery\Index.aspx" />
+    <Content Include="Views\Home\AboutMe.aspx" />
+    <Content Include="Views\Home\Contact.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Portfolio\Index.aspx" />
+    <Content Include="Views\Portfolio\Keyboard.aspx" />
+    <Content Include="Views\Portfolio\NESController.aspx" />
+    <Content Include="Views\Resume\Index.aspx" />
+    <Content Include="Views\Shared\_Footer.ascx" />
+    <Content Include="Views\Shared\_Header.ascx" />
+    <Content Include="Views\Shared\_Navigation.ascx" />
+    <Content Include="Views\Shared\_RightColumnDefault.ascx" />
+    <Content Include="Views\Shared\_RightColumnLinks.ascx" />
+    <Content Include="Views\Shared\_Script.ascx" />
+    <Content Include="Views\Shared\_Style.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Jquery\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\Jquery\jquery.validate.js" />
+    <Content Include="Scripts\Jquery\jquery.validate.min.js" />
+    <Content Include="Scripts\Jquery\jquery.validate-vsdoc.js" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Styles\" />
+    <Folder Include="Scripts\External\" />
+    <Folder Include="Scripts\Pages\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Interior.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\orbit\.DS_Store" />
+    <None Include="Tools\csscombine.bat" />
+    <None Include="Tools\jscombine.bat" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61869</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>call "$(ProjectDir)Tools\csscombine.bat"
+call "$(ProjectDir)Tools\jscombine.bat"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

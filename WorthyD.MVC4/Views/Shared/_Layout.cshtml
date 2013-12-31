@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>WorthyD.com - Daniel Worthy - @ViewBag.Title</title>
+
+    @if (string.IsNullOrEmpty(ViewBag.MetaDescription)) {
+        <meta name="description" content="Daniel Worthy - North West Arkansas Web Developer, Carpenter and Geek" />
+        <meta name="keywords" content="Nortwest Arkansas Web Developer, NWA Dev, Northwest Arkansas Carpenter, Daniel Worthy, WorthyD, Tech Blog, Geek Blog, Carpentry Blog" />
+    } else {
+        <meta name="description" content="@ViewBag.MetaDescription" />
+        <meta name="keywords" content="@ViewBag.MetaKeywords" />
+    }
+
+
+    @*@Styles.Render("~/Content/styles")*@
+@*    <link href="~/Content/Styles/Reset.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Site.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Views.Home.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Tablet.Landscape.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Tablet.Portrait.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Mobile.Main.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Mobile.Portrait.css" rel="stylesheet" />*@
+    <link href="~/Content/Styles/Main.min.css" rel="stylesheet" />
+</head>   
+<body>
+
+    <header>
+    </header>
+    <div id="content">
+        <nav>
+            <div class="profilePic"></div>
+            <a href="#" id="btnMenu">Menu</a>
+            <ul class="sub" id="ddlMenu">
+                <li><a href="@Url.Action("index", "home")">Home</a></li>
+                <li><a href="@Url.Action("aboutme", "home")">About Me</a></li>
+                <li><a href="@Url.Action("gaming", "home")">Gaming</a></li>
+                <li><a href="@Url.Action("experience", "home")">Experience</a></li>
+                <li><a href="@Url.Action("Index", "Tools")">Tools</a></li>
+                <li><a href="@Url.Action("contact", "home")">Contact</a></li>
+                <li class="blogDDL">
+                    <a href="#" id="btnBlogs">Blogs</a>
+                    <ul id="blogDDL">
+                        <li><a href="http://worthyd.com/geekblog/">Geek Blog</a></li>
+                        <li><a href="http://worthyd.com/techblog/">Tech Blog</a></li>
+                        <li><a href="http://thegeekcarpenter.blogspot.com/">Geek Carpenter</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="main">
+            <h1>Daniel Worthy - Father - Geek -  Web Developer</h1>
+            @RenderBody()
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="http://www.twitter.com/worthyd" title="twitter">Twitter</a></li>
+            <li><a href="http://www.facebook.com/worthyd" title="Facebook">Facebook</a></li>
+            <li><a href="http://www.linkedin.com/in/worthyd" title="linked in">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    @*    @Scripts.Render("~/script/js/jquery")
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            var e = document.createElement('script');
+            e.src = '@Url.Content("~/Scripts/jquery-1.8.2.js")';
+            e.type = 'text/javascript';
+            document.getElementsByTagName("head")[0].appendChild(e);
+        }
+    </script>*@
+    @*@Scripts.Render("~/script/js/views")*@
+    <script src="~/Scripts/Site.min.js"></script>
+    <script>
+        var click = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
+        var Loaded = function () {
+            Menu.Init("btnMenu", "ddlMenu", "show");
+            Menu.Init("btnBlogs", "blogDDL", "show");
+        };
+        document.addEventListener("DOMContentLoaded", Loaded, false);
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

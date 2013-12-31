@@ -1,0 +1,11 @@
+﻿
+html, body {background-color:#fff !important; color:#000 !important; border:none;}
+h4 {border-bottom-color:#000;}
+a {text-decoration:none !important; color:#000 !important;}
+
+header, #mainNav, #sideBar, footer {display:none;}
+
+#content #interiorContent {  width: 100%}
+.twoCol {}
+
+#resumePage .realTwoCol li {  height: 25px;  width: 230px;}

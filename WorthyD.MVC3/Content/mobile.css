@@ -1,0 +1,40 @@
+﻿html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {	margin: 0;	padding: 0;	border: 0;	outline: 0;	font-size: 100%;	vertical-align: baseline;	background: transparent;}
+body {	}
+ol, ul {	list-style: none;}
+p{ margin:10px 0; line-height:20px;}
+
+.homePage .avatar {margin:0 auto; display:block; margin-bottom:10px;}
+.homePage h1, .homePage h2 { text-align:center;}
+.homePage .socialLinks {width:210px; margin:10px auto;}
+.homePage .socialLinks li {width:60px; margin:0 5px; float:left;}
+
+/*Portfolio*/
+#portfolio{}
+#portfolio .portItem{ clear:both;/* float:left; */ min-height:155px; width:100%; margin:5px 0;}
+#portfolio .portItem .portImage{}
+#portfolio .portItem .siteLogo {}
+#portfolio .portItem .siteLogo img {width:100px;  display:block; /*border:1px solid #232323; */ float:left; margin:15px;}
+#portfolio .portItem .portDesc{ /* width:380px; float:left; */ min-height:150px; overflow:hidden; margin:15px 15px 15px 0; }
+#portfolio .portItem .portDesc span{font-style:italic;}
+
+/*Resume */
+#resumePage ul{list-style-type:disc; margin:10px 30px;}
+#resumePage ul li{margin:5px 0;}
+#resumePage ul ul {list-style-type:circle; margin:5px 15px;}
+#resumePage ul ul li{margin:5px 0px;}
+#resumePage h4 {margin-bottom:10px;}
+#resumePage .multiCol li { margin:0px !important ;  list-style:none;}
+#resumePage .twoCol li {  height: 25px; margin:0px !important ; }
+#resumePage .realTwoCol li { height:25px;}
+#resumePage ul, #resumePage p { margin-bottom: 20px; }
+#resumePage p {margin-left:15px;}
+
+.headerDetails { margin: 25px 0; }
+.collapse + ul, .collapse + p { display: none; }
+.expander { float: right; }
+.multiCol {margin-left: 15px !important;}
+.threeCol li {  height: 25px; }
+
+
+.aboutMePhoto{float:left; margin:15px 15px 15px 0; border:1px solid #232323; height:100px; width:100px;}
+.aboutMySitePhoto{float:left; margin:15px 15px 15px 0; border:1px solid #232323; width:100px; }

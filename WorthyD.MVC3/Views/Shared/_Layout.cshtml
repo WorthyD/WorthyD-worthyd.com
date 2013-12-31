@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WorthyD.com - Daniel Worthy - @ViewBag.Title</title>
+
+
+    @if (string.IsNullOrEmpty(ViewBag.MetaDescription)) {
+        <meta name="description" content="Daniel Worthy - North West Arkansas Web Developer, Carpenter and Geek" />
+        <meta name="keywords" content="Nortwest Arkansas Web Developer, NWA Dev, Northwest Arkansas Carpenter, Daniel Worthy, WorthyD, Tech Blog, Geek Blog, Carpentry Blog" />
+    } else {
+        <meta name="description" content="@ViewBag.MetaDescription" />
+        <meta name="keywords" content="@ViewBag.MetaKeywords" />
+    }
+    @Html.Partial("_Style")
+    @RenderSection("ExtraCSS", false)
+    <script>
+        //Fix IE for HTML5 tags
+        document.createElement("article"); document.createElement("footer"); document.createElement("header"); document.createElement("hgroup"); document.createElement("nav");
+    </script>
+</head>
+<body>
+    <div class="headCustom">
+        <div id="customTopLeft">
+        </div>
+        <div id="customTopRight">
+        </div>
+    </div>
+    <div id="contentWrapper">
+        @Html.Partial("_ThemePicker")
+        <header>
+            @Html.Partial("_Header")
+        </header>
+        <nav id="mainNav">
+            @Html.Partial("_Navigation")
+        </nav>
+        <div id="content">
+            @RenderBody()
+        </div>
+        <footer>
+            @Html.Partial("_Footer")
+        </footer>
+    </div>
+    <div class="baseCustom">
+        <div id="customBottomRight">
+        </div>
+        <div id="customBottomLeft">
+        </div>
+    </div>
+j
+    @Html.Partial("_Script")
+   @RenderSection("ExtraScript", false)
+</body>
+</html>

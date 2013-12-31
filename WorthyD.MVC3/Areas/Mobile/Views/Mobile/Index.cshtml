@@ -1,0 +1,58 @@
+﻿@{
+	ViewBag.Title = "Index";
+	Layout = "~/Areas/Mobile/Views/Shared/_Layout.cshtml";
+}
+<div class="homePage">
+	<img src="@Url.Content("~/content/images/me_animetar.jpg")" alt="Daniel Worthy" class="avatar" />
+	<h1>Daniel Worthy</h1>
+	<h2>North West Arkansas Frontend and Backend Web Developer </h2>
+	<!-- List of nav -->
+	<ul data-role="listview" data-inset="true" data-theme="c">
+		<li><a href="@Url.Action("Portfolio")" class="" title="Portfolio">Portfolio</a></li>
+		<li><a href="@Url.Action("Experience")" class="" title="Resume">Experience</a></li>
+		<li><a rel="external" href="http://worthyd.com/geekblog" title="Geek Blog">Geek Blog</a></li>
+		<li><a rel="external" href="http://worthyd.com/techblog" title="Tech Blog">Tech Blog</a></li>
+		<li><a rel="external" href="http://thegeekcarpenter.blogspot.com/" title="Carpentry Blog">Carpentry Blog</a></li>
+		<li><a href="@Url.Action("AboutMobile")" class="" title="About My Mobile Site">About My Mobile Site</a></li>
+		<li><a href="@Url.Action("AboutMe")" class="" title="About Me">About Me</a></li>
+		<li data-icon="false"><a href="#" class="aContact" title="Contact Me">Contact Me</a></li>
+	</ul>
+	<!-- List of Social Networks -->
+	<ul class="socialLinks">
+		<li><a href="http://www.facebook.com/worthyd" title="facebook">
+			<img src="/content/images/icons/facebook.png" alt="Facebook" /></a> </li>
+		<li><a href="http://www.twitter.com/worthyd" title="twitter">
+			<img src="/content/images/icons/twitter.png" alt="twitter" /></a> </li>
+		<li><a href="http://www.linkedin.com/in/worthyd" title="linked in">
+			<img src="/content/images/icons/linkedin.png" alt="linkedIn" /></a> </li>
+	</ul>
+</div>
+<script type="text/javascript">
+	var clean = function (x) {
+		return x.replace(/x/g, "").replace(/5/g, "").replace(/6/g, "");
+	};
+
+
+	(function ($) {
+		$.delay = function (delay, callback) {
+			if (typeof (callback)) {
+				setTimeout(function () { callback() }, delay);
+			}
+		};
+	})(jQuery);
+
+
+	$(function () {
+
+		$.delay(1000, function () {
+			$('.aContact').click(function () {
+				var d = "dxxa6565nxx6565xiex5xxx565lxxxxx";
+				var w = "wo555xxxr65655txxhx56xxxxyx5565xxxxd";
+				var c = ".565xxxc55655oxxxx565xxm";
+
+				window.location = 'mailto:' + clean(d) + '@@' + clean(w) + clean(c);
+			});
+		});
+
+	});
+</script>

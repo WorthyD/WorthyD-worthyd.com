@@ -1,0 +1,148 @@
+﻿/*
+    Resets and generics
+    */
+body {
+    font-size: 14px;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+a {
+    color: #0916a9;
+    text-decoration: none;
+}
+
+    a:hover {
+    }
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+header, #content,
+footer {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+header {
+    height: 100px;
+}
+
+#content, nav {
+    background: #232323;
+    min-height: 500px;
+}
+
+#content {
+    border: 2px solid #232323;
+}
+
+    #content .profilePic {
+        background: url(https://graph.facebook.com/worthyd/picture?type=large) 0 0 no-repeat;
+        display: block;
+        height: 180px;
+        left: -25px;
+        position: absolute;
+        top: -25px;
+        width: 180px;
+    }
+
+
+nav {
+    background: #232323;
+    float: left;
+    width: 180px;
+    overflow: hidden;
+}
+
+    nav #ddlMenu {
+        height: 100%;
+        margin-top: 175px;
+        padding-bottom: 20px;
+        border-top: 1px solid #fff;
+    }
+
+    nav a {
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    nav li {
+        border-bottom: 1px solid #fff;
+    }
+
+        nav li a {
+            display: block;
+            padding: 5px 10px;
+        }
+
+            nav li a:hover {
+                color: #232323;
+                background-color: #fff;
+            }
+
+    nav #btnMenu, nav #btnBlogs {
+        display: none;
+    }
+
+#main {
+    background: #fff;
+    height: 100%;
+    overflow: hidden;
+    min-height: 500px;
+    padding: 15px;
+}
+
+/*
+        Footer elements
+        */
+footer {
+    text-align: right;
+}
+
+    footer ul {
+        margin-top: 10px;
+    }
+
+    footer li {
+        padding:0px 10px;
+        display: inline-block;
+    }
