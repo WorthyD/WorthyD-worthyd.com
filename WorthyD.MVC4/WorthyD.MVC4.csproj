@@ -127,7 +127,7 @@
       <DependentUpon>Main.css.bundle</DependentUpon>
     </Content>
     <Content Include="Content\Styles\Main.min.css">
-      <DependentUpon>Main.css.bundle</DependentUpon>
+      <DependentUpon>Main.css</DependentUpon>
     </Content>
     <Content Include="Content\Styles\Mobile.Main.css" />
     <Content Include="Content\Styles\Mobile.Portrait.css" />

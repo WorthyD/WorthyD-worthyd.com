@@ -471,7 +471,7 @@ footer {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     header, #content,
     footer {
         margin: 0 auto;
@@ -615,3 +615,4 @@ footer {
     .exp ul.threeCol li {
         width: 30%;
     }
+
