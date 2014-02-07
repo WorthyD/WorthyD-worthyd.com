@@ -23,14 +23,14 @@
     <link href="~/Content/Styles/Tablet.Portrait.css" rel="stylesheet" />
     <link href="~/Content/Styles/Mobile.Main.css" rel="stylesheet" />
     <link href="~/Content/Styles/Mobile.Portrait.css" rel="stylesheet" />*@
-    <link href="~/Content/Styles/Main.min.css" rel="stylesheet" />
+    <link href="~/Content/Styles/Main.css" rel="stylesheet" />
 </head>   
 <body>
 
     <header>
     </header>
-    <div id="content">
-        <nav>
+    <div id="content" class="row">
+        <nav class="col md-1" >
             <div class="profilePic"></div>
             <a href="#" id="btnMenu">Menu</a>
             <ul class="sub" id="ddlMenu">
@@ -50,7 +50,7 @@
                 </li>
             </ul>
         </nav>
-        <div id="main">
+        <div id="main " class="col md-11" >
             <h1>Daniel Worthy - Father - Geek -  Web Developer</h1>
             @RenderBody()
         </div>

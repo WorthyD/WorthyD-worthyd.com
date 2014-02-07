@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle minify="true" runOnBuild="true" output="Main.css">
+  <!--The order of the <file> elements determines the order of them when bundled.-->
+  <file>/Content/Styles/Reset.css</file>
+  <file>/Content/Styles/responsivegrid.css</file>
+  <file>/Content/Styles/Site.css</file>
+  <file>/Content/Styles/Views.Home.css</file>
+  <!--<file>/Content/Styles/Tablet.Landscape.css</file>
+  <file>/Content/Styles/Tablet.Portrait.css</file>
+  <file>/Content/Styles/Mobile.Main.css</file>
+  <file>/Content/Styles/Mobile.Portrait.css</file>-->
+</bundle>

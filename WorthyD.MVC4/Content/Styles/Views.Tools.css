@@ -1,0 +1,43 @@
+﻿#frmTools {
+}
+
+    #frmTools textarea {
+        display:block;
+        height:125px;
+        margin-bottom:10px;
+        resize: vertical;
+        width:100%;
+    }
+
+    #frmTools .btn {
+        color: #fff;
+        background: #232323;
+        border: 1px solid #232323;
+        padding: 5px;
+        width: auto;
+    }
+
+        #frmTools .btn:hover {
+            color: #232323;
+            background: #fff;
+        }
+
+    #frmTools .controls {
+        margin-bottom:10px;
+        overflow:hidden;
+    }
+    #frmTools .controls .btn {
+        float:left;
+        margin-right:5px;
+    }
+
+    #frmTools .formSlug {
+    }
+    #frmTools .formSlug input[type=text] {
+        display:block; 
+        margin:15px 0; 
+        width:100%;
+    }
+        #frmTools .formSlug .radioList, #frmTools .formSlug .checklist {
+            margin:10px 0 ;
+        }
