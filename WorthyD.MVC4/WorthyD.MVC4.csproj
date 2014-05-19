@@ -187,6 +187,7 @@
     <Content Include="Scripts\Site.min.js.map">
       <DependentUpon>Site.js.bundle</DependentUpon>
     </Content>
+    <Content Include="Views\Home\SkillSets.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

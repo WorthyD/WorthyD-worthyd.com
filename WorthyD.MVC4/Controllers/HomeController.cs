@@ -12,10 +12,12 @@ namespace WorthyD.MVC4.Controllers {
         public ActionResult AboutMe() {
             return View();
         }
+        public ActionResult SkillSets() {
+            return View();
+        }
         public ActionResult Experience() {
             return View();
         }
-
         public ActionResult Contact() {
             return View();
         }
