@@ -64,18 +64,15 @@
 }
 
 .gaminContent a, .gaminContent iframe {
-    /*display: block;
-        float:left;
-            */
-    display: inline-block;
+    display:block;
+    margin: 10px auto;
     vertical-align: middle;
-    height: 140px;
-    margin: 15px;
-    width: 204px;
     text-align: center;
 }
 
     .gaminContent a img {
+
+    max-width: 204px;
         vertical-align: middle;
     }
 /*

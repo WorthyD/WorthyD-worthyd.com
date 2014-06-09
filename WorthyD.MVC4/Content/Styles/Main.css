@@ -550,16 +550,34 @@ footer {
         display: inline-block;
     }
 
+.img-responsive {
+    width:100%;
+    }
 
+@media (min-width: 992px) {
+    header, #content,
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 960px;
+    }
 
-@media (min-width: 768px) {
+    header {
+        height: 100px;
+    }
+
+    #content, nav {
+        background: #232323;
+        min-height: 500px;
+    }
+
     #content {
-        margin-top:100px;
+        margin-top: 100px;
         border: 2px solid #232323;
     }
 
         #content .profilePic {
-            /*background: url(https://graph.facebook.com/worthyd/picture?type=small) 0 0 no-repeat;*/
             background: url(http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=50) 0 0 no-repeat;
             display: inline-block;
             height: 50px;
@@ -574,48 +592,61 @@ footer {
             overflow: visible;
         }
 
-    nav ul li {
-        display: block;
-    }
-
-    nav li {
-        border:none;
-        border-bottom: 1px solid #fff;
-    }
-
-    nav #ddlMenu {
-        margin-top: 0px;
-        padding-bottom: 0px;
-        border-top: none;
-        width: 100%;
-        position: absolute;
-        top: inherit;
-        left: inherit;
-        top: 0px;
-        left: 0px;
+    #main {
+        background: #fff;
         height: 100%;
-        padding-left: 0px;
-        overflow: visible;
+        overflow: hidden;
+        min-height: 500px;
+        padding: 15px;
     }
 
-        nav #ddlMenu > li {
-        border:none;
-        border-bottom: 1px solid #fff;
- 
-        }
-
-        nav #ddlMenu li,
-        nav #ddlMenu li.blogDDL {
-            float: none;
-            width: auto;
-            padding: 0;
-        }
-
-    nav #btnMenu {
-        display: none;
+    nav {
+        background: #232323;
+        float: left;
+        width: 180px;
+        overflow: hidden;
     }
 
-    .sub {
+        nav ul li {
+            display: block;
+        }
+
+        nav li {
+            border: none;
+            border-bottom: 1px solid #fff;
+        }
+
+       
+
+        nav #ddlMenu {
+            border-top: none;
+            height: 100%;
+            left: 0px;
+            margin-top: 175px;
+            overflow: visible;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+        }
+
+            nav #ddlMenu > li {
+                border: none;
+                border-bottom: 1px solid #fff;
+            }
+
+            nav #ddlMenu li,
+            nav #ddlMenu li.blogDDL {
+                float: none;
+                width: auto;
+                padding: 0;
+            }
+
+        nav #btnMenu {
+            display: none;
+        }
+        .sub {
         position: absolute;
         top: 50px;
         left: 0;
@@ -640,7 +671,6 @@ footer {
             position: absolute;
             background: #232323;
             width: 100%;
-
         }
 
         nav .blogDDL li {
@@ -659,47 +689,6 @@ footer {
     nav li a {
         padding: 5px 10px;
     }
-}
-
-@media (min-width: 992px) {
-    header, #content,
-    footer {
-        margin-left:auto;
-        margin-right:auto;
-        position: relative;
-        width: 960px;
-    }
-
-    header {
-        height: 100px;
-    }
-
-    #content, nav {
-        background: #232323;
-        min-height: 500px;
-    }
-
-    #main {
-        background: #fff;
-        height: 100%;
-        overflow: hidden;
-        min-height: 500px;
-        padding: 15px;
-    }
-
-    nav {
-        background: #232323;
-        float: left;
-        width: 180px;
-        overflow: hidden;
-    }
-
-        nav #ddlMenu {
-            height: 100%;
-            margin-top: 175px;
-            padding-bottom: 20px;
-            border-top: 1px solid #fff;
-        }
 
     #content .profilePic {
         background: url(http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=180) 0 0 no-repeat;
@@ -778,18 +767,15 @@ footer {
 }
 
 .gaminContent a, .gaminContent iframe {
-    /*display: block;
-        float:left;
-            */
-    display: inline-block;
+    display:block;
+    margin: 10px auto;
     vertical-align: middle;
-    height: 140px;
-    margin: 15px;
-    width: 204px;
     text-align: center;
 }
 
     .gaminContent a img {
+
+    max-width: 204px;
         vertical-align: middle;
     }
 /*

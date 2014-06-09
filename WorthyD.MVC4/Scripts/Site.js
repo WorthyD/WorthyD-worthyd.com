@@ -1,4 +1,4 @@
-﻿///#source 1 1 /Scripts/Libs/Util.js
+﻿///#source 1 1 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\Scripts\Libs\Util.js
 var U = (function () {
     return {
         UtoP: function (i) {
@@ -6,7 +6,7 @@ var U = (function () {
         }
     };
 })();
-///#source 1 1 /Scripts/Views/Shared/Menu.js
+///#source 1 1 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\Scripts\Views\Shared\Menu.js
 var Menu = (function () {
 
 
