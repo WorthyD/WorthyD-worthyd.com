@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>_Layout</title>
+    <link href="~/Content/Styles/presentations/reveal.min.css" rel="stylesheet" />
+    <link href="~/Content/Styles/presentations/default.css" rel="stylesheet" />
+    <link href="~/Content/Styles/presentations/tomorrow-night-bright.css" rel="stylesheet" />
+    <style>
+        .reveal pre {
+            font-size: 0.65em;
+        }
+
+        .reveal .code-tall {
+            max-height: 500px;
+        }
+
+        .reveal pre code.short-code {
+            max-height: 300px;
+            font-size: 0.8em;
+            line-height: 1.1em;
+        }
+
+        .leftCol {
+            float: left;
+            width: 50%;
+        }
+
+        .rightCol {
+            width: 50%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    @RenderBody();
+    <script src="~/Scripts/Views/Presentations/head.min.js"></script>
+    <script src="~/Scripts/Views/Presentations/reveal.min.js"></script>
+    <script>
+
+        Reveal.initialize({
+            history: true,
+            transition: Reveal.getQueryHash().transition || 'default',
+            dependencies: [
+              { src: '@Url.Content("~/Scripts/Views/Presentations/highlight.js")', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+            ]
+        });
+    </script>
+</body>
+</html>

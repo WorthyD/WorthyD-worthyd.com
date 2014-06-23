@@ -106,10 +106,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PresentationsController.cs" />
     <Compile Include="Controllers\ToolsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HTMLHelpers\VersionedTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -129,17 +131,27 @@
     <Content Include="Content\Styles\Main.min.css">
       <DependentUpon>Main.css</DependentUpon>
     </Content>
-    <Content Include="Content\Styles\Mobile.Main.css" />
-    <Content Include="Content\Styles\Mobile.Portrait.css" />
+    <Content Include="Content\Styles\old\Main.css">
+      <DependentUpon>Main.css.bundle</DependentUpon>
+    </Content>
+    <Content Include="Content\Styles\old\Main.min.css">
+      <DependentUpon>Main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Styles\old\Mobile.Main.css" />
+    <Content Include="Content\Styles\old\Mobile.Portrait.css" />
+    <Content Include="Content\Styles\presentations\default.css" />
+    <Content Include="Content\Styles\presentations\reveal.min.css" />
+    <Content Include="Content\Styles\presentations\tomorrow-night-bright.css" />
     <Content Include="Content\Styles\Reset.css" />
     <Content Include="Content\Styles\ResponsiveGrid.css" />
-    <Content Include="Content\Styles\Tablet.Landscape.css" />
-    <Content Include="Content\Styles\Tablet.Portrait.css" />
+    <Content Include="Content\Styles\old\Tablet.Landscape.css" />
+    <Content Include="Content\Styles\old\Tablet.Portrait.css" />
     <Content Include="Content\Styles\Views.Home.css" />
     <Content Include="Content\Styles\Views.Tools.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Styles\Site.css" />
-    <None Include="Content\Styles\Main.css.bundle">
+    <Content Include="Content\Styles\Main.css.bundle" />
+    <None Include="Content\Styles\old\Main.css.bundle">
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
@@ -154,6 +166,9 @@
       <DependentUpon>Site.js.bundle</DependentUpon>
     </Content>
     <Content Include="Scripts\Libs\Util.js" />
+    <Content Include="Scripts\Views\Presentations\head.min.js" />
+    <Content Include="Scripts\Views\Presentations\highlight.js" />
+    <Content Include="Scripts\Views\Presentations\reveal.min.js" />
     <Content Include="Scripts\Views\Shared\Menu.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config">
@@ -188,6 +203,11 @@
       <DependentUpon>Site.js.bundle</DependentUpon>
     </Content>
     <Content Include="Views\Home\SkillSets.cshtml" />
+    <Content Include="Views\Home\Proficiency.cshtml" />
+    <Content Include="Views\Presentations\_Layout.cshtml" />
+    <Content Include="Views\Presentations\BasicBetterJS.cshtml" />
+    <Content Include="Views\Presentations\CutoutPresentation.cshtml" />
+    <Content Include="Views\Presentations\WindowsPhone8.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

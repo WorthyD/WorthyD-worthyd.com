@@ -15,7 +15,12 @@ namespace WorthyD.MVC4 {
                 url: "tools-{action}/{id}",
                 defaults: new { controller = "Tools", action = "Index", id = UrlParameter.Optional }
             );
- 
+             routes.MapRoute(
+                name: "Presentations",
+                url: "presentations/{action}",
+                defaults: new { controller = "Presentations", action = "Index", id = UrlParameter.Optional }
+            );
+
             routes.MapRoute(
                 name: "Default",
                 url: "{action}/{id}",

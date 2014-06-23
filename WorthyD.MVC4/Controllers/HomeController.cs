@@ -24,6 +24,10 @@ namespace WorthyD.MVC4.Controllers {
         public ActionResult Gaming() {
             return View();
         }
+        public ActionResult Proficiency() {
+            return View();
+        }
+
 
     }
 }
