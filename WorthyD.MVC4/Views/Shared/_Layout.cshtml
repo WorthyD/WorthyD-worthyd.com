@@ -71,7 +71,8 @@
     </footer>
 
   
-    <script src="~/Scripts/Site.min.js"></script>
+    <script src="@Url.VerstionURL("~/Scripts/Site.min.js")"></script>
+	
     <script>
         var click = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
         var Loaded = function () {

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorthyD.MVC3", "WorthyD.MVC3\WorthyD.MVC3.csproj", "{FA9F7195-CE45-45EB-9B98-2ED36D024C8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorthyD.MVC4", "WorthyD.MVC4\WorthyD.MVC4.csproj", "{A80C4341-C6A7-40F2-906B-DF6F26DC46D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorthyD.MVC4.5", "WorthyD.MVC4.5\WorthyD.MVC4.5.csproj", "{06451FEA-6E51-43FD-AFBD-EC93D1964D16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,24 @@ Global
 		{A80C4341-C6A7-40F2-906B-DF6F26DC46D5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A80C4341-C6A7-40F2-906B-DF6F26DC46D5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A80C4341-C6A7-40F2-906B-DF6F26DC46D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|Mixed Platforms.Build.0 = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|x86.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.ASP|x86.Build.0 = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Debug|x86.Build.0 = Debug|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|x86.ActiveCfg = Release|Any CPU
+		{06451FEA-6E51-43FD-AFBD-EC93D1964D16}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

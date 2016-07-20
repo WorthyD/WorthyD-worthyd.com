@@ -34,7 +34,6 @@ C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\Microsoft.Web.Infrastru
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\Newtonsoft.Json.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Net.Http.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Net.Http.WebRequest.dll
-C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Web.Mvc.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Web.Optimization.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Web.Razor.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC4\bin\System.Web.WebPages.Deployment.dll

@@ -23,11 +23,7 @@ C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\WorthyD.MVC3.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\WorthyD.MVC3.pdb
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\Microsoft.Web.Infrastructure.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.Helpers.dll
-C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.Mvc.dll
-C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.Razor.dll
-C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.WebPages.Deployment.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.WebPages.dll
-C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.WebPages.Razor.dll
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\Microsoft.Web.Infrastructure.xml
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.Mvc.xml
 C:\Dev\PersonalProjects\WorthyD\WorthyD\WorthyD.MVC3\bin\System.Web.Razor.xml
