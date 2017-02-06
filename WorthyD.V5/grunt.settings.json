@@ -1,0 +1,30 @@
+﻿{
+  "css": {
+    "src": "src/content/sass/main.scss",
+    "dist": "dest/content/styles/",
+    "distfilename": "main",
+    "workingdirectory": [
+      "src/content/scss/*.scss"
+    ]
+  },
+  "html":{
+    "workingdirectory":[
+      "src/**/*.html",
+      "src/*.html" 
+    ]
+  },
+  "js": {
+   "workingdirectory": [
+      "src/script/**/*.js",
+      "src/script/*.js"
+    ],
+    "jshint": {
+      "directory": [
+        "src/script/app/*.js"
+      ],
+      "ignores": [
+        "src/script/lib/*.js"
+      ]
+    }
+  }
+}
