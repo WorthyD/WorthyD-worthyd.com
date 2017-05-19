@@ -1,0 +1,98 @@
+var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
+
+var cleanCSS = require('gulp-clean-css');
+var sourcemaps = require('gulp-sourcemaps');
+var header = require('gulp-header');
+var rename = require('gulp-rename');
+var fileinclude = require('gulp-file-include');
+var sass = require('gulp-sass');
+
+var ts = require('gulp-typescript');
+var tsProject = ts.createProject('tsconfig.json');
+
+gulp.task('default', ['browserSync'], function () {
+    gulp.watch('src/templates/*.html', ['fileinclude']);
+    gulp.watch('src/scripts/**/*.js', browserSync.reload);
+    gulp.watch(sassPath, ['sass']);
+});
+
+var banner = '/* This is a generated file on ' + new Date() + '  */\n';
+
+/*
+We no longer need to use this task. I'm commenting out for now.
+
+gulp.task('minify-css', function () {
+    return gulp.src("styles/*.css")
+        .pipe(sourcemaps.init())
+        .pipe(cleanCSS())
+        .pipe(header(banner))
+        .pipe(sourcemaps.write())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('dist/styles'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
+});
+
+*/
+gulp.task('fileinclude', function () {
+    gulp.src(['src/templates/*.html'])
+        .pipe(fileinclude({
+            prefix: '<!-- @@',
+            suffix: '-->'
+        }))
+        .pipe(gulp.dest('./dest2')).pipe(browserSync.reload({
+            stream: true
+        }));
+});
+var sassPath = 'src/content/sass/**/*.scss';
+
+gulp.task('sass', function () {
+    return gulp.src(sassPath)
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(cleanCSS())
+        .pipe(header(banner))
+        .pipe(sourcemaps.write())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('dest2/styles'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
+
+});
+gulp.task('ts', function () {
+    console.log(tsProject.src);
+    var result =  gulp.src("src/scripts/**/*")
+        .pipe(tsProject())
+
+      return result.js.pipe(gulp.dest('')).pipe(browserSync.reload({
+            stream: true
+        }));
+
+});
+
+
+//We are adding sass as a gulp dependancy. It will run 'sass' before it starts the browser sync. 
+//This makes sure that we have the latest CSS.
+gulp.task('browserSync', ['sass'], function () {
+    browserSync.init({
+        server: {
+            baseDir: 'dest2'
+        }
+    })
+});
+
+//Starts up a dev server for us
+//It also watches files and reloads the browser when they change.
+gulp.task('dev', ['browserSync'], function () {
+    gulp.watch('src/templates/*.html', ['fileinclude']);
+    gulp.watch('src/scripts/**/*.js', browserSync.reload);
+    gulp.watch('src/scripts/**/*.ts', ['ts']);
+    gulp.watch(sassPath, ['sass']);
+});

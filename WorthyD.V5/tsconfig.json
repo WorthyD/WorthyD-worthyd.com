@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "dest2/scripts/main.js",
+        "sourceMap": true
+    },
+    "include": [
+        "src/scripts/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
