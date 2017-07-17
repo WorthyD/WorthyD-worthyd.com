@@ -3,6 +3,12 @@ export interface Skill {
     icon: string,
     skill: number,
     interest: number,
-    content: string
+    content: string,
+    type: SkillType
+}
 
+export enum SkillType{
+    Language,
+    Application,
+    Framework
 }

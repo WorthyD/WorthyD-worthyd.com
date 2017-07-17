@@ -5,9 +5,16 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "outFile": "dest2/scripts/main.js",
-        "sourceMap": true
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ]
     },
     "include": [
+        "src/scripts/main.d.ts",
         "src/scripts/**/*"
     ],
     "exclude": [

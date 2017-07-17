@@ -5,6 +5,8 @@
   "main": "GruntFile.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "babel-loader": "^7.0.0",
     "browser-sync": "^2.18.8",
     "glob": "^7.0.5",
     "gulp": "^3.9.1",
@@ -15,10 +17,18 @@
     "gulp-sourcemaps": "^2.4.1",
     "gulp-typescript": "^3.1.6",
     "load-grunt-tasks": "^3.5.0",
-    "typescript": "^2.3.2"
+    "serve": "^5.1.5",
+    "systemjs": "^0.20.12",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.2",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "webpack-dev-server --open",
+    "ww": "webpack --progress --watch"
   },
   "author": "worthyd",
   "license": "ISC"

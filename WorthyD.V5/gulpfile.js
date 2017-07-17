@@ -11,7 +11,11 @@ var sass = require('gulp-sass');
 var ts = require('gulp-typescript');
 var tsProject = ts.createProject('tsconfig.json');
 
-gulp.task('default', ['browserSync'], function () {
+
+
+//webpack
+
+gulp.task('default', ['browserSync', 'copy'], function () {
     gulp.watch('src/templates/*.html', ['fileinclude']);
     gulp.watch('src/scripts/**/*.js', browserSync.reload);
     gulp.watch(sassPath, ['sass']);
@@ -67,7 +71,6 @@ gulp.task('sass', function () {
 
 });
 gulp.task('ts', function () {
-    console.log(tsProject.src);
     var result =  gulp.src("src/scripts/**/*")
         .pipe(tsProject())
 
@@ -88,9 +91,16 @@ gulp.task('browserSync', ['sass'], function () {
     })
 });
 
+gulp.task('copy', function(){
+//node_modules/systemjs/dist/system.js
+  gulp.src([
+            'node_modules/systemjs/dist/system.js'
+        ]).pipe(gulp.dest('dest2/scripts/libs'))
+});
+
 //Starts up a dev server for us
 //It also watches files and reloads the browser when they change.
-gulp.task('dev', ['browserSync'], function () {
+gulp.task('dev', ['browserSync', 'copy'], function () {
     gulp.watch('src/templates/*.html', ['fileinclude']);
     gulp.watch('src/scripts/**/*.js', browserSync.reload);
     gulp.watch('src/scripts/**/*.ts', ['ts']);
