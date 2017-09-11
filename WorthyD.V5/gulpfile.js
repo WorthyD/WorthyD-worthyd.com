@@ -8,8 +8,8 @@ var rename = require('gulp-rename');
 var fileinclude = require('gulp-file-include');
 var sass = require('gulp-sass');
 
-var ts = require('gulp-typescript');
-var tsProject = ts.createProject('tsconfig.json');
+//var ts = require('gulp-typescript');
+//var tsProject = ts.createProject('tsconfig.json');
 
 
 
@@ -70,15 +70,15 @@ gulp.task('sass', function () {
         }));
 
 });
-gulp.task('ts', function () {
-    var result =  gulp.src("src/scripts/**/*")
-        .pipe(tsProject())
+// gulp.task('ts', function () {
+//     var result =  gulp.src("src/scripts/**/*")
+//         .pipe(tsProject())
 
-      return result.js.pipe(gulp.dest('')).pipe(browserSync.reload({
-            stream: true
-        }));
+//       return result.js.pipe(gulp.dest('')).pipe(browserSync.reload({
+//             stream: true
+//         }));
 
-});
+// });
 
 
 //We are adding sass as a gulp dependancy. It will run 'sass' before it starts the browser sync. 
@@ -103,6 +103,6 @@ gulp.task('copy', function(){
 gulp.task('dev', ['browserSync', 'copy'], function () {
     gulp.watch('src/templates/*.html', ['fileinclude']);
     gulp.watch('src/scripts/**/*.js', browserSync.reload);
-    gulp.watch('src/scripts/**/*.ts', ['ts']);
+    //gulp.watch('src/scripts/**/*.ts', ['ts']);
     gulp.watch(sassPath, ['sass']);
 });
