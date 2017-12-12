@@ -10,33 +10,29 @@ $headingSize:75px;
     z-index: 999;
     background-color: $primary;
 }
-.head-spacer{
 
+.head-spacer {
     height: $headingSize;
 }
 
 .nav-container {
     display: flex;
-    align-items:center;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
     img {
         height: 75px;
         width: 75px;
-        position: relative;
-        top: 500px;
         transition: all $duration;
     }
     #logo {
         color: white;
         transition: all $duration;
-        position: relative;
-        top: 500px;
     }
 }
 
 .main-nav nav {
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .main-nav nav a {
@@ -50,14 +46,26 @@ $headingSize:75px;
     color: white;
 }
 
+//ANimation
+@media (min-width: 48em) {
+    .main-nav{
+        img {
+           top: 500px;
 
-.main-nav.smaller  {
-     img {
-        top: 0px;
+        position: relative;
+        }
+        #logo {
+           top: 500px;
+
+        position: relative;
+        }
     }
-    #logo {
-        top: 0px;
-    }   
-    
+    .main-nav.smaller {
+        img {
+            top: 0px;
+        }
+        #logo {
+            top: 0px;
+        }
+    }
 }
-
