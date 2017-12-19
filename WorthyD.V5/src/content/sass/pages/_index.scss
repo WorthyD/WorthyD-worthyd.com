@@ -95,3 +95,14 @@
         }
     }
 }
+.callout-3 {
+    padding: 5%;
+    >.callout {
+        @media (min-width: 24em) {
+            width:50%;
+        }
+        @media (min-width: 48em) {
+            width: 33%;
+        }
+    }
+}
