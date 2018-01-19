@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    aside {
+        max-width: 400px;
+    }
+    article {
+        flex-grow: 1;
+    }
+    @media (min-width: 48em) {
+        flex-direction: column;
+        
+    }
+}
