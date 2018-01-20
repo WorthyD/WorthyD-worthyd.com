@@ -3,8 +3,13 @@
     <head>
         <title>WorthyD</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--https://github.com/milligram/milligram-->
+<link rel="stylesheet" href="styles/main.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="styles/resume.min.css">
 
 
@@ -12,113 +17,137 @@
     </head>
 
     <body>
-        <header>
-            <div class="main">
-                <h1>Daniel Worthy</h1>
-                <h2>Full Stack Web Developer/Architect</h2>
-            </div>
-        </header>
-        <main>
-            <aside>
-                <div class="info">
-                <img src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=280" alt="Daniel Worthy" class="head-shot"             />
- 
-                    <ul>
-                        <li>danieljworthy@gmail.com</li>
-                        <li>worthyd.com</li>
-                        <li>worthyd</li>
-                        <li>worthyd</li>
-                    </ul>
-                </div>
 
-                <header>Skills</header>
-                <div>
-                    <p>
-                        C#, Asp.Net MVC, EntityFramework, .Net Core, HTML5, CSS3, JavaScript, jQuery, AngularJS, Angular, SCSS, Microsoft SQL Server,
-                        IIS, Git, Visual Studio, Visual Studio Code, gVim, Adobe PhotoShop, Sketch
-                    </p>
+        <header class="main-nav">
+    <div class="nav-container">
+        <img src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=75" alt="" />
+        <h1 id="logo">
+            Daniel Worthy
+        </h1>
+        <nav>
+            <a href="index.hthml">Home</a>
+            <a href="resume.html">Experience</a>
+            <a href="">Other</a>
+        </nav>
+    </div>
+</header>
+<div class="head-spacer"></div>
+        <div class="resume">
+            <header>
+                <div class="main">
+                    <h1>Daniel Worthy</h1>
+                    <h2>Full Stack Web Developer/Architect</h2>
                 </div>
-            </aside>
-            <article>
-                <section>
-                    <header>About</header>
-                    <div>
-                        <p>
-                            I'm a full stack web developer with a little over 10 years experience in Microsoft and JavaScript tech stacks. I find a lot
-                            of excitement in creative problem solving and continuous improvement.
-                        </p>
-                        <p>
-                            I don't want to just build cool stuff for the web. I want to work with a great team that I can help grow and will help me
-                            grow.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <header>
-                        <h2>Experience</h2>
-                    </header>
-                    <div>
-                        <h3>Director, Technology | VML 2018 - Present</h3>
-                        <p>
-                            Rockfish Digital wea merged with VML in early 2018. My responsibilities and day to day have remained the same during the
-                            transition.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Front End Instructor | University of Arkansas IT Readiness 2016 - 2018</h3>
-                        <p>
-                            I instructed a 6 month long Front End Development Course. Class size is from 12 to 14 students. Students are established
-                            in a profession, but are wanting to either expand a skill set or change careers. I'm responsible
-                            for establishing curriculum, writing material, administering assignments, and coaching students.
-                        </p>
-                    </div>
-                    <div>
-                        <h3>Enterprise Architect | Rockfish Digital 2017 - 2018</h3>
-                        <p>
-                            I'm responsible for directing technical standards and development best practices across Rockfish technology disciplines.
-                            I also serve as a technical expert with a a broad level of knowledge across multiple disciplines.
-                            I traditionally apply my knowledge to multiple projects across the organization.
-                        </p>
-                        <h3>Technology Architect - Front End | Rockfish Digital 2013 - 2017</h3>
-                        <p>
-                            I was primarily responsible for identifying new technologies to implement and bringing the technology department up to speed
-                            with them. I also provided technical standards direction, best practice documentation, and promoted
-                            code quality via mentorship. I was involved in establishing and assessing developer skill tests
-                            for job applications and contractor applicants.
-                        </p>
-                        <h3>Sr. Developer | Rockfish Interactive 2011 - 2013</h3>
-                        <p>
-                            Gather project requirements, help with project estimates and staffing. Act as development Team Lead on projects. Architect
-                            project solutions. Delegate tasks to other developers.
-                        </p>
-                        <h3>Developer II | Rockfish Interactive 2009 - 2011</h3>
-                        <p>
-                            Primarily develop websites using C# in .Net MVC. Develop Websites keeping scalability and reusability of code in mind. Design
-                            databases for projects. Setup websites in IIS on load balanced servers. Collaborate with project/account
-                            managers to collect requirements and develop project estimates.
-                        </p>
-                        <h3>Developer I | Rockfish Interactive 2007 - 2009</h3>
-                        <p>
-                            Primarily developed websites using VB in .Net Forms. Work on tasks assign to by team lead. Work on maintenance items for
-                            pre-existing websites. Participate in site Q/A. Learn additional technologies to expand expertise.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <header>Education / Awards</header>
-                    <p>
-                        Bachelor of Science in Business Administration 2007 | Major: Small Business Management | Minor: Information Systems
-                    </p>
-                    <p>
-                        Alpha Phi Omega - Service Fraternity - Class of 2015
-                    </p>
-                    <p>
-                        Eagle Scout - Boys Scouts of America - 2001
-                    </p>
-                </section>
-            </article>
+            </header>
+            <main>
+                <aside>
+                    <div class="my-info">
+                        <img src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=280" alt="Daniel Worthy" class="head-shot"
+                        />
 
-        </main>
+                        <ul>
+                            <li><i class="far fa-envelope"></i> danieljworthy@gmail.com</li>
+                            <li><i class="fas fa-globe"></i>  worthyd.com</li>
+                            <li><i class="fab fa-github"></i> worthyd</li>
+                            <li><i class="fab fa-twitter"></i> worthyd</li>
+                        </ul>
+                    </div>
+
+                    <header>Skills</header>
+                    <div>
+                        <p>
+                            C#, Asp.Net MVC, EntityFramework, .Net Core, HTML5, CSS3, JavaScript, jQuery, AngularJS, Angular, SCSS, Microsoft SQL Server,
+                            IIS, Git, Visual Studio, Visual Studio Code, gVim, Adobe PhotoShop, Sketch
+                        </p>
+                    </div>
+                </aside>
+                <article>
+                    <section>
+                        <header>About</header>
+                        <div>
+                            <p>
+                                I'm a full stack web developer with a little over 10 years experience in Microsoft and JavaScript tech stacks. I find a lot
+                                of excitement in creative problem solving and continuous improvement.
+                            </p>
+                            <p>
+                                I don't want to just build cool stuff for the web. I want to work with a great team that I can help grow and will help me
+                                grow.
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <header>
+                            <h2>Experience</h2>
+                        </header>
+                        <div>
+                            <h3>Director, Technology | VML 2018 - Present</h3>
+                            <p>
+                                Rockfish Digital wea merged with VML in early 2018. My responsibilities and day to day have remained the same during the
+                                transition.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Front End Instructor | University of Arkansas IT Readiness 2016 - 2018</h3>
+                            <p>
+                                I instructed a 6 month long Front End Development Course. Class size is from 12 to 14 students. Students are established
+                                in a profession, but are wanting to either expand a skill set or change careers. I'm responsible
+                                for establishing curriculum, writing material, administering assignments, and coaching students.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Enterprise Architect | Rockfish Digital 2017 - 2018</h3>
+                            <p>
+                                I'm responsible for directing technical standards and development best practices across Rockfish technology disciplines.
+                                I also serve as a technical expert with a a broad level of knowledge across multiple disciplines.
+                                I traditionally apply my knowledge to multiple projects across the organization.
+                            </p>
+                            <h3>Technology Architect - Front End | Rockfish Digital 2013 - 2017</h3>
+                            <p>
+                                I was primarily responsible for identifying new technologies to implement and bringing the technology department up to speed
+                                with them. I also provided technical standards direction, best practice documentation, and
+                                promoted code quality via mentorship. I was involved in establishing and assessing developer
+                                skill tests for job applications and contractor applicants.
+                            </p>
+                            <h3>Sr. Developer | Rockfish Interactive 2011 - 2013</h3>
+                            <p>
+                                Gather project requirements, help with project estimates and staffing. Act as development Team Lead on projects. Architect
+                                project solutions. Delegate tasks to other developers.
+                            </p>
+                            <h3>Developer II | Rockfish Interactive 2009 - 2011</h3>
+                            <p>
+                                Primarily develop websites using C# in .Net MVC. Develop Websites keeping scalability and reusability of code in mind. Design
+                                databases for projects. Setup websites in IIS on load balanced servers. Collaborate with
+                                project/account managers to collect requirements and develop project estimates.
+                            </p>
+                            <h3>Developer I | Rockfish Interactive 2007 - 2009</h3>
+                            <p>
+                                Primarily developed websites using VB in .Net Forms. Work on tasks assign to by team lead. Work on maintenance items for
+                                pre-existing websites. Participate in site Q/A. Learn additional technologies to expand expertise.
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <header>Education / Awards</header>
+                        <p>
+                            Bachelor of Science in Business Administration 2007 | Major: Small Business Management | Minor: Information Systems
+                        </p>
+                        <p>
+                            Alpha Phi Omega - Service Fraternity - Class of 2015
+                        </p>
+                        <p>
+                            Eagle Scout - Boys Scouts of America - 2001
+                        </p>
+                    </section>
+                </article>
+
+            </main>
+        </div>
+
+        <footer>
+    <p>©2018 Daniel Worthy</p>
+    <p>Opinions are my own and do not represent the opinions of my employer.</p>
+</footer>
+        <!-- <script src="https://use.fontawesome.com/3e406631b8.js"></script> -->
 
     </body>
 
