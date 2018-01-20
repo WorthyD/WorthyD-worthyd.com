@@ -1,5 +1,5 @@
 $duration: 1s;
-$headingSize:75px;
+$headingSize:4rem;
 .main-nav {
     width: 100%;
     height: $headingSize;
@@ -21,8 +21,8 @@ $headingSize:75px;
     width: 80%;
     margin: 0 auto;
     img {
-        height: 75px;
-        width: 75px;
+        height: $headingSize;
+        width: $headingSize;
         transition: all $duration;
     }
     #logo {
@@ -36,28 +36,29 @@ $headingSize:75px;
 }
 
 .main-nav nav a {
-    margin-left: 20px;
-    color: #9fdbfc;
-    font-size: 18px;
-    transition: all 0.3s;
-}
-
-.main-nav nav a:hover {
-    color: white;
+    margin-left: $base-gutter;
+    color: $white-text;
+    &::after {
+        border-bottom-color: $white-text
+    }
+    &:hover {
+        color: $white-text;
+        &::after {
+            border-bottom-color: $white-text
+        }
+    }
 }
 
 //ANimation
-@media (min-width: 48em) {
-    .main-nav{
+@media (min-width: $mediumBP) {
+    .main-nav {
         img {
-           top: 500px;
-
-        position: relative;
+            top: 500px;
+            position: relative;
         }
         #logo {
-           top: 500px;
-
-        position: relative;
+            top: 500px;
+            position: relative;
         }
     }
     .main-nav.smaller {

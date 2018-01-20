@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box
 }
-body{
-    font-size:20px;
+
+body {
+    font-size: $base-font-size;
+    font-family: 'Roboto', sans-serif;
 }
 
 body,
@@ -16,11 +18,36 @@ h2 {
     color: $primary;
 }
 
-a{
-    color:$third;
-    transition: color .5s; 
-    &:hover{
-        
-        color:lighten($third, 10);
+a {
+    color: $third;
+    transition: color .5s;
+    &:hover {
+        color: lighten($third, 10);
+    }
+}
+
+a {
+    color: $third;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border-bottom: 2px solid $third;
+        width: 0;
+        transition: width $d_base;
+    }
+    &:hover {
+        color: lighten($third, 10);
+        &::after {
+            border-bottom-color: lighten($third, 10);
+            width: 100%;
+        }
     }
 }
