@@ -1,14 +1,13 @@
 $duration: 1s;
 $headingSize:4rem;
 .main-nav {
-    width: 100%;
+    background-color: $primary;
     height: $headingSize;
-    overflow: hidden;
-    position: fixed;
     top: 0;
     left: 0;
+    position: fixed;
+    width: 100%;
     z-index: 999;
-    background-color: $primary;
 }
 
 .head-spacer {
@@ -26,7 +25,8 @@ $headingSize:4rem;
         transition: all $duration;
     }
     #logo {
-        color: white;
+        color: $white-text;
+        padding-left: $base-margin;
         transition: all $duration;
     }
 }
@@ -36,7 +36,7 @@ $headingSize:4rem;
 }
 
 .main-nav nav a {
-    margin-left: $base-gutter;
+  //  margin-left: $base-gutter;
     color: $white-text;
     &::after {
         border-bottom-color: $white-text
@@ -50,23 +50,55 @@ $headingSize:4rem;
 }
 
 //ANimation
-@media (min-width: $mediumBP) {
-    .main-nav {
-        img {
-            top: 500px;
-            position: relative;
+.animate-header {
+    @media (min-width: $mediumBP) {
+        .main-nav {
+            overflow:hidden;
+            img {
+                top: 500px;
+                position: relative;
+            }
+            #logo {
+                top: 500px;
+                position: relative;
+            }
         }
-        #logo {
-            top: 500px;
-            position: relative;
+        .main-nav.smaller {
+            img {
+                top: 0px;
+            }
+            #logo {
+                top: 0px;
+            }
         }
     }
-    .main-nav.smaller {
-        img {
-            top: 0px;
-        }
-        #logo {
-            top: 0px;
-        }
+}
+
+#btnMenu {
+    display: block;
+}
+
+.sub-menu {
+    height: 0;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    transition: height 0.4s ease-in-out;
+    -moz-transition: height 0.4s ease-in-out;
+    -webkit-transition: height 0.4s ease-in-out;
+    -o-transition: height 0.4s ease-in-out;
+    overflow: hidden;
+    top: 4rem;
+    z-index: 100;
+    &.show {
+        height: 200px;
+    }
+    a {
+        display: block;
+        background:$primary;
+        padding:$base-gutter;
+        margin-left:0;
+
+        border-bottom:2px solid $white-text
     }
 }

@@ -14,10 +14,9 @@
     h4 {
         margin: ($base-margin*.2) 0;
     }
-    p{
-        margin:0 0 ($base-margin*.8) 0;
+    p {
+        margin: 0 0 ($base-margin*.8) 0;
     }
- 
     header .main {
         text-align: center;
     }
@@ -26,12 +25,13 @@
         display: flex;
         flex-direction: column;
     }
-    article{
-        h4,p{
-            padding-left:($base-margin*.8);
-            padding-right:($base-margin*.8);
+    article {
+        h4,
+        p {
+            padding-left: ($base-margin*.8);
+            padding-right: ($base-margin*.8);
         }
-   }
+    }
     .my-info {
         img {
             display: block;
@@ -77,33 +77,45 @@
             }
         }
     }
-} //    @media print {
-body {
-    font-size: 12px;
-    border:5px solid black;
-    .main-nav {
-        display: none;
-    }
-    .resume {
-        main {
-            flex-direction: row;
-            aside {
-                //max-width: 500px;
-                flex: 0 0 25%;
-                margin-right: $base-margin*2;
-            }
-            article {
-                flex-grow: 1;
-            }
+}
+
+@media print {
+    body {
+        font-size: 12px;
+        border: 5px solid black;
+        .head-spacer {
+            height: 0px;
         }
-        .skill-list {
-            li {
-                margin-bottom: $base-margin / 2;
-                display: block;
-                &::after {
-                    content: '';
+        .main-nav {
+            display: none;
+        }
+        .resume {
+            main {
+                flex-direction: row;
+                aside {
+                    //max-width: 500px;
+                    flex: 0 0 25%;
+                    margin-right: $base-margin*2;
+                }
+                article {
+                    flex-grow: 1;
                 }
             }
+            .skill-list {
+                li {
+                    margin-bottom: $base-margin / 2;
+                    display: block;
+                    &::after {
+                        content: '';
+                    }
+                }
+            }
+            .hp {
+                display: none;
+            }
+        }
+        >footer {
+            display: none;
         }
     }
-} //   }
+}
