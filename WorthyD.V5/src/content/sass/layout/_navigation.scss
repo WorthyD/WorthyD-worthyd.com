@@ -17,7 +17,7 @@ $headingSize:4rem;
 .nav-container {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     img {
         height: $headingSize;
@@ -36,7 +36,7 @@ $headingSize:4rem;
 }
 
 .main-nav nav a {
-  //  margin-left: $base-gutter;
+    //  margin-left: $base-gutter;
     color: $white-text;
     &::after {
         border-bottom-color: $white-text
@@ -74,8 +74,14 @@ $headingSize:4rem;
     }
 }
 
-#btnMenu {
+.nav-button {
+    background: transparent;
+    border: 2px solid $white-text;
+    border-radius: 4px;
+    color: $white-text;
     display: block;
+    font-size: 2rem;
+    margin-left: auto;
 }
 
 .sub-menu {
@@ -95,10 +101,26 @@ $headingSize:4rem;
     }
     a {
         display: block;
-        background:$primary;
-        padding:$base-gutter;
-        margin-left:0;
+        background: $primary;
+        padding: $base-gutter;
+        margin-left: 0;
+        border-bottom: 2px solid $white-text
+    }
+}
 
-        border-bottom:2px solid $white-text
+@media (min-width: $mediumBP) {
+    .nav-button {
+        display: none;
+    }
+    .sub-menu {
+        position: static;
+        height: auto;
+        width:auto;
+        a {
+            display: inline-block;
+            border:none;
+            padding:0;
+            margin:$base-gutter;
+        }
     }
 }

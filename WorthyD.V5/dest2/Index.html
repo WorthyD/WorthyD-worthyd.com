@@ -22,7 +22,10 @@
         <h1 id="logo">
             Daniel Worthy
         </h1>
-        <a href="#" id="btnMenu">Menu</a>
+        <button id="btnMenu" class="nav-button">
+            <i class="fas fa-bars"></i>
+        </button>
+
         <nav class="sub-menu show" id="ddlMenu">
             <a href="index.html">Home</a>
             <a href="resume.html">Resume</a>
@@ -207,9 +210,9 @@
     <p>©2018 Daniel Worthy</p>
     <p>Opinions are my own and do not represent the opinions of my employer.</p>
 </footer>
+<script src="scripts/site.js"></script>
 <script>
-    var click = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
-    var Loaded = function () {
+   var Loaded = function () {
         Menu.Init("btnMenu", "ddlMenu", "show");
     };
     document.addEventListener("DOMContentLoaded", Loaded, false);

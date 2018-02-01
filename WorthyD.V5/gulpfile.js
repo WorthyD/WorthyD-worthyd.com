@@ -55,9 +55,9 @@ gulp.task('fileinclude', function () {
             suffix: '-->'
         }))
         .pipe(gulp.dest('./dest2'))
-        // .pipe(browserSync.reload({
-        //     stream: true
-        // }));
+    // .pipe(browserSync.reload({
+    //     stream: true
+    // }));
 });
 var sassPath = 'src/content/sass/**/*.scss';
 
@@ -99,34 +99,39 @@ gulp.task('browserSync', ['sass'], function () {
     })
 });
 
-gulp.task('copy', function(){
-//node_modules/systemjs/dist/system.js
-  gulp.src([
-            'node_modules/systemjs/dist/system.js'
-        ]).pipe(gulp.dest('dest2/scripts/libs'))
+gulp.task('copy', function () {
+    //node_modules/systemjs/dist/system.js
+    gulp.src([
+        'node_modules/systemjs/dist/system.js'
+    ]).pipe(gulp.dest('dest2/scripts/libs'))
 });
 
-gulp.task('js', function(){
+gulp.task('js', function () {
     var src = ['src/scripts/layout/*.js'];
     var dest = "dest2/scripts";
     return gulp.src(src)
-            .pipe(sourcemaps.init())
-            .pipe(concat('site.js'))
-            .pipe(sourcemaps.write())
-            .pipe(gulp.dest(dest))
-            .pipe(uglify())
-            .pipe(rename({
-                extname: '.min.js'
-            }))
-            .pipe(gulp.dest(dest));
+        .pipe(sourcemaps.init())
+        .pipe(concat('site.js'))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(dest))
+        .pipe(uglify())
+        .pipe(rename({
+            extname: '.min.js'
+        }))
+        .pipe(gulp.dest(dest))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
+
+
 
 });
 
 //Starts up a dev server for us
 //It also watches files and reloads the browser when they change.
-gulp.task('dev', ['browserSync', 'copy'], function () {
+gulp.task('dev', ['browserSync', 'copy', 'js'], function () {
     gulp.watch('src/templates/*.html', ['fileinclude']);
-    gulp.watch('src/scripts/**/*.js', browserSync.reload);
+    gulp.watch('src/scripts/**/*.js', ['js']);
     //gulp.watch('src/scripts/**/*.ts', ['ts']);
     gulp.watch(sassPath, ['sass']);
 });

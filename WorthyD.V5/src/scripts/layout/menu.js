@@ -1,12 +1,12 @@
 var Menu = (function () {
     var _Init = function (elmId, menId, sc) {
         var menu, btn, showClass, height;
-
+ 
         btn = document.getElementById(elmId);
         menu = document.getElementById(menId);
         showClass = sc;
 
-        btn.addEventListener(click, function () { menuToggle(menu, showClass) }, false);
+        btn.addEventListener('click', function () { menuToggle(menu, showClass) }, false);
 
     }
 

@@ -2,9 +2,9 @@
     <p>©2018 Daniel Worthy</p>
     <p>Opinions are my own and do not represent the opinions of my employer.</p>
 </footer>
+<script src="scripts/site.js"></script>
 <script>
-    var click = ('ontouchstart' in document.documentElement) ? 'touchstart' : 'click';
-    var Loaded = function () {
+   var Loaded = function () {
         Menu.Init("btnMenu", "ddlMenu", "show");
     };
     document.addEventListener("DOMContentLoaded", Loaded, false);
