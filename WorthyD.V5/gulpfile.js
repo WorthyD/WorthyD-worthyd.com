@@ -99,6 +99,13 @@ gulp.task('browserSync', ['sass'], function () {
     })
 });
 
+gulp.task('img', function () {
+    //node_modules/systemjs/dist/system.js
+    gulp.src([
+        'src/content/images/*.*'
+    ]).pipe(gulp.dest('dest2/images'))
+});
+
 gulp.task('copy', function () {
     //node_modules/systemjs/dist/system.js
     gulp.src([

@@ -9,9 +9,21 @@
     @media (min-width: 96em) {
         height: 800px;
     }
+    &::before {
+        content: " ";
+        background: #000;
+        display: block;
+        height: 100%;
+        opacity: .8;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+    }
 }
 
 .info {
+    position: relative;
+    z-index: 10;
     max-width: 960px;
     margin: 0 auto;
     h1 {
@@ -23,6 +35,11 @@
         transition: transform $duration;
         position: relative;
         top: 0;
+    }
+    h1,
+    p,
+    a {
+        color: $white-text;
     }
     .info-head-shot {
         float: left;
@@ -36,6 +53,24 @@
         float: right;
         width: 60%;
     }
+}
+
+.bg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1 {
+    background-image: url('../images/1.jpg');
+}
+
+.bg-2 {
+    background-image: url('../images/2.jpg');
+}
+
+.bg-3 {
+    background-image: url('../images/3.jpg');
 }
 
 @media (min-width: 48em) {
@@ -57,8 +92,8 @@
     font-size: 32px;
     margin: 0 5px;
     text-decoration: none;
-    &::after{
-        display:none;
+    &::after {
+        display: none;
     }
 }
 
@@ -123,11 +158,30 @@
     color: $white-text;
     h2,
     .callout>.svg-inline--fa {
-        color:$white-text;
+        color: $white-text;
     }
     .row {
         &-banner {
             background: none;
+        }
+    }
+}
+
+.two-col-group {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 48em) {
+        flex-direction: row;
+    }
+    >.col {
+        @media (min-width: 48em) {
+            padding:5%;
+            width: 50%;
+        }
+        h2 {
+            text-align: left;
         }
     }
 }

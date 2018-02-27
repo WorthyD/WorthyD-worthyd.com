@@ -52,6 +52,9 @@ $headingSize:4rem;
 //ANimation
 .animate-header {
     @media (min-width: $mediumBP) {
+        .sub-menu, .sub-menu.show{
+            height:auto;
+        }
         .main-nav {
             overflow:hidden;
             img {
