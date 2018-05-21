@@ -3,13 +3,13 @@
     <head>
         <title>WorthyD</title>
         <!-- @@include('header.html') -->
-        <!--https://github.com/coderhaoxin/gulp-file-include-->
+
 
     </head>
 
     <body class="animate-header">
         <!-- @@include('_header.html') -->
-        <header class="home-info bg bg-1">
+        <header class="home-info bg">
             <div class="overlay">
                 <div class="info">
                     <img src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=280" alt="Daniel Worthy" class="info-head-shot"
@@ -41,6 +41,10 @@
                 </div>
             </div>
         </header>
+        <script>
+            document.querySelectorAll('.home-info')[0].classList.add('bg-' + (Math.floor(Math.random() * 5) + 1));
+        </script>
+
         <div class="row-banner">
             <h2>I Like To Code</h2>
         </div>
@@ -125,7 +129,7 @@
 
         <a name="gaming"></a>
         <section class="two-col-group">
-            <div class="col info">
+            <div class="col info no-bg">
                 <h2>Gaming</h2>
                 <p>
                     I game when I can. My habits and tastes have evolved over the years. I spend most of my time playing Destiny 2 solo and LEGO
@@ -159,6 +163,7 @@
 
         <!-- @@include('_footer.html') -->
 
+        <!-- TODO Remove this in favor of a non-jquery version -->
         <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
         <script>
             function init() {

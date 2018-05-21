@@ -65,6 +65,7 @@ a {
         margin: 2%;
         a {
             color: $white-text;
+            display:block;
             &:hover::after {
                 border-bottom-color: $white-text;
             }

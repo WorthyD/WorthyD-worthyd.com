@@ -22,10 +22,14 @@ $headingSize:4rem;
     img {
         height: $headingSize;
         width: $headingSize;
+        top: 0;
+        position: relative;
         transition: all $duration;
     }
     #logo {
         color: $white-text;
+        top: 0;
+        position: relative;
         padding-left: $base-margin;
         transition: all $duration;
     }
@@ -52,11 +56,11 @@ $headingSize:4rem;
 //ANimation
 .animate-header {
     @media (min-width: $mediumBP) {
-        .sub-menu, .sub-menu.show{
+        .sub-menu, .sub-menu.show {
             height:auto;
         }
         .main-nav {
-            overflow:hidden;
+            overflow: hidden;
             img {
                 top: 500px;
                 position: relative;
@@ -118,12 +122,15 @@ $headingSize:4rem;
     .sub-menu {
         position: static;
         height: auto;
-        width:auto;
+        width: auto;
         a {
             display: inline-block;
-            border:none;
-            padding:0;
-            margin:$base-gutter;
+            border: none;
+            padding: 0;
+            margin: $base-gutter;
         }
+    }
+    .sub-menu.show {
+        height: auto;
     }
 }
