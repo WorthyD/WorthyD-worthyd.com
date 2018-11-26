@@ -31,6 +31,7 @@ a {
     display: inline-block;
     text-decoration: none;
     position: relative;
+    font-weight:bold;
     cursor: pointer;
     &::after {
         content: ' ';

@@ -2,7 +2,15 @@
 
     <head>
         <title>WorthyD</title>
-        <!-- @@include('header.html') -->
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Daniel Worthy - North West Arkansas Web Developer, Carpenter and Geek" />
+<meta name="keywords" content="Nortwest Arkansas Web Developer, NWA Dev, Northwest Arkansas Carpenter, Daniel Worthy, WorthyD, Tech Blog, Geek Blog, Carpentry Blog" />
+
+<!--https://github.com/milligram/milligram-->
+<link rel="stylesheet" href="styles/main.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
 
 
         <link rel="stylesheet" href="styles/uses.min.css">
@@ -10,7 +18,24 @@
 
     <body class="page">
 
-        <!-- @@include('_header.html') -->
+        <header class="main-nav">
+    <div class="nav-container">
+        <img src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=75" alt="" />
+        <h1 id="logo">
+            Daniel Worthy
+        </h1>
+        <button id="btnMenu" class="nav-button">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="sub-menu show" id="ddlMenu">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <!-- <a href="">Other</a> -->
+        </nav>
+    </div>
+</header>
+<div class="head-spacer"></div>
         <main>
 
             <article>
@@ -108,7 +133,29 @@
 
         </main>
 
-        <!-- @@include('_footer.html') -->
+        <footer>
+    <p>©2018 Daniel Worthy</p>
+    <p>Opinions are my own and do not represent the opinions of my employer.</p>
+</footer>
+<script src="scripts/site.js"></script>
+<script>
+   var Loaded = function () {
+        Menu.Init("btnMenu", "ddlMenu", "show");
+    };
+    document.addEventListener("DOMContentLoaded", Loaded, false);
+</script>
+<!-- TODO Update -->
+ <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-3685134-9', 'worthyd.com');
+    ga('send', 'pageview');
+</script>
 
         <!-- TODO Remove this in favor of a non-jquery version -->
         <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
@@ -132,7 +179,8 @@
             }
             init();
         </script>
-        <!-- @@include('footer.html' ) -->
+        <!-- <script src="https://use.fontawesome.com/3e406631b8.js"></script> -->
+
     </body>
 
 
