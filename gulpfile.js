@@ -15,16 +15,41 @@ var concat = require('gulp-concat')
 
 //var ts = require('gulp-typescript');
 //var tsProject = ts.createProject('tsconfig.json');
+gulp.task('copy',gulp.series( function () {
+    //node_modules/systemjs/dist/system.js
+    gulp.src([
+        'node_modules/systemjs/dist/system.js'
+    ]).pipe(gulp.dest('dest2/scripts/libs'))
+}));
 
+gulp.task('sass', gulp.series(function () {
+    return gulp.src(sassPath)
+        .pipe(wait(500))
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(cleanCSS())
+        .pipe(header(banner))
+        .pipe(sourcemaps.write())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('dest2/styles'))
+        .pipe(browserSync.reload({
+            stream: true
+        }));
 
+}));
 
 //webpack
+gulp.task('browserSync', gulp.series('sass', function () {
+    browserSync.init({
+        server: {
+            baseDir: 'dest2'
+        }
+    })
+}));
 
-gulp.task('default', ['browserSync', 'copy'], function () {
-    gulp.watch('src/templates/*.html', ['fileinclude']);
-    gulp.watch('src/scripts/**/*.js', browserSync.reload);
-    gulp.watch(sassPath, ['sass']);
-});
+
 
 var banner = '/* This is a generated file on ' + new Date() + '  */\n';
 
@@ -47,7 +72,7 @@ gulp.task('minify-css', function () {
 });
 
 */
-gulp.task('fileinclude', function () {
+gulp.task('fileinclude',gulp.series( function () {
     gulp.src(['src/templates/*.html'])
         .pipe(wait(500))
         .pipe(fileinclude({
@@ -57,27 +82,10 @@ gulp.task('fileinclude', function () {
         .pipe(gulp.dest('./dest2'))
     // .pipe(browserSync.reload({
     //     stream: true
-    // }));
-});
+}));
 var sassPath = 'src/content/sass/**/*.scss';
 
-gulp.task('sass', function () {
-    return gulp.src(sassPath)
-        .pipe(wait(500))
-        .pipe(sourcemaps.init())
-        .pipe(sass())
-        .pipe(cleanCSS())
-        .pipe(header(banner))
-        .pipe(sourcemaps.write())
-        .pipe(rename({
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest('dest2/styles'))
-        .pipe(browserSync.reload({
-            stream: true
-        }));
 
-});
 // gulp.task('ts', function () {
 //     var result =  gulp.src("src/scripts/**/*")
 //         .pipe(tsProject())
@@ -91,29 +99,15 @@ gulp.task('sass', function () {
 
 //We are adding sass as a gulp dependancy. It will run 'sass' before it starts the browser sync. 
 //This makes sure that we have the latest CSS.
-gulp.task('browserSync', ['sass'], function () {
-    browserSync.init({
-        server: {
-            baseDir: 'dest2'
-        }
-    })
-});
-
-gulp.task('img', function () {
+gulp.task('img',function () {
     //node_modules/systemjs/dist/system.js
     gulp.src([
         'src/content/images/*.*'
     ]).pipe(gulp.dest('dest2/images'))
 });
 
-gulp.task('copy', function () {
-    //node_modules/systemjs/dist/system.js
-    gulp.src([
-        'node_modules/systemjs/dist/system.js'
-    ]).pipe(gulp.dest('dest2/scripts/libs'))
-});
 
-gulp.task('js', function () {
+gulp.task('js', gulp.series(function () {
     var src = ['src/scripts/layout/*.js'];
     var dest = "dest2/scripts";
     return gulp.src(src)
@@ -132,18 +126,33 @@ gulp.task('js', function () {
 
 
 
-});
+}));
 
 //Starts up a dev server for us
 //It also watches files and reloads the browser when they change.
-gulp.task('dev', ['browserSync', 'copy', 'js'], function () {
+gulp.task('dev', gulp.series('browserSync', 'copy', 'js', function () {
     gulp.watch('src/templates/*.html', ['fileinclude']);
     gulp.watch('src/scripts/**/*.js', ['js']);
     //gulp.watch('src/scripts/**/*.ts', ['ts']);
     gulp.watch(sassPath, ['sass']);
-});
+}));
+
+gulp.task('watch', function(){
+    gulp.watch('src/templates/*.html', gulp.series('fileinclude'));
+    gulp.watch('src/scripts/**/*.js', gulp.series('js'));
+    //gulp.watch('src/scripts/**/*.ts', ['ts']);
+    gulp.watch(sassPath, gulp.series('sass'));
+
+})
 gulp.task('delayreload', function () {
     setTimeout(function () {
         browserSync.reload();
     }, 1000);
 });
+
+
+gulp.task('default', gulp.series('browserSync', 'copy', function () {
+    gulp.watch('src/templates/*.html', gulp.series('fileinclude'));
+    gulp.watch('src/scripts/**/*.js', browserSync.reload);
+    gulp.watch(sassPath, gulp.series('sass'));
+}));

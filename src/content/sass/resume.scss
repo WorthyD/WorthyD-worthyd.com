@@ -79,9 +79,9 @@
     }
 }
 
-@media print {
+ @media print {
     body {
-        font-size: 12px;
+        font-size: 10px;
         .head-spacer {
             height: 0px;
         }
@@ -89,18 +89,18 @@
             display: none;
         }
         .resume {
-            main {
+           main {
                 flex-direction: row;
                 aside {
                     //max-width: 500px;
-                    flex: 0 0 25%;
+                    flex: 0 0 20%;
                     margin-right: $base-margin*2;
                 }
                 article {
                     flex-grow: 1;
                 }
             }
-            .skill-list {
+           .skill-list {
                 li {
                     margin-bottom: $base-margin / 2;
                     display: block;
