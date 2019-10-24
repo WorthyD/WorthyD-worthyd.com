@@ -72,7 +72,7 @@ gulp.task('minify-css', function () {
 });
 
 */
-gulp.task('fileinclude',gulp.series( function () {
+gulp.task('fileinclude', function () {
     gulp.src(['src/templates/*.html'])
         .pipe(wait(500))
         .pipe(fileinclude({
@@ -82,7 +82,7 @@ gulp.task('fileinclude',gulp.series( function () {
         .pipe(gulp.dest('./dest2'))
     // .pipe(browserSync.reload({
     //     stream: true
-}));
+});
 var sassPath = 'src/content/sass/**/*.scss';
 
 
