@@ -1,28 +1,40 @@
 {
-  "name": "worthydv5",
-  "version": "1.0.0",
-  "description": "personalwebsite",
-  "main": "GruntFile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "font-awesome": "^4.7.0",
-    "glob": "^7.0.5",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-file-include": "^1.1.0",
-    "gulp-header": "^1.8.8",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^3.0.0",
-    "gulp-wait": "0.0.2"
-  },
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp dev"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "author": "worthyd",
-  "license": "ISC"
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/styles": "^4.10.0",
+    "gatsby": "^2.23.12",
+    "gatsby-plugin-material-ui": "^2.1.9",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-source-filesystem": "^2.3.18",
+    "gatsby-transformer-remark": "^2.8.23",
+    "lodash": "^4.17.19",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
