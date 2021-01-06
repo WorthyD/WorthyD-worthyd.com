@@ -1,9 +1,10 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import '../styles/_base.scss';
+import "../styles/_base.scss"
 
 export const Head = () => {
+
   return (
     <Helmet>
       <meta charset="utf-8" />

@@ -1,7 +1,25 @@
 import React from "react"
-import './header.scss';
+import "./header.scss"
 
 export default function Header(props) {
+  // var header = document.querySelector("header .main")
+  // var shrinkOn = 25
+
+  // console.log("initing")
+
+  // window.addEventListener("scroll", function (e) {
+  //   console.log("scrolling")
+  //   var distanceY = window.pageYOffset || document.documentElement.scrollTop
+  //   if (distanceY > shrinkOn) {
+  //     //classie.add(header,"smaller");
+  //     header[0].className.add
+  //   } else {
+  //     if ($("header ").hasClass("smaller")) {
+  //       $("header .main").removeClass("smaller")
+  //     }
+  //   }
+  // })
+
   return (
     <React.Fragment>
       <header className="main-nav">
@@ -16,8 +34,8 @@ export default function Header(props) {
           </button>
 
           <nav className="sub-menu show" id="ddlMenu">
-            <a href="index.html">Home</a>
-            <a href="resume.html">Resume</a>
+            <a href="/">Home</a>
+            <a href="/resume">Resume</a>
           </nav>
         </div>
       </header>
