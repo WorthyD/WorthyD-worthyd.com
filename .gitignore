@@ -108,3 +108,8 @@ Backup*/
 UpgradeLog*.XML
 node_modules/*
 */node_modules/*
+
+# Local Netlify folder
+.netlify
+public
+public/**
