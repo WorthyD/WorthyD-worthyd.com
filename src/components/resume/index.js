@@ -1,37 +1,37 @@
 import React, { Fragment } from "React"
-import './styles.scss';
+import "./styles.scss"
 
 export default function ResumeComponent(props) {
   return (
     <Fragment>
-      <div class="resume">
+      <div className="resume">
         <header>
-          <div class="main">
+          <div className="main">
             <h1>Daniel Worthy</h1>
             <h2>Full Stack Web Developer/Architect</h2>
           </div>
         </header>
         <main>
           <aside>
-            <div class="my-info">
+            <div className="my-info">
               <img
                 src="http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png?s=280"
                 alt="Daniel Worthy"
-                class="head-shot"
+                className="head-shot"
               />
 
               <ul>
                 <li>
-                  <i class="far fa-envelope"></i> danieljworthy[at]gmail
+                  <i className="far fa-envelope"></i> danieljworthy[at]gmail
                 </li>
                 <li>
-                  <i class="fas fa-globe"></i> worthyd.com
+                  <i className="fas fa-globe"></i> worthyd.com
                 </li>
                 <li>
-                  <i class="fab fa-github"></i> worthyd
+                  <i className="fab fa-github"></i> worthyd
                 </li>
                 <li>
-                  <i class="fab fa-twitter"></i> worthyd
+                  <i className="fab fa-twitter"></i> worthyd
                 </li>
               </ul>
             </div>
@@ -40,10 +40,10 @@ export default function ResumeComponent(props) {
               <h2>Languages</h2>
             </header>
             <div>
-              <ul class="skill-list">
-                <li>C#</li>
+              <ul className="skill-list">
                 <li>JavaScript</li>
                 <li>TypeScript</li>
+                <li>C#</li>
                 <li>SQL</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -54,13 +54,13 @@ export default function ResumeComponent(props) {
               <h2>Frameworks &&nbsp;Tools</h2>
             </header>
             <div>
-              <ul class="skill-list">
-                <li>Asp.Net MVC</li>
-                <li>Entity Framework</li>
-                <li>.Net Core</li>
+              <ul className="skill-list">
                 <li>Angular 2+</li>
                 <li>Angular Material</li>
                 <li>NGRX</li>
+                <li>Asp.Net MVC</li>
+                <li>Entity Framework</li>
+                <li>.Net Core</li>
                 <li>Microsoft SQL Server</li>
                 <li>Git</li>
                 <li>Azure DevOps</li>
@@ -76,7 +76,7 @@ export default function ResumeComponent(props) {
               </header>
               <div>
                 <p>
-                  I'm a full stack web developer with about 12 years experience
+                  I'm a full stack web developer with over 12 years experience
                   in Microsoft and JavaScript tech stacks. I find a lot of
                   excitement in creative problem solving and continuous
                   improvement.
@@ -96,6 +96,11 @@ export default function ResumeComponent(props) {
               </header>
               <div>
                 <h3>Senior Developer | RevUnit November 2019 - Present</h3>
+                <p>
+                  Work with mixed teams to provide software solutions that allow
+                  companies to work better. Serve in the role of "Team Expert"
+                  in the Angular platform.
+                </p>
               </div>
               <div>
                 <h3>
@@ -153,25 +158,12 @@ export default function ResumeComponent(props) {
                   contractor applicants.
                 </p>
                 <h4>Sr. Developer | Apr 2011 - May 2013</h4>
-                <p>
-                  Gather project requirements, help with project estimates and
-                  staffing. Act as development Team Lead on projects. Architect
-                  project solutions. Delegate tasks to other developers.
-                </p>
-                <h4 class="hp">Developer II | Nov 2009 - Apr 2011</h4>
-                <p class="hp">
-                  Primarily develop websites using C# in .Net MVC. Develop
-                  Websites keeping scalability and reusability of code in mind.
-                  Design databases for projects. Setup websites in IIS on load
-                  balanced servers. Collaborate with project/account managers to
-                  collect requirements and develop project estimates.
-                </p>
-                <h4 class="hp">Developer I | Nov 2007 - Nov 2009</h4>
-                <p class="hp">
-                  Primarily developed websites using VB in .Net Forms. Work on
-                  tasks assign to by team lead. Work on maintenance items for
-                  pre-existing websites. Participate in site Q/A. Learn
-                  additional technologies to expand expertise.
+                <h4 className="hp">Developer II | Nov 2009 - Apr 2011</h4>
+                <h4 className="hp">Developer I | Nov 2007 - Nov 2009</h4>
+                <p className="hp">
+                  Developed websites using Asp.net and JavaScript. Evolved my
+                  skill set throughout the years to be as useful as possible.
+                  Worked and shipped over 75 projects during this time frame.
                 </p>
               </div>
               <div>
@@ -179,11 +171,11 @@ export default function ResumeComponent(props) {
                 <h4>Front End Development Instructor | Oct 2016 - Jan 2018</h4>
                 <p>
                   I instructed a 6 month long Front End Development Course.
-                  Class size is from 12 to 14 students. Students are established
-                  in a profession, but are wanting to either expand a skill set
-                  or change careers. I'm responsible for establishing
-                  curriculum, writing material, administering assignments, and
-                  coaching students.
+                  className size is from 12 to 14 students. Students are
+                  established in a profession, but are wanting to either expand
+                  a skill set or change careers. I'm responsible for
+                  establishing curriculum, writing material, administering
+                  assignments, and coaching students.
                 </p>
               </div>
             </section>
@@ -195,7 +187,7 @@ export default function ResumeComponent(props) {
                 Bachelor of Science in Business Administration 2007 | Major:
                 Small Business Management | Minor: Information Systems
               </p>
-              <p>Alpha Phi Omega - Service Fraternity - Class of 2005</p>
+              <p>Alpha Phi Omega - Service Fraternity - className of 2005</p>
               <p>Eagle Scout - Boys Scouts of America - 2001</p>
             </section>
           </article>

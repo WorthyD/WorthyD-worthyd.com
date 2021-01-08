@@ -2,21 +2,24 @@ import React from "react"
 import "./header.scss"
 
 export default function Header(props) {
-  // var header = document.querySelector("header .main")
-  // var shrinkOn = 25
+  // const header = document.querySelectorAll("header")
+  // const shrinkOn = 25
 
-  // console.log("initing")
-
-  // window.addEventListener("scroll", function (e) {
-  //   console.log("scrolling")
+  // // I know there is an easier way to do this in react
+  // // just trying to shovel it out as soon as I can.
+  // console.log('header', header)
+  // window.addEventListener("scroll", e => {
+  //   console.log('scroll', header);
   //   var distanceY = window.pageYOffset || document.documentElement.scrollTop
   //   if (distanceY > shrinkOn) {
-  //     //classie.add(header,"smaller");
-  //     header[0].className.add
+  //     header.forEach(x => x.classList.add("smaller"))
   //   } else {
-  //     if ($("header ").hasClass("smaller")) {
-  //       $("header .main").removeClass("smaller")
-  //     }
+  //     header.forEach(x => {
+  //       x.classList.add("smaller")
+  //       if (x.classList.contains("smaller")) {
+  //         x.classList.remove("smaller")
+  //       }
+  //     })
   //   }
   // })
 

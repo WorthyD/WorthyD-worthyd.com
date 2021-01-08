@@ -15,7 +15,7 @@ export default function HomeHeader(props) {
             />
             <section className="">
               <h1 className="card-title">
-                Hey, I'm
+                Hey, I'm&nbsp;
                 <span>Daniel Worthy</span> and I like to build stuff.
               </h1>
               <p className="card-text">
