@@ -18,7 +18,6 @@ export const Head = () => {
         content="Northwest Arkansas Web Developer, NWA Dev, Northwest Arkansas Carpenter, Daniel Worthy, WorthyD, Tech Blog, Geek Blog, Carpentry Blog"
       />
 
-      <link rel="stylesheet" href="styles/main.min.css"></link>
       <script
         defer
         src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"
