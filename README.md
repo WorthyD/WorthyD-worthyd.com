@@ -1,99 +1,247 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+<div align="center" style="margin-bottom:30px">
+    <a href='https://github.com/vagr9k/gatsby-advanced-starter/blob/master/LICENSE'>
+    <img src="https://img.shields.io/github/license/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    </a>
+    <a href='https://github.com/vagr9k/gatsby-advanced-starter'>
+    <img src="https://img.shields.io/github/v/tag/Vagr9K/gatsby-advanced-starter" alt="Logo" />
+    </a>
+        <a href='https://github.com/vagr9k/gatsby-advanced-starter/stargazers'>
+    <img src="https://img.shields.io/github/stars/Vagr9K/gatsby-advanced-starter" alt="Logo" />
+    </a>
+        <a href="https://twitter.com/intent/tweet?text=A%20cool%20%40gatsbyjs%20starter%3A&url=https%3A%2F%2Fgithub.com%2FVagr9K%2Fgatsby-advanced-starter">
+    <img src="https://img.shields.io/twitter/url/https/github.com/vagr9k/gatsby-advanced-starter.svg?style=social" alt="Logo" />
+    </a>
+</div>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<div align="center"  style="margin-bottom:30px">
+    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+</div>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+<div align="center">
+    <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
+      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
+    </a>
+    <a href='https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter'>
+      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/issue_count.svg" alt="Logo" />
+    </a>
+    <a href='https://www.codacy.com/app/Vagr9K/gatsby-advanced-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-advanced-starter&utm_campaign=Badge_Grade'>
+      <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
+    </a>
+    <a href='https://github.com/prettier/prettier'>
+      <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
+    </a>
+</div>
 
-## 🚀 Quick start
+# Gatsby Advanced Starter
 
-1.  **Create a Gatsby site.**
+A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+**NOTE**: This branch contains Gatsby v2 compatible version of the starter. To get the Gatsby v1 compatible version, use the [`v1`](https://github.com/Vagr9K/gatsby-advanced-starter/tree/v1) branch.
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+## Lighthouse Audit Score
 
-1.  **Start developing.**
+<div align="center">
+    <a href="https://developers.google.com/web/tools/lighthouse/">
+      <img src="docs/pwa-score.png" alt="Lighthouse Score" />
+    </a>
+</div>
 
-    Navigate into your new site’s directory and start it up.
+Check out the [Features](#features) to read about all [Progressive Web App](https://developers.google.com/web/progressive-web-apps) capabilities of this starter in detail.
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+## Why?
 
-1.  **Open the source code and start editing!**
+This project aims to provide a minimal base for building advanced GatsbyJS powered websites.
 
-    Your site is now running at `http://localhost:8000`!
+It doesn't define any UI limitations in any way and only gives you the basic components for SEO/Social Media/etc while creating a comfortable development environment to get started.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+You are free to use any UI framework/styling options.
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## How can I use this?
 
-## 🧐 What's inside?
+If you are a newcomer to Gatsby who's interested in the implementations of most needed features, this is a great place to start.
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+If you are interested in a foundation for building ultra-fast websites, you can use this project as a "minimal" starter.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+[Demo website.](https://gatsby-advanced-starter-demo.netlify.com)
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+## Features
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+- Gatsby v2 support
+- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+- Posts in Markdown
+  - Code syntax highlighting
+  - Embed YouTube videos
+  - Embed Tweets
+- Pagination
+  - Configurable via `SiteConfig.js`
+- Tags
+  - Separate page for posts under each tag
+- Categories
+  - Separate page for posts under each category
+- [Disqus](https://disqus.com/) support
+  - Notifications about new disqus comments
+- `/static/` and content folders are available to use with [gatsby-image](https://www.gatsbyjs.org/docs/gatsby-image/) out of the box for optimized image generation
+- High configurability
+- Separate components for everything:
+  - User social profiles
+  - Copyright information
+  - More!
+- [NetlifyCMS](https://www.netlifycms.org) support out of the box
+- PWA features
+  - Offline support
+  - Web App Manifest support
+  - Loading progress for slow networks
+- SEO
+  - [Google Analytics](https://marketingplatform.google.com/about/analytics/) support
+  - Sitemap generation
+  - robots.txt
+  - General description tags
+  - [Schema.org JSONLD (Google Rich Snippets)](https://schema.org/)
+  - [OpenGraph Tags (Facebook/Google+/Pinterest)](https://ogp.me/)
+  - [Twitter Tags (Twitter Cards)](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
+- RSS feeds
+- Social features
+  - Twitter tweet button
+  - Facebook share/share count
+  - Reddit share/share count
+  - LinkedIn share button
+  - Telegram share button
+- Development tools
+  - [ESLint](https://eslint.org/) for linting
+  - [Prettier](https://prettier.io/) for code formatting
+  - [React Hooks Linting](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+  - Remark-Lint for linting Markdown
+  - write-good for linting English prose
+  - gh-pages for deploying to GitHub pages
+  - [Netlify](https://www.netlify.com/) deploy configuration
+  - [CodeClimate](https://codeclimate.com/) configuration file and badge
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+## Getting Started
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Install this starter by running the following commands from your CLI:
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+```sh
+gatsby new YourProjectName https://github.com/Vagr9K/gatsby-advanced-starter
+cd YourProjectName
+npm run develop # or gatsby develop
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+Note that the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli) needs to be installed and updated for the `gatsby` command to work.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+Alternatively you can fork the project, make your changes and merge new upstream features when needed:
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+- [Fork this repository on GitHub](https://github.com/Vagr9K/gatsby-advanced-starter/fork)
+- Run the following commands:
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+  ```sh
+  git clone https://github.com/${YourUsername}/${YourForkName} YourForkName # Clone your fork
+  cd YourForkName
+  npm install # or yarn install
+  npm run develop # or yarn develop
+  ```
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+## Configuration
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+Edit the export object in `data/SiteConfig`:
 
-## 🎓 Learning Gatsby
+```js
+module.exports = {
+  siteTitle: "Gatsby Advanced Starter", // Site title.
+  siteTitleShort: "GA Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "GatsbyJS Advanced Starter", // Alternative site title for SEO.
+  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteUrl: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteDescription: "A GatsbyJS starter with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteRss: "/rss.xml", // Path to the RSS file.
+  siteRssTitle: "Gatsby Advanced Starter RSS feed", // Title of the RSS feed
+  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
+  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
+  dateFormat: "DD/MM/YYYY", // Date format for display.
+  postsPerPage: 4, // Amount of posts displayed per listing page. Set to zero to disable paging. See the "Pagination" section.
+  userName: "Advanced User", // Username to display in the author segment.
+  userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
+  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "North Pole, Earth", // User location to display in the author segment.
+  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userDescription:
+    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+  userLinks: [
+    {
+      label: "GitHub",
+      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      iconClassName: "fa fa-github",
+    },
+    {
+      label: "Twitter",
+      url: "https://twitter.com/Vagr9K",
+      iconClassName: "fa fa-twitter",
+    },
+    {
+      label: "Email",
+      url: "mailto:vagr9k@gmail.com",
+      iconClassName: "fa fa-envelope",
+    },
+  ],
+  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
+};
+```
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+If want to customize Netlify CMS, e.g. registering custom widgets or styling the preview pane, you can do so by editing `src/netlifycms/index.js`:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+```js
+import CMS from "netlify-cms-app";
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+CMS.init({
+  config: {
+    backend: {
+      name: "git-gateway",
+    },
+  },
+});
+```
 
-## 💫 Deploy
+You can also optionally set `pathPrefix`:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+```js
+module.exports = {
+  // Note: it must *not* have a trailing slash.
+  pathPrefix: "/gatsby-advanced-starter", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+};
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+## Pagination
+
+By default the starter will show 4 posts per page. The landing page is the first page located on `/` (controlled by the `Listing` component).
+
+You can control the amount of posts via `SiteConfig` by setting the `postsPerPage: ${NUMBER}`.
+
+NOTE: You can also disable the pagination by setting the `postsPerPage: 0`. In this case the landing page will be controlled by the `Landing` component.
+
+## NetlifyCMS
+
+First of all, make sure to edit `static/admin/config.yml` and add your [GitHub/GitLab/NetlifyId credentials](https://www.netlifycms.org/docs/authentication-backends/):
+
+```yml
+backend:
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: master # Branch to update
+  repo: vagr9k/gatsby-material-starter # Repo for pushing new commits. Make sure to replace with your repo!
+```
+
+You can visit `/admin/` after and will be greeted by a login dialog (depending on the auth provider you ave chosen above).
+
+For NetlifyCMS specific issues visit the [official documentation](https://www.netlifycms.org/docs/intro/).
+
+# Author
+
+Ruben Harutyunyan ([@Vagr9K](https://twitter.com/Vagr9K))

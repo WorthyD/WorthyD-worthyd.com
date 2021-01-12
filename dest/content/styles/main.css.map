@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,CAAE;EACE,UAAU,EAAE,UAAU",
-"sources": ["../../../src/content/sass/main.scss"],
-"names": [],
-"file": "main.css"
-}
