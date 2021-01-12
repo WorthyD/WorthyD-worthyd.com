@@ -1,16 +1,18 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import Layout from "../layout";
-import About from "../components/About/About";
-import config from "../../data/SiteConfig";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import Layout from '../layout';
+import About from '../components/About/About';
+import config from '../../data/SiteConfig';
+import HomeHeader from '../components/home-header';
+import HomeBody from '../components/home-body';
+import './index.scss';
 
 function IndexPage() {
   return (
     <Layout>
-      <div className="about-container">
         <Helmet title={`About | ${config.siteTitle}`} />
-        <About />
-      </div>
+        <HomeHeader></HomeHeader>
+        <HomeBody></HomeBody>
     </Layout>
   );
 }

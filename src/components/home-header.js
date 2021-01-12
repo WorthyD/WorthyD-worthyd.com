@@ -1,4 +1,4 @@
-import React, { Fragment } from "React"
+import React, { Fragment } from "react"
 
 export default function HomeHeader(props) {
   const bgClass = "bg-" + (Math.floor(Math.random() * 5) + 1)
