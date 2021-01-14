@@ -10,7 +10,7 @@ import './index.scss';
 function IndexPage() {
   return (
     <Layout>
-        <Helmet title={`About | ${config.siteTitle}`} />
+        <Helmet title={`${config.siteTitle}`} />
         <HomeHeader></HomeHeader>
         <HomeBody></HomeBody>
     </Layout>

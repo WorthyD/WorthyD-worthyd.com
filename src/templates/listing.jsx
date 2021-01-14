@@ -72,7 +72,7 @@ export const listingQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
