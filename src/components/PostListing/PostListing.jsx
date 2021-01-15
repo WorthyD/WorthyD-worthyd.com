@@ -21,13 +21,24 @@ function PostListing({ postEdges }) {
         /* Your post list here. */
 
         postList.map((post) => (
-          <div>
-            <Link to={post.path} key={post.title}>
-              <h2>{post.title}</h2>
-            </Link>
-            <h5>{post.date}</h5>
-
-          </div>
+          <article itemScope itemType="http://schema.org/Article">
+            <header>
+              <h2>
+                <Link to={post.path} key={post.title}>
+                  {post.title}
+                </Link>
+              </h2>
+              <small>{post.date}</small>
+            </header>
+            <section>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: post.excerpt,
+                }}
+                itemProp="description"
+              />
+            </section>
+          </article>
         ))
       }
     </div>

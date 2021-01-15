@@ -15,6 +15,10 @@ function Landing({ data }) {
         <div className="posts-container">
           <Helmet title={config.siteTitle} />
           <SEO />
+          <h1>WorthyD's Blog</h1>
+          <p>
+            Welcome to my random musings and thoughts.
+          </p>
           <PostListing postEdges={postEdges} />
         </div>
       </div>

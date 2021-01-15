@@ -1,8 +1,8 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import urljoin from "url-join";
-import moment from "moment";
-import config from "../../../data/SiteConfig";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import urljoin from 'url-join';
+import moment from 'moment';
+import config from '../../../data/SiteConfig';
 
 function SEO({ postNode, postPath, postSEO }) {
   let title;
@@ -16,7 +16,7 @@ function SEO({ postNode, postPath, postSEO }) {
     description = postMeta.description
       ? postMeta.description
       : postNode.excerpt;
-    image = postMeta.cover;
+    image = postMeta.cover ?? config.siteLogo;
     postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
   } else {
     title = config.siteTitle;
@@ -50,38 +50,38 @@ function SEO({ postNode, postPath, postSEO }) {
   const datePublished = getPublicationDate();
 
   const authorJSONLD = {
-    "@type": "Person",
+    '@type': 'Person',
     name: config.userName,
     email: config.userEmail,
     address: config.userLocation,
   };
 
   const logoJSONLD = {
-    "@type": "ImageObject",
+    '@type': 'ImageObject',
     url: getImagePath(config.siteLogo),
   };
 
   const blogURL = urljoin(config.siteUrl, config.pathPrefix);
   const schemaOrgJSONLD = [
     {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
+      '@context': 'http://schema.org',
+      '@type': 'WebSite',
       url: blogURL,
       name: title,
-      alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
+      alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
     },
   ];
   if (postSEO) {
     schemaOrgJSONLD.push(
       {
-        "@context": "http://schema.org",
-        "@type": "BreadcrumbList",
+        '@context': 'http://schema.org',
+        '@type': 'BreadcrumbList',
         itemListElement: [
           {
-            "@type": "ListItem",
+            '@type': 'ListItem',
             position: 1,
             item: {
-              "@id": postURL,
+              '@id': postURL,
               name: title,
               image,
             },
@@ -89,17 +89,17 @@ function SEO({ postNode, postPath, postSEO }) {
         ],
       },
       {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
+        '@context': 'http://schema.org',
+        '@type': 'BlogPosting',
         url: blogURL,
         name: title,
-        alternateName: config.siteTitleAlt ? config.siteTitleAlt : "",
+        alternateName: config.siteTitleAlt ? config.siteTitleAlt : '',
         headline: title,
-        image: { "@type": "ImageObject", url: image },
+        image: { '@type': 'ImageObject', url: image },
         author: authorJSONLD,
         publisher: {
           ...authorJSONLD,
-          "@type": "Organization",
+          '@type': 'Organization',
           logo: logoJSONLD,
         },
         datePublished,
@@ -126,14 +126,14 @@ function SEO({ postNode, postPath, postSEO }) {
       <meta property="og:image" content={image} />
       <meta
         property="fb:app_id"
-        content={config.siteFBAppID ? config.siteFBAppID : ""}
+        content={config.siteFBAppID ? config.siteFBAppID : ''}
       />
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:creator"
-        content={config.userTwitter ? config.userTwitter : ""}
+        content={config.userTwitter ? config.userTwitter : ''}
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
