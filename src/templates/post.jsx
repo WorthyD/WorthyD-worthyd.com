@@ -10,7 +10,7 @@ import SEO from "../components/SEO/SEO";
 import Footer from "../components/Footer/Footer";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
-import "./post.css";
+import "./post.scss";
 
 export default function PostTemplate({ data, pageContext }) {
   const { slug } = pageContext;
@@ -27,7 +27,7 @@ export default function PostTemplate({ data, pageContext }) {
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
-        <div>
+        <div className="post-container">
           <h1>{post.title}</h1>
           {/* eslint-disable-next-line react/no-danger */}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
