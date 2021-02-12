@@ -3,7 +3,7 @@ author: worthyd
 comments: true
 date: 2010-07-30 20:36:12+00:00
 layout: post
-link: http://blog.worthyd.com/2010/07/winsplit/
+link: http://worthyd.com/blog/2010/07/winsplit/
 slug: winsplit
 title: WinSplit - One of the Best Multi Monitor Tools
 wordpress_id: 24
@@ -11,6 +11,7 @@ category: Cool Apps
 cover: ""
 tags:
  - Dummy Content
+ - Tech Blog
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/07/ecran.png)](http://blog.worthyd.com/wp-content/uploads/2010/07/ecran.png)If you are like me, you work with two or more monitors.  I have experimented with several different multi-monitor tools. Next to [Ultramon](http://www.realtimesoft.com/ultramon/) (which you must pay for), [WinSplit](http://www.winsplit-revolution.com/) is the next best thing.  Ultramon provides an extended task bar which is really nice.  
