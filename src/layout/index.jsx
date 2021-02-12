@@ -25,9 +25,25 @@ export default function MainLayout({ children }) {
         rel="stylesheet"
       ></link>
       </Helmet>
-      <Header></Header>
-      {children}
-      <Footer></Footer>
+      <div className="page-wrap">
+
+  <header class="page-header">
+          <Header></Header>
+</header>
+<nav class="page-nav">
+    Nav
+  </nav>
+  <main class="page-main">
+          {children}
+          </main>
+          <aside class="page-sidebar">
+    Aside
+  </aside>
+  <footer class="page-footer">
+          <Footer></Footer>
+
+  </footer>
+        </div>
     </div>
   );
 }

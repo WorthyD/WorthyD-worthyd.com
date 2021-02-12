@@ -1,6 +1,6 @@
-import React from "react";
-import _ from "lodash";
-import { Link } from "gatsby";
+import React from 'react';
+import _ from 'lodash';
+import { Link } from 'gatsby';
 
 function PostTags({ tags }) {
   return (
@@ -9,10 +9,10 @@ function PostTags({ tags }) {
         tags.map((tag) => (
           <Link
             key={tag}
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: 'none' }}
             to={`/tags/${_.kebabCase(tag)}`}
           >
-            <button type="button">{tag}</button>
+            {tag}
           </Link>
         ))}
     </div>
