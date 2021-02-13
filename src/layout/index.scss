@@ -8,7 +8,7 @@ body {
   background: white;
 
   display: grid;
-  grid-template-columns: minmax(10px, 1fr) minmax(10px, 3fr);
+  grid-template-columns: minmax(10px, 3fr) minmax(10px, 1fr);
   grid-template-rows: min-content min-content 1fr min-content;
   gap: 1px;
 
@@ -31,14 +31,14 @@ body {
 }
 
 .page-sidebar {
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   grid-row: 2 / 4;
 }
 .page-nav {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2 ;
 }
 .page-main {
-  grid-column: 2 / 3;
+  grid-column: 1/ 2;
 }
 .page-footer {
   grid-column: 1 / -1;
