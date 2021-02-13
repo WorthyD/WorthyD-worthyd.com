@@ -10,8 +10,8 @@ import "./listing.css";
 function Listing({ pageContext, data }) {
   function renderPaging() {
     const { currentPageNum, pageCount } = pageContext;
-    const prevPage = currentPageNum - 1 === 1 ? "/" : `/${currentPageNum - 1}/`;
-    const nextPage = `/${currentPageNum + 1}/`;
+    const prevPage = currentPageNum - 1 === 1 ? "/blog" : `/blog/${currentPageNum - 1}/`;
+    const nextPage = `/blog/${currentPageNum + 1}/`;
     const isFirstPage = currentPageNum === 1;
     const isLastPage = currentPageNum === pageCount;
 
@@ -23,7 +23,7 @@ function Listing({ pageContext, data }) {
           return (
             <Link
               key={`listing-page-${pageNum}`}
-              to={pageNum === 1 ? "/" : `/${pageNum}/`}
+              to={pageNum === 1 ? "/blog/" : `/blog/${pageNum}/`}
             >
               {pageNum}
             </Link>
