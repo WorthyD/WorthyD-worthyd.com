@@ -10,7 +10,6 @@ import config from '../../data/SiteConfig';
 export default function CategoryTemplate({ pageContext, data }) {
   const { category } = pageContext;
 
-    console.log(category);
   function renderPaging() {
     const { currentPageNum, pageCount } = pageContext;
     console.log(category);

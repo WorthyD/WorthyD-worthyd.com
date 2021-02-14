@@ -164,22 +164,43 @@ exports.createPages = async ({ graphql, actions }) => {
   //  Create tag pages
   tagSet.forEach((tag) => {
     const tagsPosts = postsEdges.filter((x) => {
-      return x.node.frontmatter.tags.indexOf(tag) > -1;
+      if (x.node.frontmatter.tags) {
+        return x.node.frontmatter.tags.indexOf(tag) > -1;
+      }
+      return false;
     });
-    console.log('----------------');
-    console.log(tag, tagsPosts.length);
-    console.log('----------------');
-    createPage({
-      path: `/tags/${_.kebabCase(tag)}/`,
-      component: tagPage,
-      context: { tag },
+    const basePath = `/blog/tags/${_.kebabCase(tag)}/`
+
+    const pageCount = Math.ceil(tagsPosts.length / postsPerPage);
+    [...Array(pageCount)].forEach((_val, pageNum) => {
+      createPage({
+        path: pageNum === 0 ? basePath : `${basePath}${pageNum + 1}/`,
+        component: tagPage,
+        context: {
+          tag,
+          limit: postsPerPage,
+          skip: pageNum * postsPerPage,
+          pageCount,
+          currentPageNum: pageNum + 1,
+        },
+      }); 
     });
+
+    // console.log(`/blog/tags/${_.kebabCase(tag)}/`);
+    // createPage({
+    //   path: `/blog/tags/${_.kebabCase(tag)}/`,
+    //   component: tagPage,
+    //   context: { tag },
+    // });
   });
 
   // Create category pages
   categorySet.forEach((category) => {
     const categoryPosts = postsEdges.filter((x) => {
-      return x.node.frontmatter.category === category;
+      if (x.node.frontmatter.category) {
+        return x.node.frontmatter.category === category;
+      }
+      return false;
     });
     const pageCount = Math.ceil(categoryPosts.length / postsPerPage);
     const basePath = `/blog/categories/${_.kebabCase(category)}/`;
