@@ -10,7 +10,7 @@ function PostTags({ tags }) {
           <Link
             key={tag}
             style={{ textDecoration: 'none' }}
-            to={`/tags/${_.kebabCase(tag)}`}
+            to={`/blog/tags/${_.kebabCase(tag)}`}
           >
             {tag}
           </Link>
