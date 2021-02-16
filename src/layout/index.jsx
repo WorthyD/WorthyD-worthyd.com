@@ -32,7 +32,15 @@ export default function MainLayout({ children }) {
 
       <div className="page-wrap">
         <nav class="page-nav">
-          {/* <Link key='' to=''></Link> */}
+          <Link key="listing-page-technology" to="/blog/categories/technology/">
+            Technology
+          </Link>
+          <Link key="listing-page-gaming" to="/blog/categories/gaming/">
+            Gaming
+          </Link>
+          <Link key="listing-page-geek-stuff" to="/blog/categories/geek-stuff/">
+            Geek Stuff
+          </Link>
         </nav>
         <main class="page-main">{children}</main>
         <aside class="page-sidebar">Aside</aside>
