@@ -11,6 +11,7 @@ category: Gaming
 tags:
 - Halo
 - Geek Blog
+- Favorite
 ---
 
 I'm going to give a brief overview of [Halo 3](http://www.amazon.com/gp/product/B001ELJE88?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001ELJE88)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B001ELJE88) and [Halo Wars](http://www.amazon.com/gp/product/B001KN317K?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B001KN317K)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B001KN317K) both of these games are for the XBox 360 and utilize Xbox Live.  Halo Wars is a little bit different than the other Halo games. It is an RTS game. In other words, it's like Starcraft.  In the last part of the series, I will go over Halo 3: ODST and what we know about Reach.

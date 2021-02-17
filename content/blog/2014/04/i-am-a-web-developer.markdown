@@ -13,6 +13,7 @@ tags:
 - Rant
 - General Updates
 - web development
+- Favorite
 ---
 
 I am a web developer, and we could be the most complicated and strange people you have or ever will interact with.

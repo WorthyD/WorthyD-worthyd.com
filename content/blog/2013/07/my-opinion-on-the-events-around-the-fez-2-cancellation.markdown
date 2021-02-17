@@ -10,6 +10,7 @@ wordpress_id: 512
 category: Gaming
 tags:
 - Rant
+- Favorite
 ---
 
 If you've been keeping up with recent news in the gaming industry, then you have probably heard that [Fez 2 has been cancelled](http://polytroncorporation.com/fez-ii-cancelled). This is the result of a bunch of exchanges over twitter and stuff. [Totalbiscuit (TB)](https://twitter.com/Totalbiscuit) summed up the situation pretty well on his [Content Patch for July 29th](http://www.youtube.com/watch?v=qyYQnsaJiUI&feature=c4-overview&list=UUy1Ms_5qBTawC-k7PVjHXKQ) and gave his option from a gaming media perspective.  I'm going to come from a different side.

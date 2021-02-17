@@ -11,6 +11,7 @@ category: Technology
 tags:
 - being a badass
 - web development
+- Favorite
 ---
 
 

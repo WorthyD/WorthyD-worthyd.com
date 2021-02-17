@@ -14,6 +14,7 @@ tags:
 - Mac
 - Rants
 - Tech Blog
+- Favorite
 ---
 
 First, I would like to start off by saying that a lot of this is just my opinion. Take it or leave it.

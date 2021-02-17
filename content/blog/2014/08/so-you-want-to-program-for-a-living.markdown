@@ -12,6 +12,7 @@ tags:
 - Rant
 - code
 - learning to code
+- Favorite
 ---
 
 I love coding for a living.  I've done a lot in the job market since I started working.  I've worked at a video game store, a paintball field, several small business, several grocery stores and other random jobs. Nothing can compare to coding. I get to build really cool stuff and it's never boring.    

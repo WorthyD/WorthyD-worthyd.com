@@ -10,6 +10,7 @@ wordpress_id: 408
 category: Technology
 tags:
 - web development
+- Favorite
 ---
 
 I can say I'm no stranger to 24 hours of straight work. It has only happened on a handful of occasions and was typically to meet a deadline. On January 18th from 5pm to 5pm the next day, I participated in a 24 hour Hackathon. I was on a team of six and our goal was to build a website to serve a very specific need. We successfully hammered out a fully functional product that would have taken at least a month of development under normal circumstances. Here are my experiences and learnings from the event.

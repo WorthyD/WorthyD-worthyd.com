@@ -11,6 +11,7 @@ category: Technology
 tags:
   - Being A Geek
   - Hardware
+  - Favorite
 ---
 
 Everyone I work with knows I'm a mechanical keyboard nutcase. I've owned 4 mechanical keyboards and I've been tempted to invest and build the great and legendary [ErgoDox](http://ergodox.org/) keyboard. I originally purchased a mechanical keyboard because I kept breaking keyboards at work from heavy use and because of hand fatigue. I take credit for converting 3 people at my work for switching to mechanical keyboards. It's not 100% true, but I have an ego to feed.

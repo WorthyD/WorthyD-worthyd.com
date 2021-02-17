@@ -11,6 +11,7 @@ category: Gaming
 tags:
 - Halo
 - Geek Blog
+- Favorite
 ---
 
 So [Halo Reach](http://www.amazon.com/gp/product/B002BSA20M?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B002BSA20M)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B002BSA20M) comes out in the near future.  A lot of people I know aren't fully aware of the the series up to now.  It's a truly interesting series on a Star Wars level for the video game industry.  A lot of this is strictly my opinion, but feel free to share your opinions in the comments. I'm going to go over all the games. I'll go over their strong points and their weak points in my opinion. **Spoiler Alert: I'll be going over key points of the plot so reader beware.**

@@ -14,6 +14,7 @@ tags:
 - memory lane
 - retro games
 - XBox
+- Favorite
 ---
 
 Where were you ten years ago?  We're asked frequently in job interviews "Where do you see yourself in 5 or 10 years?" This is a really hard question to answer.  I like thinking of where I was ten years ago and see how far I've come. Gaming has always been an important part of my life and I occasionally like to think "What was I doing in gaming ten years ago?"  

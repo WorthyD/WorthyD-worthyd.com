@@ -11,6 +11,7 @@ category: Technology
 tags:
 - Rant
 - web development
+- Favorite
 ---
 
 [David Walsh](http://davidwalsh.name/) has a great series he does called [Confessions of a Web Developer.](http://davidwalsh.name/confessions-xiv)  I've been reading them since about part 6 or 7 and I enjoy every one of them.  I have been struggling with content here for a long time and he had some great tweets over the past few days that motivated me to put more effort into this blog.  I'm really great at complaining so I figured I'd follow the master.  As always, opinions are my own.
