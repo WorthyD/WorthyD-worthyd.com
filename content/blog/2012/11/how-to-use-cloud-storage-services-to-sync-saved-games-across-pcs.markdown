@@ -7,13 +7,14 @@ link: http://worthyd.com/blog/2012/11/how-to-use-cloud-storage-services-to-sync-
 slug: how-to-use-cloud-storage-services-to-sync-saved-games-across-pcs
 title: How to use cloud storage services to sync saved games across PCs
 wordpress_id: 361
-category: Quick OS Tips and Tricks
+category: Technology
 tags:
 - batch files
 - command line
 - video games
 - windows 7
 - Tech Blog
+- Quick OS Tips and Tricks
 ---
 
 I'm a big fan of playing games over my lunch break.  It is a great way to unwind for an hour or so before.  Minecraft is probably my favorite one to play right now.  I ran into an issue about a year and a half ago when I first started playing Minecraft. I wanted to be able to play my worlds on my home PC in the evenings and play them on my work laptop during lunch.  Many services now, like Steam, offer cloud based game saves.  I had to hunt down a method to do this for games that fell outside of this realm.   I was already using Drop Box for cloud storage and I found a few articles on how to use it to use it for your Minecraft saves.  I wanted to take it to the next level.  You can use a symbolic link to link two folders together and share their contents. You just need to use the mlink command in the command line with the folder paths to create this link.

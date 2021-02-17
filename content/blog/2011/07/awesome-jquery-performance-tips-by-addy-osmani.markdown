@@ -7,10 +7,10 @@ link: http://worthyd.com/blog/2011/07/awesome-jquery-performance-tips-by-addy-os
 slug: awesome-jquery-performance-tips-by-addy-osmani
 title: Awesome jQuery performance tips by Addy Osmani.
 wordpress_id: 234
-category: Frontend Development
+category: Technology
 tags:
 - best practices
-- front end performance
+- Frontend Development
 - Javascript
 - jQuery
 - Tech Blog

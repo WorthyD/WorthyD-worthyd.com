@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2012/11/lessons-learned-and-tips-responsive-design
 slug: lessons-learned-and-tips-responsive-design
 title: Lessons Learned And Tips - Responsive Design
 wordpress_id: 370
-category: Frontend Development
+category: Technology
 tags:
 - Android
 - cutout
@@ -16,6 +16,7 @@ tags:
 - mobile
 - Responsive Design
 - Tech Blog
+- Frontend Development
 ---
 
 I recently came off my first project where I got to fully implement a responsive design for a desktop to mobile website.  I've done several in the past where we would do certain things for portrait and landscape or tablet to mobile design.  I feel desktop to mobile was defiantly more challenging.  The project was a huge success and there was excellent work by all teams, but there were several few "gotcha" moments that almost happened. These weren't due to lack of attention to detail, but more along the lines of new discoveries.  I'm going to outline some things that we executed that helped out greatly and a few other things that caused some headaches.

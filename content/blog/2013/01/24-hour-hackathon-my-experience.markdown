@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/01/24-hour-hackathon-my-experience/
 slug: 24-hour-hackathon-my-experience
 title: A 24 Hour Hackathon And My Experience.
 wordpress_id: 408
-categories:
-- General Updates
+category: Technology
 tags:
 - web development
 ---

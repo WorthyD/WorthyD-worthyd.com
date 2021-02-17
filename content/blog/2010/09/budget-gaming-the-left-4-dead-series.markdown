@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/09/budget-gaming-the-left-4-dead-series/
 slug: budget-gaming-the-left-4-dead-series
 title: 'Budget Gaming: The Left 4 Dead series'
 wordpress_id: 210
-category: Budget Gaming
+category: Gaming
 tags:
 - FPS
 - video games
 - XBox
 - Geek Blog
+- Budget Gaming
 ---
 
 In college, I was stuck in a video game purchasing mode that was uncontrollable.  I may have owned over 40 Playstation 2 games at one time.  Over the past five years, I've learned to do a lot research into games I purchase.  Re-playability and bang for your buck are the two biggest factors for me.  I'm a big fan of XBox live achievements also.  

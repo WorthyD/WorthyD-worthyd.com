@@ -18,7 +18,7 @@ link: http://worthyd.com/blog/2011/06/geek-office-in-the-closet/
 slug: geek-office-in-the-closet
 title: Geek Office In The Closet
 wordpress_id: 280
-category: Being A Geek
+category: Woodworking 
 tags:
 - computer setup
 - desk

@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/08/a-geek-shirt-for-saturday-i-void-warrantie
 slug: a-geek-shirt-for-saturday-i-void-warranties
 title: A Geek Shirt For Saturday! I Void Warranties!
 wordpress_id: 133
-category: Video Game Shirts
+category: Geek Stuff
 tags:
 - geek shirt
 - paintball
 - Think Geek
 - Geek Blog
+- Video Game Shirts
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties.jpg)Another shirt from [Think Geek](http://www.thinkgeek.com)!  The [I Void Warranties shirt](http://www.thinkgeek.com/clearance/tshirtsapparel/8f52/) is probably one of my favorite shirts I've collected.  I've gotten a lot of laughs from this shirt. I think it's because it's so very true for me.  I'm rocking out at B&E; Paintball today and I felt it was appropriate to wear this!

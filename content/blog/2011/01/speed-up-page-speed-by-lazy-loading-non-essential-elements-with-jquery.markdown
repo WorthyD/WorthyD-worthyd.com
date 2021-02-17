@@ -11,12 +11,13 @@ link: http://worthyd.com/blog/2011/01/speed-up-page-speed-by-lazy-loading-non-es
 slug: speed-up-page-speed-by-lazy-loading-non-essential-elements-with-jquery
 title: Speed up page speed by lazy loading non-essential elements with jQuery
 wordpress_id: 541
-category: Quick Code Tips
+category: Technology
 tags:
 - Code Snippets
 - Javascript
 - jQuery
 - Tech Blog
+- Quick Code Tips
 ---
 
 I worked up this idea after using some Facebook like buttons and the [jScrollPane](http://jscrollpane.kelvinluck.com/) jQuery plugin.  I'm a big fan of jScrollPane, but the iframes from the like buttons caused some unfortunate page flashing after document.ready fired. Rendering the like buttons with FBML took even longer than the iframe method.

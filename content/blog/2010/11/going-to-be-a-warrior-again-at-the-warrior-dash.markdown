@@ -7,9 +7,8 @@ link: http://worthyd.com/blog/2010/11/going-to-be-a-warrior-again-at-the-warrior
 slug: going-to-be-a-warrior-again-at-the-warrior-dash
 title: Going to be a Warrior Again at the Warrior Dash!!!!
 wordpress_id: 257
-category: Being A Geek
+category: Geek Stuff
 tags:
-- being a badass
 - Geek Blog
 ---
 

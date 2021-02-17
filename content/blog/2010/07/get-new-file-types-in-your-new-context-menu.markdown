@@ -7,10 +7,11 @@ link: http://worthyd.com/blog/2010/07/get-new-file-types-in-your-new-context-men
 slug: get-new-file-types-in-your-new-context-menu
 title: Get New File Types in Your "New" Context Menu
 wordpress_id: 38
-category: Quick OS Tips and Tricks
+category: Technology
 tags:
 - Registry
 - Tech Blog
+- Quick OS Tips and Tricks
 ---
 
 The "New" menu on the windows context menu has always annoyed me. It seems that every software suite adds something new and ridiculous to it.  I think I got five or six new items after installing CS4 and Office 2010.  I've frequently been in the situation where I could use a quick .html, .css or .js file on the fly.

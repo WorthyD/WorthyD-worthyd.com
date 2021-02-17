@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/03/self-checkout-a-new-experience/
 slug: self-checkout-a-new-experience
 title: Self Checkout. A new experience.
 wordpress_id: 283
-category: Being a Geek
+category: Geek Stuff 
 tags: 
 - Geek Blog
 ---

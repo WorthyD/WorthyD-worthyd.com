@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/06/microsoft-build-conference-day-2/
 slug: microsoft-build-conference-day-2
 title: Microsoft Build Conference Day 2
 wordpress_id: 499
-categories:
-- General Updates
+category: Technology
 tags:
 - Build Conference
 - C#

@@ -7,6 +7,7 @@ link: http://worthyd.com/blog/2010/10/unlikestuff-com-a-new-tool-to-unlike-faceb
 slug: unlikestuff-com-a-new-tool-to-unlike-facebook-likes
 title: UnlikeStuff.com - A new tool to unlike Facebook Likes
 wordpress_id: 139
+category: Technology
 tags:
 - Tech Blog
 ---

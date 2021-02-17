@@ -7,11 +7,12 @@ link: http://worthyd.com/blog/2010/07/sword-play-a-zelda-shirt/
 slug: sword-play-a-zelda-shirt
 title: '"Sword Play" A Zelda Shirt'
 wordpress_id: 15
-category: Video Game Shirts
+category: Geek Stuff
 tags:
 - Retro
 - Zelda
 - Geek Blog
+- Video Game Shirts
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)

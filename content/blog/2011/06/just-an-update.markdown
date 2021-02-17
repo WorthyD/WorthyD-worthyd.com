@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/06/just-an-update/
 slug: just-an-update
 title: Just an update
 wordpress_id: 226
-category: General Updates
+category: Geek Stuff 
 tags:
 - life
 - Tech Blog

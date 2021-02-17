@@ -7,10 +7,11 @@ link: http://worthyd.com/blog/2010/08/video-game-shirt-friday-school/
 slug: video-game-shirt-friday-school
 title: 'Video Game Shirt Friday: School'
 wordpress_id: 86
-category: Video Game Shirts
+category: Geek Stuff
 tags:
 - VG Shirt
 - Geek Blog
+- Video Game Shirts
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor.jpg)I'm a big fan of the Mario Kart franchise.  I'm always excited to see a Mario Kart themed shirt on [Shirt.Woot](http://shirt.woot.com/).  You can still get [this shirt](http://shirt.woot.com/friends.aspx?k=14204) on the [reckoning wall](http://shirt.woot.com/Reckoning/) for $15 at the time of this posting. The first one I saw was [this one](http://shirt.woot.com/blog/viewentry.aspx?id=6407). If you're a fan like me, you love and hate the blue shell.

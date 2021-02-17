@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/01/weekend-tech-reads-for-1-18-2013/
 slug: weekend-tech-reads-for-1-18-2013
 title: Weekend Tech Reads For 1-18-2013
 wordpress_id: 404
-categories:
-- Weekly Links
+category: Technology
 tags:
 - css
 - Javascript

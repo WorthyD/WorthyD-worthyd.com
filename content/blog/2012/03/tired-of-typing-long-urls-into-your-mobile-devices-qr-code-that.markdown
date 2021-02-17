@@ -7,13 +7,14 @@ link: http://worthyd.com/blog/2012/03/tired-of-typing-long-urls-into-your-mobile
 slug: tired-of-typing-long-urls-into-your-mobile-devices-qr-code-that
 title: Tired of typing long URLs into your mobile devices? QR code that!
 wordpress_id: 544
-category: Quick Code Tips
+category: Technology
 tags:
 - hardware
 - mobile
 - QR Codes
 - typing
 - Tech Blog
+- Quick Code Tips
 ---
 
 Co-Worker: Hey Daniel! Can you check this site out on the company iPad!?!?!

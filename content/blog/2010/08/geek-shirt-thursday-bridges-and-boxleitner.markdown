@@ -7,9 +7,10 @@ link: http://worthyd.com/blog/2010/08/geek-shirt-thursday-bridges-and-boxleitner
 slug: geek-shirt-thursday-bridges-and-boxleitner
 title: 'Geek Shirt Thursday: Bridges and Boxleitner'
 wordpress_id: 75
-category: Geek Shirts
+category: Geek Stuff
 tags:
 - Geek Blog
+- Geek Shirts
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/08/bridges-boxleitner-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/bridges-boxleitner.jpg)I have to admit, this is probably the most clever shirt I own.  Obviously it's a fun copy of the [Harley Davidson Logo](http://blog.worthyd.com/wp-content/uploads/2010/08/Harley-Davidson.jpeg).  Lets face it. I'm probably the last person you'd ever see wearing H.D. apparel and look tough. I'd totally rock a light cycle though.

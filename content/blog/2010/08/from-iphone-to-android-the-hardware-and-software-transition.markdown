@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/08/from-iphone-to-android-the-hardware-and-so
 slug: from-iphone-to-android-the-hardware-and-software-transition
 title: 'From iPhone to Android: The Hardware and Software Transition'
 wordpress_id: 538
-category: Mobile Technology
+category: Technology
 tags:
 - Android
 - iPhone

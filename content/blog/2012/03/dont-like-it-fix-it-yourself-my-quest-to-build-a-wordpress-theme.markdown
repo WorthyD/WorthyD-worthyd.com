@@ -7,9 +7,10 @@ link: http://worthyd.com/blog/2012/03/dont-like-it-fix-it-yourself-my-quest-to-b
 slug: dont-like-it-fix-it-yourself-my-quest-to-build-a-wordpress-theme
 title: Don't like it? Fix it yourself! My quest to build a Wordpress Theme.
 wordpress_id: 289
-category: Code Rant
+category: Technology 
 tags:
 - Tech Blog
+- Rant
 ---
 
 I got pretty upset with my last wordpress theme.  The theme was stripping out all of my script tags I was inserting and replacing them with comment tags.  I'm attempting to add ads to my theme, track with Google Analytic, and other things.  I tried going to their support forums, but you have to pay now to view them.  Again, pretty frustrating.  

@@ -7,9 +7,10 @@ link: http://worthyd.com/blog/2010/10/budget-gaming-and-nostalgia-the-elder-scro
 slug: budget-gaming-and-nostalgia-the-elder-scrolls
 title: 'Budget Gaming and Nostalgia: The Elder Scrolls'
 wordpress_id: 224
-category: Budget Gaming
+category: Gaming
 tags:
 - Geek Blog
+- Budget Gaming
 ---
 
 I was never big on open ended games growing up.  I preferred to play games that had a strict goal at hand. Save the moon, beat the bad guy, save the world.  Typical Rpgs. When i started working at Game Stop I learned about Fable. The game was just released and the main tagline was "choose your own adventure".  Thought it sounded kinda cool.  I bought the Xbox and 13 hours of game play later, the game was complete and I already had a good idea what the adventure would have been if I chose to be evil.

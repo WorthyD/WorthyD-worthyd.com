@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2012/06/jquery-performance-tips-caching-selectors/
 slug: jquery-performance-tips-caching-selectors
 title: 'jQuery Performance Tips: Caching Selectors'
 wordpress_id: 304
-category: Frontend Development
+category: Technology
 tags:
 - best practices
 - front end performance
 - jQuery
 - Tech Blog
+- Frontend Development
 ---
 
 Selector Caching is the number one thing I have learned for jQuery performance.  I've seen it in countless numbers of blog posts, tweets and conference lectures.  It's a real simple concept too.  [John Resig](http://ejohn.org/) wrote about Twitter's problem a couple years ago [here](http://ejohn.org/blog/learning-from-twitter/). 

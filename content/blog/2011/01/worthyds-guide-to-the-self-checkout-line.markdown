@@ -7,9 +7,10 @@ link: http://worthyd.com/blog/2011/01/worthyds-guide-to-the-self-checkout-line/
 slug: worthyds-guide-to-the-self-checkout-line
 title: WorthyD's Guide to the Self-Checkout Line
 wordpress_id: 265
-category: Being A Geek
+category: Geek Stuff 
 tags:
 - Geek Blog
+- Rant
 ---
 
 I'm generally a "keep to myself person" when I'm in public. When I'm in a super market, I try to get out as soon as possible, avoid eye contact with other people and avoid small talk with cashiers.  The self-checkout line has been the greatest thing for me EVER! 

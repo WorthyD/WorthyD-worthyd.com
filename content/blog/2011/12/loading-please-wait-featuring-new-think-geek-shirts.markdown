@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/12/loading-please-wait-featuring-new-think-ge
 slug: loading-please-wait-featuring-new-think-geek-shirts
 title: Loading...... Please Wait.  Featuring new Think Geek Shirts!!!!
 wordpress_id: 364
-category: Geek Shirts
+category: Geek Stuff
 tags:
 - geek shirt
 - Think Geek

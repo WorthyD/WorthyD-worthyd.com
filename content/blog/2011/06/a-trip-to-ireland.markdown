@@ -13,7 +13,7 @@ link: http://worthyd.com/blog/2011/06/a-trip-to-ireland/
 slug: a-trip-to-ireland
 title: A trip to Ireland
 wordpress_id: 286
-category: Travel
+category: Geek Stuff 
 tags:
 - Castles
 - Ireland

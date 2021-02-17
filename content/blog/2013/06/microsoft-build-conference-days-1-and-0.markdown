@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/06/microsoft-build-conference-days-1-and-0/
 slug: microsoft-build-conference-days-1-and-0
 title: Microsoft Build Conference Days -1 and 0
 wordpress_id: 478
-categories:
-- General Updates
+category: Technology
 tags:
 - Build Conference
 - Javascript

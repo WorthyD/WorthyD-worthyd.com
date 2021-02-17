@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/10/lame-httpnever-text-info-click-jacking/
 slug: lame-httpnever-text-info-click-jacking
 title: Lame http://never-text.info/ click jacking
 wordpress_id: 136
-category: unlisted
+category: Technology
 tags:
 - Tech Blog
 ---

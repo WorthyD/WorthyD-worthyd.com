@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/03/mobile-website-methods-with-asp-net-mvc-pa
 slug: mobile-website-methods-with-asp-net-mvc-part-1-content-sites
 title: Mobile Website Methods with Asp.Net MVC. Part 1 - Content Sites
 wordpress_id: 542
-category: Quick Code Tips
+category: Technology
 tags:
 - Asp.net
 - jQuery
@@ -15,6 +15,7 @@ tags:
 - mobile
 - mvc
 - Tech Blog
+- Quick Code Tips
 ---
 
 I have a fair amount of experience building mobile sites. Mobile sites are essential now because so many people are using mobile phones and tablet devices to browse the internet.  Many sites don't have great mobile experience. They use flash, rely heavily on hover effects, or they have so much content that it takes forever for the page to load.

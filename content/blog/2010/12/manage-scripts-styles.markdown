@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/12/manage-scripts-styles/
 slug: manage-scripts-styles
 title: Easily Manage Many Javascript/CSS Files in Your .Net MVC Project
 wordpress_id: 540
-category: Quick Code Tips
+category: Technology
 tags:
 - .net
 - C#
@@ -16,6 +16,7 @@ tags:
 - mvc
 - visual studio
 - Tech Blog
+- Quick Code Tips
 ---
 
 I've worked on a few projects where we crammed all of our javascript into one file. This made navigation of the file a sheer nightmare.  Now, I use the [SmallSharpTools.com Packer](http://smallsharptools.com/Projects/Packer/) to cram all of my JS files into a single minified JS file. One of the last MVC project I worked on had 143 javascript files that were minified into a single one.  There is one frustrating thing about this. You must build your project every time you change javascript code. You can also retrofit these methods for CSS files.

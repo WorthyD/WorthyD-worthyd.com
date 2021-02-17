@@ -7,11 +7,12 @@ link: http://worthyd.com/blog/2010/10/ninite-com-easy-pc-setup/
 slug: ninite-com-easy-pc-setup
 title: Ninite.com- Easy PC Setup!
 wordpress_id: 129
-category: Cool Apps
+category: Technology
 tags:
 - install
 - pc setup
 - Tech Blog
+- Cool Apps
 ---
 
 I was fortunate enough to get a new laptop at work the past week.  I had a friend point me to [Ninite.com](http://ninite.com/).  Go to their site, select the apps you want on your PC, download their installer and run the installer after its done downloading.  

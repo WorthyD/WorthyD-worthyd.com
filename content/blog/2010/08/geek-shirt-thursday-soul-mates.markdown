@@ -7,11 +7,11 @@ link: http://worthyd.com/blog/2010/08/geek-shirt-thursday-soul-mates/
 slug: geek-shirt-thursday-soul-mates
 title: 'Geek Shirt Thursday: Soul Mates'
 wordpress_id: 111
-category: Geek Shirts
+category: Geek Stuff
 tags:
 - Lord of the Rings
-- shirt.woot.com
 - Geek Blog
+- Geek Shirts
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail.jpg) I've been a fan of Lord of the Rings since before the movies were announced. I was definitely excited when [Shirt.Woot.com](http://shirt.woot.com/blog/viewentry.aspx?id=12330) released this shirt.  I haven't seen many other LOTR shirts, but this one is definitely my favorite. I love seeing the purely evil Sauron and the Ring depicted as a small somewhat innocent creatures. 

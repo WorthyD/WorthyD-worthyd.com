@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/02/several-great-mobile-emulators-for-windows
 slug: several-great-mobile-emulators-for-windows-users
 title: Several Great Mobile Emulators for Windows Users
 wordpress_id: 178
-category: Mobile Technology
+category: Technology
 tags:
 - apps
 - mobile

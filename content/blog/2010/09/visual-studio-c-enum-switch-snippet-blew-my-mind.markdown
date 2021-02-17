@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/09/visual-studio-c-enum-switch-snippet-blew-m
 slug: visual-studio-c-enum-switch-snippet-blew-my-mind
 title: Visual Studio C# Enum Switch Snippet - Blew My Mind
 wordpress_id: 117
-category: Quick Code Tips
+category: 
 tags:
 - C#
 - Code Snippets
 - visual studio
 - Tech Blog
+- Quick Code Tips
 ---
 
 So I learned something TOTALLY COOL from a coworker today! I'm always excited about learning something new when it comes to coding.

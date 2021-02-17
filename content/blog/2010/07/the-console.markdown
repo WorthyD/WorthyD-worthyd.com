@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/07/the-console/
 slug: the-console
 title: 'My Favorite Javascript Tool: The Console'
 wordpress_id: 9
-category: Quick Code Tips
+category: Technology
 tags:
 - Debugging
 - Firebug
 - Javascript
 - Tech Blog
+- Quick Code Tips
 ---
 
 I've been a big fan of [Firebug](http://getfirebug.com/) for a really long time. It took me a while to learn how to fully utilize the console.  

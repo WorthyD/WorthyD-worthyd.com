@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/07/geek-shirt-thursday-think-geek-r2d2-scrap-
 slug: geek-shirt-thursday-think-geek-r2d2-scrap-metal
 title: Geek Shirt Thursday! Think Geek R2D2 Scrap Metal
 wordpress_id: 42
-category: Geek Shirts
+category: Geek Stuff
 tags:
 - Star Wars
 - Geek Blog

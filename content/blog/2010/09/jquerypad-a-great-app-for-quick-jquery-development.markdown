@@ -7,11 +7,12 @@ link: http://worthyd.com/blog/2010/09/jquerypad-a-great-app-for-quick-jquery-dev
 slug: jquerypad-a-great-app-for-quick-jquery-development
 title: jQueryPad - A Great App for Quick jQuery Development
 wordpress_id: 537
-category: Cool Apps
+category: Technology
 tags:
 - Javascript
 - jQuery
 - Tech Blog
+- Cool Apps
 ---
 
 jQuerypad allows you to quickly develop javascript/jQuery code without a bunch of database calls or heavy CSS slowing down page load. It's a great tool for experimenting or optimizing code. 

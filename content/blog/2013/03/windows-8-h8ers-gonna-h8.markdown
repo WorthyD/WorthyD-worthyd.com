@@ -7,8 +7,10 @@ link: http://worthyd.com/blog/2013/03/windows-8-h8ers-gonna-h8/
 slug: windows-8-h8ers-gonna-h8
 title: 'Windows 8: H8ers gonna H8'
 wordpress_id: 433
-categories:
-- Code Rant
+category: Technology
+tags:
+- Rant
+
 ---
 
 I've been running Windows 8 for several months now.  All I see on the net is a bunch of hate for it. I've been trying to read these with an open mind, but most of them are just ridiculous. Even I believed the "Every other OS is junk" theory.  I still feel that Vista wasn't great, but it wasn't nearly as bad as what people thought. It was awesome if you had a beefed up dual core PC.  Making fun of Microsoft products is far past beating a dead horse.  IE9 and 10 are awesome, but nobody knows that because they are too busy using Chrome or Firefox.  A lot of people don't like change either.  Windows 8 has a lot of changes, but I wouldn't say it's for the worse.  Anyway, I'm going to get off my soap box and go over some of my favorite Windows 8 features.

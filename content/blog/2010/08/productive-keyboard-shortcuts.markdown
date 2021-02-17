@@ -7,13 +7,14 @@ link: http://worthyd.com/blog/2010/08/productive-keyboard-shortcuts/
 slug: productive-keyboard-shortcuts
 title: Productive Keyboard Shortcuts
 wordpress_id: 22
-category: Quick Code Tips
+category: Technology
 tags:
 - firefox
 - keyboard short cuts
 - visual studio
 - windows 7
 - Tech Blog
+- Quick Code Tips
 ---
 
 Over the last year or so I've been looking for quick and easy ways to become more productive while coding. After using [WinSplit](http://worthyd.com/techblog/index.php/2010/07/winsplit/) for a little bit, I learned that keyboard shortcuts are great way to quickly increase productivity.

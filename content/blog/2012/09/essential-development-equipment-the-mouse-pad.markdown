@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2012/09/essential-development-equipment-the-mouse-
 slug: essential-development-equipment-the-mouse-pad
 title: 'Essential Development Equipment: The Mouse Pad'
 wordpress_id: 545
-category: Hardware
+category: Technology 
 tags:
 - hardware
 - life

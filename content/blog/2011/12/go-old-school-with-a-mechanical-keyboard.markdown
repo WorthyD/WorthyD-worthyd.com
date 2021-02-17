@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2011/12/go-old-school-with-a-mechanical-keyboard/
 slug: go-old-school-with-a-mechanical-keyboard
 title: Go old school with a mechanical keyboard!
 wordpress_id: 252
-category: Hardware
+category: Technology
 tags:
 - hardware
 - keyboards

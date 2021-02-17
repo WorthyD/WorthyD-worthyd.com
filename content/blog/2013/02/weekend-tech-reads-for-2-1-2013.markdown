@@ -7,8 +7,8 @@ link: http://worthyd.com/blog/2013/02/weekend-tech-reads-for-2-1-2013/
 slug: weekend-tech-reads-for-2-1-2013
 title: Weekend Tech Reads For 2-1-2013
 wordpress_id: 430
-categories:
-- Weekly Links
+category: Technology
+
 ---
 
 ### Asp.net / Asp.net MVC

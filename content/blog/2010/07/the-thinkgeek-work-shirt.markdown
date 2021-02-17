@@ -7,10 +7,11 @@ link: http://worthyd.com/blog/2010/07/the-thinkgeek-work-shirt/
 slug: the-thinkgeek-work-shirt
 title: The ThinkGeek Work Shirt
 wordpress_id: 5
-category: Geek Shirts
+category: Geek Stuff 
 tags:
 - Think Geek
 - Geek Blog
+- Geek Shirts
 ---
 
 I kinda have this thing going at work where I wear a geek and video game shirts.  I try to balance it to remain somewhat professional.  Thursdays are geek shirts and Fridays are video game shirts.  I'd say I almost have a following at work. 

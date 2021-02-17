@@ -7,11 +7,12 @@ link: http://worthyd.com/blog/2010/07/snippely-a-useful-app-for-the-forgetful/
 slug: snippely-a-useful-app-for-the-forgetful
 title: Snippely - A useful app for the forgetful
 wordpress_id: 25
-category: Cool Apps
+category: Technology 
 tags:
 - AIR
 - Code Snippets
 - Tech Blog
+- Cool Apps
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/07/snippely-150x150.png)](http://blog.worthyd.com/wp-content/uploads/2010/07/snippely.png)If you are like me, you dip your hands into too many programing languages.  Thankfully, there is an awesome app available that lets you store code snippets in groups.  That app is [Snippely](http://code.google.com/p/snippely/).  I'm a big fan of AIR apps and this is one of the best ones I've found.

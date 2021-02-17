@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2012/01/a-couple-tips-to-type-code-faster/
 slug: a-couple-tips-to-type-code-faster
 title: A Couple Tips to Type Code Faster
 wordpress_id: 543
-category: Quick Code Tips
+category: Technology
 tags:
 - code
 - Code Snippets
@@ -15,6 +15,7 @@ tags:
 - productivity
 - typing
 - Tech Blog
+- Quick Code Tips
 ---
 
 I'm not too embarrassed to say it, but I was looking at my fingers when I was typing until I was a senior in highschool.   I was sneaky with the keyboarding teacher.  Over the past year or so, I've really been trying hard to learn to type faster and more efficiently.

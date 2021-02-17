@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/09/great-books-with-terrible-movies/
 slug: great-books-with-terrible-movies
 title: Great Books With Terrible Movies
 wordpress_id: 231
-category: Books
+category: Geek Stuff
 tags:
 - Books
 - Harry Potter

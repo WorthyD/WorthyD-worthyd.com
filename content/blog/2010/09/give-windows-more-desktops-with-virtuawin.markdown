@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/09/give-windows-more-desktops-with-virtuawin/
 slug: give-windows-more-desktops-with-virtuawin
 title: Give Windows More Desktops with VirtuaWin
 wordpress_id: 539
-category: Cool Apps
+category: Technology
 tags:
 - productivity
 - virtual desktop
 - windows 7
 - Tech Blog
+- Cool Apps
 ---
 
 If you are within 30 feet of me at the office you know I'm grumpy when it comes to workspace.  I'm not super excited about moving away from my monitor to only work on my laptop screen.  The 1200x800 resolution feel really cramped with working inside of Visual Studio, Flash Professional, and several other IDEs that take up a lot of space on your screen.  There isn't much I can do about hardware so, I started looking for a software solution.

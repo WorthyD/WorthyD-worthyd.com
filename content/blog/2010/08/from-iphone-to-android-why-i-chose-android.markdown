@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/08/from-iphone-to-android-why-i-chose-android
 slug: from-iphone-to-android-why-i-chose-android
 title: 'From iPhone to Android: Why I Chose Android'
 wordpress_id: 82
-category: Mobile Technology
+category: Technology
 tags:
 - Android
 - iPhone

@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/06/microsoft-build-conference-day-1/
 slug: microsoft-build-conference-day-1
 title: Microsoft Build Conference Day 1
 wordpress_id: 482
-categories:
-- General Updates
+category: Technology
 tags:
 - Build Conference
 - windows 8

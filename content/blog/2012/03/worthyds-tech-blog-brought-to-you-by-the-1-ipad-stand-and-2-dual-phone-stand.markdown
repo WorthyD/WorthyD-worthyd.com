@@ -8,9 +8,10 @@ slug: worthyds-tech-blog-brought-to-you-by-the-1-ipad-stand-and-2-dual-phone-sta
 title: WorthyD's Tech Blog, Brought To You By The $1 iPad Stand And $2 Dual Phone
   Stand
 wordpress_id: 297
-category: Hardware
+category: Technology 
 tags:
 - Tech Blog
+- Hardware
 ---
 
 Hanging onto my childhood toys was a good idea.

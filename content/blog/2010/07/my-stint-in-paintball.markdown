@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/07/my-stint-in-paintball/
 slug: my-stint-in-paintball
 title: My Stint In Paintball
 wordpress_id: 65
-category: Being A Geek
+category: Geek Stuff 
 tags:
 - memory lane
 - paintball

@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2010/09/my-first-video-game-band-the-minibosses/
 slug: my-first-video-game-band-the-minibosses
 title: My First Video Game Band â€“ The Minibosses
 wordpress_id: 183
-category: Music
+category: Geek Stuff
 tags:
 - memory lane
 - Music

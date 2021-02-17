@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import config from '../../data/SiteConfig';
 import { Link } from 'gatsby';
+import Sidebar from '../components/Sidebar';
 
 import '../styles/_base.scss';
 
@@ -43,7 +44,9 @@ export default function MainLayout({ children }) {
           </Link>
         </nav>
         <main class="page-main">{children}</main>
-        <aside class="page-sidebar">Aside</aside>
+        <aside class="page-sidebar">
+          <Sidebar></Sidebar>
+        </aside>
       </div>
       <footer class="page-footer">
         <Footer></Footer>

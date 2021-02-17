@@ -7,12 +7,13 @@ link: http://worthyd.com/blog/2010/09/equipment-counts/
 slug: equipment-counts
 title: Equipment Counts! A lesson I keep learning!
 wordpress_id: 189
-category: Being A Geek
+category: Technology
 tags:
 - paintball
 - quality
 - razer gaming
 - Geek Blog
+- Being A Geek
 ---
 
 I consider myself very fortunate that my parents raised me the way they did.  I had to pay for anything "extra" after I was tall enough to push a lawn mower.  This included video games, paintball, and camping stuff.   I learned when I was 8 that quality counts.  I used my allowance to buy a hand saw from Walmart.  My family has always been big do it yourselfers and carpenters and I was ready to have my own tools.  I purchased a multi function saw that you could swap the blades for four dollars.  Now, when your allowance for chores is only two dollars a week, four dollars was a good amount of money.  
