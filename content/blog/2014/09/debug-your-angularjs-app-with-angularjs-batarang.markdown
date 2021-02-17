@@ -7,10 +7,10 @@ link: http://worthyd.com/blog/2014/09/debug-your-angularjs-app-with-angularjs-ba
 slug: debug-your-angularjs-app-with-angularjs-batarang
 title: Debug your AngularJS app with AngularJS Batarang
 wordpress_id: 571
-categories:
+category: Technology
+tags:
 - Frontend Development
 - Quick Code Tips
-tags:
 - angularjs
 - front end performance
 - Javascript

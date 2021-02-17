@@ -7,10 +7,10 @@ link: http://worthyd.com/blog/2013/08/worthyds-css-guide-for-rookie-css-devs-and
 slug: worthyds-css-guide-for-rookie-css-devs-and-backend-devs
 title: WorthyD's CSS guide for Rookie CSS Devs and Backend Devs
 wordpress_id: 516
-categories:
+category: Technology
+tags:
 - Frontend Development
 - Quick Code Tips
-tags:
 - best practices
 - css
 - front end performance

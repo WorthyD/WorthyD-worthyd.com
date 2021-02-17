@@ -7,7 +7,8 @@ link: http://worthyd.com/blog/2015/05/how-to-be-an-effective-remote-developer/
 slug: how-to-be-an-effective-remote-developer
 title: How to be an effective remote developer
 wordpress_id: 678
-categories:
+category: Technology
+tags:
 - Productive Developer
 - Remote Work
 ---
@@ -20,7 +21,7 @@ Let people know your schedule if you don't work the same hours as everyone else.
  
 **Make your presence known.** It's easy to forget about people you don't see you every day.  Your work is just as important as someone sitting in another office and it's up to you to make sure they know that.  Your coworkers may not even know your specific skill sets because they can't look over your should every once in a while.  Chat up other employees when you have been thinking about something complicated or have a good idea.  There is a developer that regularly hits me up whenever he has a new idea about how to utilize Grunt in our projects.  This lets me know he is motivated and interested in new tech.
 
-**Video chat whenever possible.**  We practice continuous performance reviews and we have regular check-ins with our bosses.  Video chat if you have to do these remotely.  **This will help them know they have your attention and vise versa. **There is nothing more discouraging than to be on a call with someone about your future and you hear them pounding on their keyboard the whole time hearing "Mmmmhmmmm".  Video chat also lets people know your work environment and what you look like.  I worked with someone out of a different office for a year without knowing what they looked like.  Their Facebook picture was a permanent throw back Thursday picture.
+**Video chat whenever possible.**  We practice continuous performance reviews and we have regular check-ins with our bosses.  Video chat if you have to do these remotely.  **This will help them know they have your attention and vise versa.** There is nothing more discouraging than to be on a call with someone about your future and you hear them pounding on their keyboard the whole time hearing "Mmmmhmmmm".  Video chat also lets people know your work environment and what you look like.  I worked with someone out of a different office for a year without knowing what they looked like.  Their Facebook picture was a permanent throw back Thursday picture.
 
 **Up the discipline in your work.**  Make more specific commit messages, code comments and  notes in your issue trackers.  Your coworkers can't just turn to their right and ask you a quick question about simple stuff.  A little extra work can go a long way.
 

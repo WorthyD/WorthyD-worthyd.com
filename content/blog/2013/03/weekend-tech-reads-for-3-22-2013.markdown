@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2013/03/weekend-tech-reads-for-3-22-2013/
 slug: weekend-tech-reads-for-3-22-2013
 title: Weekend Tech Reads For 3-22-2013
 wordpress_id: 460
-categories:
-- Weekly Links
+category: Technology
 tags:
 - best practices
 - front end performance

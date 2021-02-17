@@ -8,9 +8,10 @@ slug: i-am-a-web-developer
 title: I am a Web Developer
 wordpress_id: 556
 categories:
-- Code Rant
-- General Updates
+category: Technology
 tags:
+- Rant
+- General Updates
 - web development
 ---
 

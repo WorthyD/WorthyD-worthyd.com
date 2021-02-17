@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2014/11/ten-years-of-halo2/
 slug: ten-years-of-halo2
 title: Ten years of Halo 2
 wordpress_id: 605
-categories:
-- Gaming
+category: Gaming 
 tags:
 - FPS
 - Halo

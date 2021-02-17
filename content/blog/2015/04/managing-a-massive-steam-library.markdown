@@ -7,6 +7,7 @@ link: http://worthyd.com/blog/2015/04/managing-a-massive-steam-library/
 slug: managing-a-massive-steam-library
 title: Managing a massive Steam Library
 wordpress_id: 642
+category: Technology
 ---
 
 I have a massive Steam library.  I'm not rich or anything, but I purchase a lot of [Humble Bundles](https://www.humblebundle.com/) and I'm a sucker for 50 cent games on sale.  I've acquired over 300 games/DLCs and it's really challenging to keep everything organized in steam categories.  I spent a long time with two windows open trying to categorize based on tags, genre and rating.  I recently went through and setup all controller supported into it's own category. I switched computers and Steam's cloud system overwrote it.  I eventually gave up and just let things go wild in my library.

@@ -7,9 +7,9 @@ link: http://worthyd.com/blog/2014/08/so-you-want-to-program-for-a-living/
 slug: so-you-want-to-program-for-a-living
 title: So you want to program for a living?
 wordpress_id: 567
-categories:
-- Code Rant
+category: Technology
 tags:
+- Rant
 - code
 - learning to code
 ---

@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2015/01/improving-my-console-skills/
 slug: improving-my-console-skills
 title: Improving my console skills
 wordpress_id: 613
-categories:
-- General Code Stuff
+category: Technology
 tags:
 - console
 - powershell

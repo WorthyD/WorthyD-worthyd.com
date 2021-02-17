@@ -7,9 +7,9 @@ link: http://worthyd.com/blog/2015/04/confessions-of-a-full-stack-developer/
 slug: confessions-of-a-full-stack-developer
 title: Confessions of a Full Stack Developer
 wordpress_id: 645
-categories:
-- Code Rant
+category: Technology
 tags:
+- Rant
 - web development
 ---
 
@@ -35,7 +35,7 @@ tags:
 
 	
 
-  * I can't show off the vast majority of the projects I've worked on due to NDAs.  I've been apart of developing and launching around 75 products. ** I've worked on around 125 if you include projects I've done maintenance or consulted on** in the last 7 years.  I can maybe talk about 15 of them.  I feel like this puts me at a disadvantage in the job market, but I'm not looking for a job so it's not an big deal.
+  * I can't show off the vast majority of the projects I've worked on due to NDAs.  I've been apart of developing and launching around 75 products. **I've worked on around 125 if you include projects I've done maintenance or consulted on** in the last 7 years.  I can maybe talk about 15 of them.  I feel like this puts me at a disadvantage in the job market, but I'm not looking for a job so it's not an big deal.
 
 	
   * **I want to tell people that bash IE to just "Shut the hell up".**  It's beating the dead horse with his own fossilized bones.  We all know IE 6, 7, and 8 are challenging to develop for. I think most of these people are too high on their Mac horse to look and see how much effort Microsoft has put in the newer versions of the browsers.
@@ -62,6 +62,6 @@ tags:
   * I've haven't found responsive web design challenging or interesting in several years.  I'm sure some people would say "You're not doing it right".  I've looked at a lot of sites, gone through source code from frameworks, and read many articles.  **I'm confident in my skills and capabilities.**
 
         
-  * I judge you based on whether you use a** GUI or command line** for tasks.
+  * I judge you based on whether you use a **GUI or command line** for tasks.
 
 

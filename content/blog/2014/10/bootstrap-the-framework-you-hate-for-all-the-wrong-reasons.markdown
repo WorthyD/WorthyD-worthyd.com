@@ -8,14 +8,17 @@ slug: bootstrap-the-framework-you-hate-for-all-the-wrong-reasons
 title: Bootstrap - The framework you hate for all the wrong reasons.
 wordpress_id: 580
 categories:
-- Code Rant
-- Frontend Development
+category: Technology
 tags:
+- Frontend Development
+- Rant
 - bootstrap
 - efficiency
 - front end development
 - web development
 ---
+
+_Note: I got chewed out at work over this post.  It was worth it IMHO_
 
 _Disclaimer: The thoughts in this article are my own and do not represent the opinions of my employer past, present or future._
 

@@ -7,15 +7,13 @@ link: http://worthyd.com/blog/2016/04/npm-nonsense-and-open-source-grumbling/
 slug: npm-nonsense-and-open-source-grumbling
 title: NPM Nonsense and Open Source Grumbling
 wordpress_id: 865
-categories:
-- Code Rant
+category: Technology
 tags:
+- Rant
 - industrly
 - nodejs
 - open source
 ---
-
-[ReviewDisclaimer]
 
 The dust has already settled on this whole debacle and I think I'm ready to chime in.  If you happened to be away from the internet on March 22nd and 23rd, a developer unpublished a fairly popular node package.  
 

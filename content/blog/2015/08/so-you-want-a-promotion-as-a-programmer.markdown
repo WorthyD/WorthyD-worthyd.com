@@ -7,14 +7,12 @@ link: http://worthyd.com/blog/2015/08/so-you-want-a-promotion-as-a-programmer/
 slug: so-you-want-a-promotion-as-a-programmer
 title: So you want a promotion as a programmer?
 wordpress_id: 684
-categories:
-- Being A Developer
+category: Technology
 tags:
 - being a badass
 - web development
 ---
 
-[ReviewDisclaimer]
 
 I've been very blessed at my current job.  I started in the lowest development job title and I'm currently in the highest non-management development position.  I've received 3 promotions over the span of the 7 years I've been with the company. Getting a promotion without job hopping can be really challenging.  I think there is much more respect to be earned by staying at a single  company working your way through the ranks.  Here is a collection of helpful tips I've seen through my own promotions and other people's promotions.  Keep in mind that all companies are different and these may not apply to every job.
 

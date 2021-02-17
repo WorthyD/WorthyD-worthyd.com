@@ -7,8 +7,7 @@ link: http://worthyd.com/blog/2015/01/2014-in-review/
 slug: 2014-in-review
 title: 2014 in Review
 wordpress_id: 612
-categories:
-- General Updates
+category: Technology
 ---
 
 We're a month into 2015 and I haven't given much time to look back at 2014.  

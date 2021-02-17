@@ -7,9 +7,9 @@ link: http://worthyd.com/blog/2015/04/i-was-quoted-on-nimbletext-com/
 slug: i-was-quoted-on-nimbletext-com
 title: I was quoted on NimbleText.com!
 wordpress_id: 655
-categories:
-- Cool Apps
+category: Technology
 tags:
+- Cool Apps
 - productivity
 - web development
 ---

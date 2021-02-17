@@ -7,10 +7,10 @@ link: http://worthyd.com/blog/2013/03/minification-made-easy-with-vs-web-essenti
 slug: minification-made-easy-with-vs-web-essentials
 title: Minification Made Easy with VS Web Essentials for Visual Studio 2012
 wordpress_id: 463
-categories:
+category: Technology
+tags:
 - Frontend Development
 - Quick Code Tips
-tags:
 - css
 - front end performance
 - Javascript

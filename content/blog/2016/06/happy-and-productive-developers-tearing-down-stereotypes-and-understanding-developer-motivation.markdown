@@ -8,7 +8,8 @@ slug: happy-and-productive-developers-tearing-down-stereotypes-and-understanding
 title: 'Happy and Productive Developers: Tearing Down Stereotypes and Understanding
   Developer Motivation'
 wordpress_id: 1084
-categories:
+category: Technology
+tags:
 - Being A Developer
 ---
 

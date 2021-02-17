@@ -204,6 +204,7 @@ exports.createPages = async ({ graphql, actions }) => {
     });
     const pageCount = Math.ceil(categoryPosts.length / postsPerPage);
     const basePath = `/blog/categories/${_.kebabCase(category)}/`;
+    console.log(basePath);
 
     [...Array(pageCount)].forEach((_val, pageNum) => {
       createPage({

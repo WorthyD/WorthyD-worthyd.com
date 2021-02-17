@@ -7,7 +7,8 @@ link: http://worthyd.com/blog/2014/02/my-psd-to-html-youtube-series/
 slug: my-psd-to-html-youtube-series
 title: My PSD to HTML YouTube Series
 wordpress_id: 550
-categories:
+category: Technology
+tags:
 - Frontend Development
 ---
 

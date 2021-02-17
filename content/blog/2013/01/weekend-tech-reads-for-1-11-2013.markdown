@@ -7,7 +7,7 @@ link: http://worthyd.com/blog/2013/01/weekend-tech-reads-for-1-11-2013/
 slug: weekend-tech-reads-for-1-11-2013
 title: Weekend Tech Reads For 1-11-2013
 wordpress_id: 387
-category: Weekly Links
+category: Technology 
 tags:
 - Asp.net
 - css

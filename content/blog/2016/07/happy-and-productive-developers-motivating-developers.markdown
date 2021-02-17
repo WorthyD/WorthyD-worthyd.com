@@ -7,7 +7,8 @@ link: http://worthyd.com/blog/2016/07/happy-and-productive-developers-motivating
 slug: happy-and-productive-developers-motivating-developers
 title: 'Happy and Productive Developers: Motivating Developers'
 wordpress_id: 1096
-categories:
+category: Technology
+tags:
 - Being A Developer
 ---
 

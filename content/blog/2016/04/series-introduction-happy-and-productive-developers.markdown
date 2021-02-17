@@ -7,9 +7,9 @@ link: http://worthyd.com/blog/2016/04/series-introduction-happy-and-productive-d
 slug: series-introduction-happy-and-productive-developers
 title: 'Series Introduction: Happy and Productive Developers'
 wordpress_id: 1070
-categories:
-- Being A Developer
+category: Technology
 tags:
+- Being A Developer
 - development
 - productivity
 ---
