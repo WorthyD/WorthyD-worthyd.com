@@ -24,6 +24,7 @@ tags:
 - desk
 - woodworking
 - Geek Blog
+- Favorite
 ---
 
 Space is running out in our house. We're looking to clean out one of our bed rooms.  Amanda had her craft room and I had my office. I read an [article](http://www.elijahmanor.com/2011/01/transition-to-working-from-home.html) recently from [Elijah Manor](http://www.elijahmanor.com/), a developer I follow on twitter, about how he moved his office into his closet.  I got a little inspired.  I probably have A.D.D. and being in a smaller space would probably do me some good.

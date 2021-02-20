@@ -18,6 +18,7 @@ tags:
 - Castles
 - Ireland
 - Geek Blog
+- Favorite
 ---
 
 My wife and I just recently got back from a vacation in Ireland. It was a pretty amazing experience.  Our last big vacation was to Jamaica for our honeymoon.  We flew into Shannon, drove the southern coast, and flew out of Dublin.  We spent nights in Tralee, Waterville, Kinsale, Kilkenny, and Dublin.  We had a day long layover in New York where we did some fun stuff too. A trip this long and traveling that distance is too much for a single post so I'll give the a major overview.
