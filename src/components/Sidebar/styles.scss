@@ -1,7 +1,10 @@
 .sidebar {
   &__social-links {
     font-size: 2rem;
-    display:flex;
+    display: flex;
     justify-content: space-around;
+  }
+  nav a {
+    display: block;
   }
 }

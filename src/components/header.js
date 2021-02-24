@@ -40,6 +40,7 @@ export default function Header(props) {
             <a href="/">Home</a>
             <a href="/resume">Resume</a>
             <a href="/blog">Blog</a>
+            <a href="/uses">Uses</a>
           </nav>
         </div>
       </header>
