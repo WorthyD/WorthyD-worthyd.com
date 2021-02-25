@@ -17,7 +17,7 @@ const config = {
   userName: "WorthyD", // Username to display in the author segment.
   userEmail: "", // Email used for RSS feed's author segment
   userTwitter: "WorthyD", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "North Wesst Arkansas", // User location to display in the author segment.
+  userLocation: "North West Arkansas", // User location to display in the author segment.
   userAvatar: "http://www.gravatar.com/avatar/67b727175a880f13e6240c856764670e.png", // User avatar to display in the author segment.
   userDescription:
     "", // User description to display in the author segment.

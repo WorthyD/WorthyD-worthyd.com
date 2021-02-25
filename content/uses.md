@@ -2,7 +2,7 @@
 id: 99999
 title: Uses
 slug: Uses
-date: 2020-01-01
+date: 2021-01-01
 tags:
 ---
 
@@ -52,6 +52,7 @@ I run a home NAS for storage, as a media server, and remote gaming system.
 ### Keyboards
 
 - **Home Keyboard** - [POK3R RGB 60%](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3527) - Brown Switches
+- **Home Keyboard Key Caps** - [HyperX Pudding Keycaps](https://www.amazon.com/gp/product/B087QTWCTQ) 
 - **Work Keyboard** - [Code Keyboard 60%](https://codekeyboards.com/) - Brown Switches
 - **Secondary Workstation Keyboard** - [CM Storm Quickfire Stealth](https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-stealth/) - Blue Switches
 

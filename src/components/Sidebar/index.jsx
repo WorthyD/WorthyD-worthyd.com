@@ -33,16 +33,29 @@ function Sidebar({}) {
         </p>
       </div>
       <div>
+        <h4>Categories</h4>
         <nav>
-          <Link key="listing-page-technology" to="/blog/categories/technology/">
-            Technology
-          </Link>
-          <Link key="listing-page-gaming" to="/blog/categories/gaming/">
-            Gaming
-          </Link>
-          <Link key="listing-page-geek-stuff" to="/blog/categories/geek-stuff/">
-            Geek Stuff
-          </Link>
+          <div>
+            <Link
+              key="listing-page-technology"
+              to="/blog/categories/technology/"
+            >
+              Technology
+            </Link>
+          </div>
+          <div>
+            <Link key="listing-page-gaming" to="/blog/categories/gaming/">
+              Gaming
+            </Link>
+          </div>
+          <div>
+            <Link
+              key="listing-page-geek-stuff"
+              to="/blog/categories/geek-stuff/"
+            >
+              Geek Stuff
+            </Link>
+          </div>
         </nav>
       </div>
     </div>
