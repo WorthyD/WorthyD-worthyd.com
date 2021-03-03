@@ -1,16 +1,16 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { graphql } from "gatsby";
-import Layout from "../layout";
-import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
-import PostTags from "../components/PostTags/PostTags";
-import SocialLinks from "../components/SocialLinks/SocialLinks";
-import SEO from "../components/SEO/SEO";
-import Footer from "../components/Footer/Footer";
-import config from "../../data/SiteConfig";
-import "./b16-tomorrow-dark.css";
-import "./post.scss";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { graphql } from 'gatsby';
+import Layout from '../layout';
+import UserInfo from '../components/UserInfo/UserInfo';
+import Disqus from '../components/Disqus/Disqus';
+import PostTags from '../components/PostTags/PostTags';
+import SocialLinks from '../components/SocialLinks/SocialLinks';
+import SEO from '../components/SEO/SEO';
+import Footer from '../components/Footer/Footer';
+import config from '../../data/SiteConfig';
+import './b16-tomorrow-dark.css';
+import './post.scss';
 
 export default function PostTemplate({ data, pageContext }) {
   const { slug } = pageContext;
@@ -28,7 +28,10 @@ export default function PostTemplate({ data, pageContext }) {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div className="post-container">
-          <h1>{post.title}</h1>
+          <header>
+            <h1>{post.title}</h1>
+            <small>{post.date}</small>
+          </header>
           {/* eslint-disable-next-line react/no-danger */}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
@@ -54,7 +57,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         cover
-        date
+        date(formatString: "MMMM DD, YYYY")
         category
         tags
       }

@@ -1,15 +1,15 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
-import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
-import config from "../../data/SiteConfig";
-import * as _ from 'lodash'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import { graphql, Link } from 'gatsby';
+import Layout from '../layout';
+import PostListing from '../components/PostListing/PostListing';
+import config from '../../data/SiteConfig';
+import * as _ from 'lodash';
 
 export default function TagTemplate({ pageContext, data }) {
   const { tag } = pageContext;
   const postEdges = data.allMarkdownRemark.edges;
- function renderPaging() {
+  function renderPaging() {
     const { currentPageNum, pageCount } = pageContext;
     const basePath = `/blog/tags/${_.kebabCase(tag)}/`;
     const prevPage =
@@ -41,6 +41,7 @@ export default function TagTemplate({ pageContext, data }) {
     <Layout>
       <div className="tag-container">
         <Helmet title={`Posts tagged as "${tag}" | ${config.siteTitle}`} />
+        <header>Posts tagged as {tag}</header>
         <PostListing postEdges={postEdges} />
         {renderPaging()}
       </div>
@@ -70,7 +71,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
