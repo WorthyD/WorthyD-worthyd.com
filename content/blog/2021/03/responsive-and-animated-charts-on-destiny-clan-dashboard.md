@@ -121,3 +121,5 @@ bars
 ```
 
 I didn't think about it much, but the anchor of the bar starts from the top and not the bottom. Setting the `y` position to `0` will make the chart grow up from our bottom x axis instead of grown down from the top x axis.
+
+You can checkout my project at [https://destinyclandashboard.com/](https://destinyclandashboard.com/) or checkout my source code at [https://github.com/WorthyD/d2-clandashboard](https://github.com/WorthyD/d2-clandashboard)
