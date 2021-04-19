@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React, { Fragment } from 'react';
 
 export default function HomeBody(props) {
   return (
@@ -23,15 +23,18 @@ export default function HomeBody(props) {
         </div>
         <div className="callout">
           <i className="fa fa-rss" aria-hidden="true"></i>
-          <h2>Tech Blog</h2>
+          <h2>Tech and Geek Blog</h2>
           <p>
-            I've enjoyed blogging since 2003. I've be been tech and geek
-            blogging since around 2010.
+            I've enjoyed blogging since 2003. I've dug up some of my old posts
+            and converted them to this format. Enjoy my college cringe posts.
           </p>
           <p>
-            I haven't had time to write in a long time and I hope to un-archive
-            my old posts.
+            Right now, I'm mainly blogging about tech, wood working and video
+            game stuff.
           </p>
+          <a className="btn btn-default" href="/blog">
+            Blog
+          </a>
         </div>
         <div className="callout">
           <i className="fab fa-youtube" aria-hidden="true"></i>
@@ -48,25 +51,35 @@ export default function HomeBody(props) {
             YouTube Channel
           </a>
         </div>
-        <div className="callout">
+        {/* <div className="callout">
           <i className="fas fa-microphone"></i>
           <h2>Speaking Engagements</h2>
           <p>
             I occasionally step out of my comfort zone and speak at local tech
-            conferences.{" "}
+            conferences.{' '}
           </p>
           <p>
             I'm always looking for opportunities meet new people and engage in
             meaningful conversations.
           </p>
-          {/* <!-- <a className="btn btn-default" href="">YouTube Channel</a> --> */}
+        </div> */}
+        <div className="callout">
+          <i className="fas fa-microphone"></i>
+          <h2>Gear</h2>
+          <p>
+            I get a lot of questions about what gear I use for gaming and
+            working from home. I put all my gear into a post for easy reference.
+          </p>
+          <a className="btn btn-default" href="/uses">
+            Gear
+          </a>
         </div>
         <div className="callout">
           <i className="fas fa-chart-line"></i>
           <h2>D2 Clan Dashboard</h2>
           <p>
-            I've been working on a dashboard for managing Destiny 2 Clans.
-            This is my current passion project.
+            I've been working on a dashboard for managing Destiny 2 Clans. This
+            is my current passion project.
           </p>
           <a
             className="btn btn-default"
@@ -78,9 +91,9 @@ export default function HomeBody(props) {
             className="btn btn-default"
             href="http://destinyclandashboard.com/"
           >
-           Website 
+            Website
           </a>
- 
+
           {/* <!-- <p>I really enjoy earning achievements when gaming. They encourage challenges in game and introduce new ways
                     to play.</p>
                 <p> I couldn't find a good solution for tracking achievements in Steam games so I wrote a Windows Universal App.
@@ -177,5 +190,5 @@ export default function HomeBody(props) {
         </div>
       </section>
     </>
-  )
+  );
 }

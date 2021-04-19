@@ -46,6 +46,7 @@ export default function CategoryTemplate({ pageContext, data }) {
         <Helmet
           title={`Posts in category "${category}" | ${config.siteTitle}`}
         />
+        <header>Posts in category {category}</header>
         <PostListing postEdges={postEdges} />
         {renderPaging()}
       </div>
@@ -75,7 +76,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

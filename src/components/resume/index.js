@@ -1,4 +1,4 @@
-import React, { Fragment } from "React"
+import React, { Fragment } from "react"
 import "./styles.scss"
 
 export default function ResumeComponent(props) {
