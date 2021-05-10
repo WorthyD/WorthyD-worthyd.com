@@ -1,6 +1,6 @@
-@import "_variables";
+@import '_variables';
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
@@ -22,7 +22,7 @@ h2 {
 
 a {
   color: $third;
-  transition: color .5s;
+  transition: color 0.5s;
 
   &:hover {
     color: lighten($third, 10);
@@ -80,5 +80,11 @@ a {
         border-bottom-color: $white-text;
       }
     }
+  }
+}
+
+figure {
+  figcaption {
+    text-align: center;
   }
 }
