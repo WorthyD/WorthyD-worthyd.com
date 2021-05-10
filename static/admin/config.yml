@@ -1,6 +1,6 @@
 backend:
   name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: main # Branch to update
+  branch: drafts # Branch to update
   repo: worthyd/worthyd-worthyd.com # Repo for pushing new commits. Make sure to replace with your repo!
 
 media_folder: static/assets
