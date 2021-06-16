@@ -1,6 +1,6 @@
 ---
 title: Sharing Angular Components with Different Data Sources
-date: 2021-03-07T11:39:35.377Z
+date: 2021-06-15T11:39:35.377Z
 slug: sharing-components
 category: Technology
 tags:
