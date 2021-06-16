@@ -7,26 +7,28 @@ tags:
   - destiny-clan-dashboard
 ---
 
-My Destiny clan admins use my [Destiny Clan Dashboard](https://destinyclandashboard.com) a lot to manage and view the current members. They needed a feature that would allow them to view prospective members. I really liked the idea of having separate page for members outside of your current clan. There was one big problem approaching this. All data is tied to an IndexedDB that is named off the clan. All data for members get stored there so that we minimize requests and keep speed high. Everything is batched and it cleans up data on its own if a member leaves the clan.
+My Destiny clan admins use my [Destiny Clan Dashboard](https://destinyclandashboard.com) a lot to manage and view the current members. They needed a feature that would allow them to view prospective members. I really liked the idea of having separate page for members outside of your current clan. There was one big problem approaching this. All data is tied to an IndexedDB that is named off the clan. All data for members get stored there so that we minimize requests and keep page performance high.  A clean clan page makes 1000+ calls.  We rely pretty heavily on our caching layer... almost too much.
 
-I decided that I can just bite the bullet and not have any caching on prospective members. We don't want to risk a bloated extra DB. The challenge ahead was how to I avoid duplicate HTML Components and how do I point them to different data sources.
+I decided I needed to forgo any caching on this new player screen. Trying to manage a temporary DB for searched players would be too complicated.
 
-Our end product should look something like this:
+I envisioned having a set of shared components that could be used in both places.  Update code in one place, and the other gets updated too. The goal file structure would look something like this.
 
-```ts
-
+```md
 src
 ├── clan 
-│   ├── begin-with-the-crazy-ideas.textile
-│   └── on-simplicity-in-technology.markdown
+│   └── player-details
+│       ├── player-details.module.ts
+│       ├── player-details-routes.module.ts
+│       └── player.service.ts
 ├── player
-│   ├── footer.html
-│   └── header.html
-└── shared
-     ├── default.html
-     └── post.html
-
-
+│   ├── player.module.ts
+│   ├── player-routes.module.ts
+│   └── player.service.ts
+└── shared/components
+     ├── player-activity/player-activity.component.ts
+     ├── player-details/player-details.component.ts
+     ├── player-overview/player-overview.component.ts
+     └── player.service.ts 
 ```
 
 I started by moving our existing player based components into a `shared` folder. The player details section currently only has 3 components.
