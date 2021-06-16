@@ -20,6 +20,7 @@ export default function PostTemplate({ data, pageContext }) {
     post.id = slug;
   }
 
+
   return (
     <Layout>
       <div>
@@ -32,6 +33,16 @@ export default function PostTemplate({ data, pageContext }) {
             <h1>{post.title}</h1>
             <small>{post.date}</small>
           </header>
+          {post.tags &&
+           post.tags.indexOf('livejournal') > -1 &&
+           <div className="livejournal">
+             <h4>Warning: Here be dragons</h4>
+             <p>This is an archived post from my Livejournal account. Take everything in the post with a 5 pound grain of salt. </p>
+           </div>
+          }
+
+
+
           {/* eslint-disable-next-line react/no-danger */}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
