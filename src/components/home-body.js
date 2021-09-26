@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, Link } from 'react';
 
 export default function HomeBody(props) {
   return (
@@ -32,9 +32,16 @@ export default function HomeBody(props) {
             Right now, I'm mainly blogging about tech, wood working and video
             game stuff.
           </p>
-          <a className="btn btn-default" href="/blog">
+          {/* <a className="btn btn-default" href="/blog">
             Blog
-          </a>
+          </a> */}
+          <a href="/blog/categories/technology/">
+            Technology
+          </a><br />
+          <a  href="/blog/categories/gaming/">
+            Gaming
+          </a> <br />
+          <a href="/blog/categories/geek-stuff/">Geek Stuff</a>
         </div>
         <div className="callout">
           <i className="fab fa-youtube" aria-hidden="true"></i>
