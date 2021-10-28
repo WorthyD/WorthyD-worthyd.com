@@ -12,7 +12,6 @@ tags:
 - productivity
 - virtual desktop
 - windows 7
-- Tech Blog
 - Cool Apps
 ---
 

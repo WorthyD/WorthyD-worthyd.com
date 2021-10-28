@@ -9,11 +9,9 @@ title: Productive Keyboard Shortcuts
 wordpress_id: 22
 category: Technology
 tags:
-- firefox
 - keyboard short cuts
 - visual studio
 - windows 7
-- Tech Blog
 - Quick Code Tips
 ---
 

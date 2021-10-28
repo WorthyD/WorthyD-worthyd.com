@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
+// import { GatsbyImage } from 'gatsby-plugin-image';
 function PostListing({ postEdges }) {
   const postList = [];
   postEdges.forEach((postEdge) => {
@@ -13,6 +13,7 @@ function PostListing({ postEdges }) {
       excerpt: postEdge.node.excerpt,
       timeToRead: postEdge.node.timeToRead,
     });
+    console.log(postEdge.node.frontmatter.cover);
   });
 
   return (
@@ -22,6 +23,11 @@ function PostListing({ postEdges }) {
 
         postList.map((post) => (
           <article itemScope itemType="http://schema.org/Article">
+            <GatsbyImage
+              alt={cover?.altText ?? title}
+              image={cover?.gatsbyImageData}
+              loading={eager ? 'eager' : 'lazy'}
+            />
             <header>
               <h2>
                 <Link to={post.path} key={post.title}>

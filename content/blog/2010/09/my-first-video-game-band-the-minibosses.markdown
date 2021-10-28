@@ -9,12 +9,10 @@ title: My First Video Game Band â€“ The Minibosses
 wordpress_id: 183
 category: Geek Stuff
 tags:
-- memory lane
 - Music
 - nintendo
 - retro games
 - video games
-- Geek Blog
 ---
 
 Nothing makes me warm and fuzzy inside more than revisiting my childhood..... minus elementary school..... and middle school... and while we are at it jr high and highschool.   OK, so lets just say video games. I loooooved playing video games when I was a kid. I still consider myself a kid at heart, but kid kid. 

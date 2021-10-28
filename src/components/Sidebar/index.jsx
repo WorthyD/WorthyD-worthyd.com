@@ -50,6 +50,15 @@ function Sidebar({}) {
           </div>
           <div>
             <Link
+              key="listing-page-woodworking"
+              to="/blog/categories/woodworking/"
+            >
+              Woodworking
+            </Link>
+          </div>
+ 
+          <div>
+            <Link
               key="listing-page-geek-stuff"
               to="/blog/categories/geek-stuff/"
             >

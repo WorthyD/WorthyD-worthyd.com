@@ -9,7 +9,6 @@ title: WorthyD's Guide to the Self-Checkout Line
 wordpress_id: 265
 category: Geek Stuff 
 tags:
-- Geek Blog
 - Rant
 ---
 

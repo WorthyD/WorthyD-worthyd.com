@@ -9,10 +9,7 @@ title: 'My Favorite Javascript Tool: The Console'
 wordpress_id: 9
 category: Technology
 tags:
-- Debugging
-- Firebug
 - Javascript
-- Tech Blog
 - Quick Code Tips
 ---
 

@@ -5,19 +5,60 @@ backend:
 
 media_folder: static/assets
 public_folder: assets
+local_backend: true
 
 collections:
   - name: blog
-    label: "Post"
-    folder: "content/blog"
-    path: "{{year}}/{{month}}/{{slug}}"
+    label: 'Post'
+    folder: 'content/blog'
+    path: '{{year}}/{{month}}/{{slug}}'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Cover Image", name: "cover", widget: "image", required: false  }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Cover Image',
+          name: 'cover',
+          widget: 'image',
+          required: false,
+        }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'select',
+          options: ['Technology', 'Geek Stuff', 'Gaming', 'Woodworking'],
+        }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'select',
+          options:
+            [
+              
+              # Tech Tags
+              'Quick OS Tips and Tricks',
+              'Code Snippets', 
+              'Cool Apps',
+              'Javascript',
+              'Rant',
+ 
+              # Geek Tags 
+              'Star Wars',
+              'nintendo',
+              'playstation',
+              'xBox',
+              'retro games',
+              'video games',
+              'Zelda',
+              'Halo',
+              'Geek Shirts',
+              'Video Game Shirts',
+
+              'paintball',
+              'livejournal',
+            ],
+          multiple: true,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

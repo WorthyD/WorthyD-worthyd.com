@@ -9,7 +9,6 @@ title: Self Checkout. A new experience.
 wordpress_id: 283
 category: Geek Stuff 
 tags: 
-- Geek Blog
 ---
 
 Happy St. Patrick's day!

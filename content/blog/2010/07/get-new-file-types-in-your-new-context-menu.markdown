@@ -9,8 +9,6 @@ title: Get New File Types in Your "New" Context Menu
 wordpress_id: 38
 category: Technology
 tags:
-- Registry
-- Tech Blog
 - Quick OS Tips and Tricks
 ---
 

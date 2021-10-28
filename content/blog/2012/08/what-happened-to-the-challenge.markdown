@@ -11,7 +11,6 @@ category: Gaming
 post_format:
 - Standard
 tags:
-- Geek Blog
 ---
 
 I recently finished a second play through of Fable 2 and Fable 3.  I came to a realization shortly after finishing the games. Both games are virtually impossible to lose. Losing all your life knocks you down and you gain a scar and lose some xp.  Sure there is an achievement for not getting knocked down, but you can easily spam your unlimited magic or infinite ammo gun. 

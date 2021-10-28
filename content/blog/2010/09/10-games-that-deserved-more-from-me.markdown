@@ -13,7 +13,6 @@ tags:
 - playstation
 - retro games
 - video games
-- Geek Blog
 ---
 
 I do not have much time anymore to play video games. I try to make it count when I do.  I want to get every penny out of the game now a days.  I played through the original Bioshock and earned every achievement for example.  I "completed" my goal almost through my third play through.  There are tons of great games that I neglected over the years that I really wish I had time to play through and truly enjoy.

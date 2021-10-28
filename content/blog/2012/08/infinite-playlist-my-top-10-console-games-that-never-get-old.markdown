@@ -16,7 +16,6 @@ tags:
 - retro games
 - video games
 - Zelda
-- Geek Blog
 ---
 
 I've spent a good amount of time in my days playing games and I'm typically one who will want to play them and get my money's worth. I figured I'd compile a couple top 10s of my favorite games with near unlimited replayability.  I think it's pretty obvious that consoles will have the better Platform, FPS and RPG games, PC will have the RTSes and Handheld will have the Simulation and Puzzle games.  

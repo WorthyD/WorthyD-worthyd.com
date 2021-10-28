@@ -9,10 +9,8 @@ title: A Geek Shirt For Saturday! I Void Warranties!
 wordpress_id: 133
 category: Geek Stuff
 tags:
-- geek shirt
 - paintball
 - Think Geek
-- Geek Blog
 - Video Game Shirts
 ---
 

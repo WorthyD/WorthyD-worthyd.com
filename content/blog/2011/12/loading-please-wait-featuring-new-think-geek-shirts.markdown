@@ -11,7 +11,6 @@ category: Geek Stuff
 tags:
 - geek shirt
 - Think Geek
-- Geek Blog
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2011/12/388515_10100105570837197_20601938_42342290_1251665837_n-222x300.jpg)](http://blog.worthyd.com/wp-content/uploads/2011/12/388515_10100105570837197_20601938_42342290_1251665837_n.jpg)

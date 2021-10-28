@@ -10,7 +10,6 @@ wordpress_id: 53
 category: Geek Stuff
 tags:
 - Mario
-- Geek Blog
 - Video Game Shirts
 ---
 

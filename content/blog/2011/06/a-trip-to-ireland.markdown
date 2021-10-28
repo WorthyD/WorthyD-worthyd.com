@@ -17,7 +17,6 @@ category: Geek Stuff
 tags:
 - Castles
 - Ireland
-- Geek Blog
 - Favorite
 ---
 

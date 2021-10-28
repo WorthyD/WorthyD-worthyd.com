@@ -9,7 +9,6 @@ title: 'Geek Shirt Thursday: Bridges and Boxleitner'
 wordpress_id: 75
 category: Geek Stuff
 tags:
-- Geek Blog
 - Geek Shirts
 ---
 

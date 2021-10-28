@@ -9,10 +9,8 @@ title: 'Budget Gaming: The Left 4 Dead series'
 wordpress_id: 210
 category: Gaming
 tags:
-- FPS
 - video games
 - XBox
-- Geek Blog
 - Budget Gaming
 ---
 

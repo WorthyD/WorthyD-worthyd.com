@@ -9,7 +9,6 @@ title: 'Budget Gaming and Nostalgia: The Elder Scrolls'
 wordpress_id: 224
 category: Gaming
 tags:
-- Geek Blog
 - Budget Gaming
 ---
 

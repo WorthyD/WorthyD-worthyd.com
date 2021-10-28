@@ -10,8 +10,6 @@ wordpress_id: 91
 category: Gaming
 tags:
 - Halo
-- Geek Blog
-- Favorite
 ---
 
 This is the last installment of my State of Halo series.  I've covered all of the released games with the exception of Halo 3:ODST. I'm going to break my rules and do a separate post for Reach. There is too much cool stuff with ODST to not cover it.

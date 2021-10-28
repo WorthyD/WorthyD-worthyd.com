@@ -11,7 +11,6 @@ category: Geek Stuff
 tags:
 - Retro
 - Zelda
-- Geek Blog
 - Video Game Shirts
 ---
 

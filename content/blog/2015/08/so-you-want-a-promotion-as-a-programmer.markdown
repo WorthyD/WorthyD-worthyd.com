@@ -9,7 +9,6 @@ title: So you want a promotion as a programmer?
 wordpress_id: 684
 category: Technology
 tags:
-- being a badass
 - web development
 - Favorite
 ---

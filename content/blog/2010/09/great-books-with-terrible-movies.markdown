@@ -10,11 +10,7 @@ wordpress_id: 231
 category: Geek Stuff
 tags:
 - Books
-- Harry Potter
 - Movies
-- Percy Jackson
-- The Hunger Games
-- Geek Blog
 ---
 
 Lets face it. Very few books get acceptable movies.  I came to grips with this a long time ago.  I believe there are two main reasons why the movies end up being terrible.  The first and the more common occurrence is the exclusion of characters or events. The second is the compression of time.  

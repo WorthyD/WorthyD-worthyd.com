@@ -9,8 +9,6 @@ title: 'Video Game Shirt Friday: School'
 wordpress_id: 86
 category: Geek Stuff
 tags:
-- VG Shirt
-- Geek Blog
 - Video Game Shirts
 ---
 

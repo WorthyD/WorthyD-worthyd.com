@@ -10,7 +10,6 @@ wordpress_id: 111
 category: Geek Stuff
 tags:
 - Lord of the Rings
-- Geek Blog
 - Geek Shirts
 ---
 

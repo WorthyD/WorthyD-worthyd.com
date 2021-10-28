@@ -10,7 +10,6 @@ wordpress_id: 5
 category: Geek Stuff 
 tags:
 - Think Geek
-- Geek Blog
 - Geek Shirts
 ---
 

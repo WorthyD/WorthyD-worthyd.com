@@ -10,7 +10,6 @@ wordpress_id: 865
 category: Technology
 tags:
 - Rant
-- industrly
 - nodejs
 - open source
 ---

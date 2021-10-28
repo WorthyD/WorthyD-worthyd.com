@@ -9,9 +9,7 @@ title: My Stint In Paintball
 wordpress_id: 65
 category: Geek Stuff 
 tags:
-- memory lane
 - paintball
-- Geek Blog
 ---
 
 Have you ever been really good at something, and eventually you weren't?  You became obsolete or that thing evolved to the point you didn't enjoy it anymore.  I don't know really what motivates this post.  I spent most of the day cleaning and thinking.  

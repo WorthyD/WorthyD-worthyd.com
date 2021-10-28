@@ -9,9 +9,7 @@ title: Snippely - A useful app for the forgetful
 wordpress_id: 25
 category: Technology 
 tags:
-- AIR
 - Code Snippets
-- Tech Blog
 - Cool Apps
 ---
 

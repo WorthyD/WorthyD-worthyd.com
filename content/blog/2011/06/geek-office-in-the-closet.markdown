@@ -23,7 +23,6 @@ tags:
 - computer setup
 - desk
 - woodworking
-- Geek Blog
 - Favorite
 ---
 

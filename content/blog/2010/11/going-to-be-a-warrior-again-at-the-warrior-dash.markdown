@@ -9,7 +9,6 @@ title: Going to be a Warrior Again at the Warrior Dash!!!!
 wordpress_id: 257
 category: Geek Stuff
 tags:
-- Geek Blog
 ---
 
 I came to grips with it a while ago.  I'm a pansy. The only time I was remotely awesome was during my paintball stint.  I played at D-Day and it was kinda cool acting crazy and screaming random insane war cries (IE: Leeroy Jenkins!! and random phrases from the movie DodgeBall). That was a long time ago, and I'm a bit overweight now.

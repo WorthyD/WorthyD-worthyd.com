@@ -10,8 +10,6 @@ wordpress_id: 24
 category: Geek Stuff
 cover: ""
 tags:
- - Dummy Content
- - Tech Blog
  - Cool Apps
 ---
 

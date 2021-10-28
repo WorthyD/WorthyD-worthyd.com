@@ -10,7 +10,6 @@ wordpress_id: 42
 category: Geek Stuff
 tags:
 - Star Wars
-- Geek Blog
 ---
 
 [![](http://blog.worthyd.com/wp-content/uploads/2010/07/scrap-metal-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/07/scrap-metal.jpg) I love Thursdays!  I'm proudly wearing my Scrap Metal R2D2 shirt that I purchased from [Think Geek](http://www.thinkgeek.com).  Star Wars shirts always get a lot of praise at my work.  I got this shirt by luck from Think Geek for only $6!  They had a random shirt sale and I ordered three.  I was very satisfied with two of the three so I feel like I won out big time.

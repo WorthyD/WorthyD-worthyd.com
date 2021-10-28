@@ -14,7 +14,6 @@ tags:
   - Rant
   - bootstrap
   - efficiency
-  - front end development
   - web development
   - Favorite
 ---

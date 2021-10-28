@@ -10,10 +10,8 @@ wordpress_id: 217
 category: Geek Stuff
 tags:
   - Geek Shirt
-  - VG Shirt
   - video games
   - Zelda
-  - Geek Blog
 ---
 
 Dorkly.com is one of the many geek/dork/nerd blogs I subscribe to and actually read. Well today they posted up an article titled [7 Real Life Items and Their Stats](http://www.dorkly.com/article/3026/7-real-life-items-and-in-game-stats) that hits home for me. Yes, I own a several toy lightsabers and one of the expensive ForceFX sabers. This is what caught my attention:

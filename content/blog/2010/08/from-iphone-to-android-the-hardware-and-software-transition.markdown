@@ -12,7 +12,6 @@ tags:
 - Android
 - iPhone
 - mobile
-- Tech Blog
 ---
 
 Less of a rant, more of an analysis.  This is based off of the Samsung Captivate running Eclair(2.1) on the AT&T; network. You may see slight differences in other android phones.  Initially, you wont notice much a difference.  You lock with the button on the right side of the device. This is much like the lock button on the top.  The device is unlocked by swiping, but in any direction.   Navigation through interfaces is very similar. 
