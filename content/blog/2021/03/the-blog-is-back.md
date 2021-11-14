@@ -1,6 +1,8 @@
 ---
 title: The Blog is Back
 date: 2021-03-02T22:33:54.957Z
+dateModified: 2021-03-02T22:33:54.957Z
+datePublished: 2021-03-02T22:33:54.957Z
 slug: the-blog-is-back
 category: Technology
 ---
