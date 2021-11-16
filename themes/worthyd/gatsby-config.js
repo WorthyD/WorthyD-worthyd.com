@@ -48,7 +48,7 @@ module.exports = (userConfig) => ({
         iconList: [], // Icons used for the web manifest. Can be used to override iconPath for a more pixel perfect control.
         iconCachePaths: undefined, // Glob pattern path for the icons to be cached by the gatsby-plugin-offline
 
-        basePath: undefined,
+        basePath: '/blog',
       },
     },
   ],
