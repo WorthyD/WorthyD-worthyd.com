@@ -1,5 +1,6 @@
 module.exports = (userConfig) => ({
   plugins: [
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-theme-advanced',
       options: {

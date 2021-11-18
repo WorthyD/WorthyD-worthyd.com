@@ -1,4 +1,6 @@
 import React from 'react';
+import './index.scss';
+import * as S from './style';
 
 const HomeBody = ({}): JSX.Element => (
   <>
@@ -15,9 +17,9 @@ const HomeBody = ({}): JSX.Element => (
           occasionally dabble in C#.
         </p>
         <p>
-          <a className="btn btn-default" href="/resume">
-            Resume
-          </a>
+          <S.NavButton to="/resume">Resume</S.NavButton>
+          {/* <a className="btn btn-default" href="/resume">
+          </a> */}
         </p>
       </div>
       <div className="callout">
@@ -31,9 +33,7 @@ const HomeBody = ({}): JSX.Element => (
           Right now, I'm mainly blogging about tech, wood working and video game
           stuff.
         </p>
-        <a className="btn btn-default" href="/blog">
-          Blog
-        </a>
+        <S.NavButton to="/blog">Blog</S.NavButton>
       </div>
       <div className="callout">
         <i className="fab fa-youtube" aria-hidden="true"></i>
@@ -43,12 +43,16 @@ const HomeBody = ({}): JSX.Element => (
           pretty out of date now, but I'm proud of what I was able to do with
           what little time I have.
         </p>
-        <a
+
+        <S.NavButton to="https://www.youtube.com/user/CaptainWorthy/">
+          YouTube Channel
+        </S.NavButton>
+        {/* <a
           className="btn btn-default"
           href="https://www.youtube.com/user/CaptainWorthy/"
         >
           YouTube Channel
-        </a>
+        </a> */}
       </div>
       {/* <div className="callout">
           <i className="fas fa-microphone"></i>
@@ -69,9 +73,10 @@ const HomeBody = ({}): JSX.Element => (
           I get a lot of questions about what gear I use for gaming and working
           from home. I put all my gear into a post for easy reference.
         </p>
-        <a className="btn btn-default" href="/uses">
+        <S.NavButton to="/uses">Gear</S.NavButton>
+        {/* <a className="btn btn-default" href="/uses">
           Gear
-        </a>
+        </a> */}
       </div>
       <div className="callout">
         <i className="fas fa-chart-line"></i>
@@ -80,7 +85,10 @@ const HomeBody = ({}): JSX.Element => (
           I've been working on a dashboard for managing Destiny 2 Clans. This is
           my current passion project.
         </p>
-        <a
+
+        <S.NavButton to="https://github.com/WorthyD/d2-clandashboard">GitHub Repo</S.NavButton>
+        <S.NavButton to="http://destinyclandashboard.com/">Website</S.NavButton>
+        {/* <a
           className="btn btn-default"
           href="https://github.com/WorthyD/d2-clandashboard"
         >
@@ -88,7 +96,7 @@ const HomeBody = ({}): JSX.Element => (
         </a>
         <a className="btn btn-default" href="http://destinyclandashboard.com/">
           Website
-        </a>
+        </a> */}
 
         {/* <!-- <p>I really enjoy earning achievements when gaming. They encourage challenges in game and introduce new ways
                     to play.</p>
