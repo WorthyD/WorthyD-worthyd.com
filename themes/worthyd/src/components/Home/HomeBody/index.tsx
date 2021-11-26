@@ -17,7 +17,7 @@ const HomeBody = ({}): JSX.Element => (
           occasionally dabble in C#.
         </p>
         <p>
-          <S.NavButton to="/resume">Resume</S.NavButton>
+          <S.NavButton noBasePath to="/resume">Resume</S.NavButton>
           {/* <a className="btn btn-default" href="/resume">
           </a> */}
         </p>
@@ -86,7 +86,9 @@ const HomeBody = ({}): JSX.Element => (
           my current passion project.
         </p>
 
-        <S.NavButton to="https://github.com/WorthyD/d2-clandashboard">GitHub Repo</S.NavButton>
+        <S.NavButton to="https://github.com/WorthyD/d2-clandashboard">
+          GitHub Repo
+        </S.NavButton>
         <S.NavButton to="http://destinyclandashboard.com/">Website</S.NavButton>
         {/* <a
           className="btn btn-default"
@@ -165,30 +167,29 @@ const HomeBody = ({}): JSX.Element => (
       <div className="col">
         <ul className="button-link-list">
           <li>
-            <a href="https://braytech.org/3/4611686018467238913/2305843009310516628/now">
+            <S.NavButton to="https://braytech.org/3/4611686018467238913/2305843009310516628/now">
               Destiny 2
-            </a>
+            </S.NavButton>
           </li>
           <li>
-            <a href="http://steamcommunity.com/id/WorthyD/">Steam Profile</a>
+            <S.NavButton to="http://steamcommunity.com/id/WorthyD/">
+              Steam Profile
+            </S.NavButton>
           </li>
           <li>
-            <a href="https://my.playstation.com/WorthyD">PSN Profile</a>
+            <S.NavButton to="https://my.playstation.com/WorthyD">
+              PSN Profile
+            </S.NavButton>
           </li>
           <li>
-            <a href="https://account.xbox.com/en-us/profile?gamertag=WorthyD3136">
+            <S.NavButton to="https://account.xbox.com/en-us/profile?gamertag=WorthyD3136">
               Xbox Profile
-            </a>
+            </S.NavButton>
           </li>
           <li>
-            <a href="https://www.bungie.net/en/Profile/254/612698/WorthyD">
+            <S.NavButton to="https://www.bungie.net/en/Profile/254/612698/WorthyD">
               Bungie Profile
-            </a>
-          </li>
-          <li>
-            <a href="http://us.battle.net/sc2/en/profile/3213645/1/WorthyD/">
-              SC2 Profile
-            </a>
+            </S.NavButton>
           </li>
         </ul>
       </div>

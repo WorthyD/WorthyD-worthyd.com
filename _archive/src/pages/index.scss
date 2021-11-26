@@ -1,4 +1,4 @@
-@import "../styles/variables";
+@import '../styles/variables';
 $duration: 1s;
 
 .home-info {
@@ -52,7 +52,6 @@ $duration: 1s;
     color: $white-text;
   }
 
-
   @media (min-width: 48em) {
     .info-head-shot {
       float: left;
@@ -77,47 +76,47 @@ $duration: 1s;
 }
 
 .bg-1 {
-  background-image: url('../images/2.jpg');
+  background-image: url('../../images/2.jpg');
 }
 
 .bg-2 {
-  background-image: url('../images/3.jpg');
+  background-image: url('../../images/3.jpg');
 }
 
 .bg-3 {
-  background-image: url('../images/4.jpg');
+  background-image: url('../../images/4.jpg');
 }
 
 .bg-4 {
-  background-image: url('../images/6.jpg');
+  background-image: url('../../images/6.jpg');
 }
 
 .bg-5 {
-  background-image: url('../images/7.jpg');
+  background-image: url('../../images/7.jpg');
 }
 
 .bg-6 {
-  background-image: url('../images/8.jpg');
+  background-image: url('../../images/8.jpg');
 }
 
 .bg-7 {
-  background-image: url('../images/9.jpg');
+  background-image: url('../../images/9.jpg');
 }
 
 .bg-8 {
-  background-image: url('../images/12.jpg');
+  background-image: url('../../images/12.jpg');
 }
 
 .bg-9 {
-  background-image: url('../images/14.jpg');
+  background-image: url('../../images/14.jpg');
 }
 
 .bg-10 {
-  background-image: url('../images/15.jpg');
+  background-image: url('../../images/15.jpg');
 }
 
 .bg-11 {
-  background-image: url('../images/16.jpg');
+  background-image: url('../../images/16.jpg');
 }
 
 @media (min-width: 48em) {
@@ -168,7 +167,7 @@ $duration: 1s;
   padding: 10px;
   width: 100%;
 
-  >.svg-inline--fa {
+  > .svg-inline--fa {
     color: $primary;
     font-size: 60px;
     display: block;
@@ -180,13 +179,14 @@ $duration: 1s;
     text-align: center;
   }
 
-  p {}
+  p {
+  }
 }
 
 .callout-4 {
   padding: 5%;
 
-  >.callout {
+  > .callout {
     @media (min-width: 24em) {
       width: 50%;
     }
@@ -200,7 +200,7 @@ $duration: 1s;
 .callout-3 {
   padding: 5%;
 
-  >.callout {
+  > .callout {
     @media (min-width: 24em) {
       width: 50%;
     }
@@ -216,7 +216,7 @@ $duration: 1s;
   color: $white-text;
 
   h2,
-  .callout>.svg-inline--fa {
+  .callout > .svg-inline--fa {
     color: $white-text;
   }
 
@@ -237,7 +237,7 @@ $duration: 1s;
     flex-direction: row;
   }
 
-  >.col {
+  > .col {
     @media (min-width: 48em) {
       padding: 5%;
       width: 50%;

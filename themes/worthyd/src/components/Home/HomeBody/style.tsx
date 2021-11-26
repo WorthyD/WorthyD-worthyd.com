@@ -40,7 +40,7 @@ import { PrimaryLink, AnimatedLink } from "../../Links";
 export const NavButton = styled(AnimatedLink)`
   ${styles.ButtonLabel}
 
-  color: var(--color-text);
+  //color: var(--color-text);
 
   &:after {
     margin: 8px 0 0 0;

@@ -1,3 +1,4 @@
+$duration: 1s;
 .card-link {
   display: inline-block;
   font-size: 32px;
@@ -20,7 +21,7 @@
 
     h2 {
       text-align: center;
-    //  color: $white-text;
+      //  color: $white-text;
       font-size: 2em;
       padding: 20px;
     }
@@ -32,7 +33,7 @@
   width: 100%;
 
   > .svg-inline--fa {
-   // color: $primary;
+    // color: $primary;
     font-size: 60px;
     display: block;
     margin: 10px auto;
@@ -81,7 +82,7 @@
 
   h2,
   .callout > .svg-inline--fa {
-   // color: $white-text;
+    // color: $white-text;
   }
 
   .row {
@@ -115,4 +116,122 @@
 
 .no-bg p {
   // color: $dark;
+}
+
+.bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-1 {
+  background-image: url('../../../../static/images/2.jpg');
+}
+
+.bg-2 {
+  background-image: url('../../../../static/images/3.jpg');
+}
+
+.bg-3 {
+  background-image: url('../../../../static/images/4.jpg');
+}
+
+.bg-4 {
+  background-image: url('../../../../static/images/6.jpg');
+}
+
+.bg-5 {
+  background-image: url('../../../../static/images/7.jpg');
+}
+
+.bg-6 {
+  background-image: url('../../../../static/images/8.jpg');
+}
+
+.bg-7 {
+  background-image: url('../../../../static/images/9.jpg');
+}
+
+.bg-8 {
+  background-image: url('../../../../static/images/12.jpg');
+}
+
+.bg-9 {
+  background-image: url('../../../../static/images/14.jpg');
+}
+
+.bg-10 {
+  background-image: url('../../../../static/images/15.jpg');
+}
+
+.bg-11 {
+  background-image: url('../../../../static/images/16.jpg');
+}
+
+.home-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 48em) {
+    height: 400px;
+  }
+
+  @media (min-width: 96em) {
+    height: 800px;
+  }
+
+  &::before {
+    content: ' ';
+    background: #000;
+    display: block;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.info {
+  position: relative;
+  z-index: 10;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+
+  h1 {
+    transition: transform $duration;
+    margin: 0;
+  }
+
+  h1 span {
+    display: inline-block;
+    transition: transform $duration;
+    position: relative;
+    top: 0;
+  }
+
+  h1,
+  p,
+  a {
+    color: #fff;
+  }
+
+  @media (min-width: 48em) {
+    .info-head-shot {
+      float: left;
+      display: block;
+      width: 30%;
+      transition: all $duration;
+      position: relative;
+      top: 0;
+    }
+
+    section {
+      float: right;
+      width: 60%;
+    }
+  }
 }
