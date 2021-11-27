@@ -20,9 +20,9 @@ const HomeHeader = ({}): JSX.Element => {
                 I am a web application developer out of Northwest Arkansas. I
                 enjoy programming, woodworking, gaming, and being a dad.{' '}
               </p>
-              <a href="http://www.facebook.com/worthyd" className="card-link">
+              {/* <a href="http://www.facebook.com/worthyd" className="card-link">
                 <i className="fab fa-facebook" aria-hidden="true"></i>
-              </a>
+              </a> */}
               <a href="http://www.twitter.com/worthyd" className="card-link">
                 <i className="fab  fa-twitter" aria-hidden="true"></i>
               </a>

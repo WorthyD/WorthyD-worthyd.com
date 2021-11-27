@@ -17,7 +17,9 @@ const HomeBody = ({}): JSX.Element => (
           occasionally dabble in C#.
         </p>
         <p>
-          <S.NavButton noBasePath to="/resume">Resume</S.NavButton>
+          <S.NavButton noBasePath to="/resume">
+            Resume
+          </S.NavButton>
           {/* <a className="btn btn-default" href="/resume">
           </a> */}
         </p>
@@ -85,10 +87,10 @@ const HomeBody = ({}): JSX.Element => (
           I've been working on a dashboard for managing Destiny 2 Clans. This is
           my current passion project.
         </p>
-
         <S.NavButton to="https://github.com/WorthyD/d2-clandashboard">
           GitHub Repo
         </S.NavButton>
+        &nbsp;&nbsp;
         <S.NavButton to="http://destinyclandashboard.com/">Website</S.NavButton>
         {/* <a
           className="btn btn-default"
@@ -99,7 +101,6 @@ const HomeBody = ({}): JSX.Element => (
         <a className="btn btn-default" href="http://destinyclandashboard.com/">
           Website
         </a> */}
-
         {/* <!-- <p>I really enjoy earning achievements when gaming. They encourage challenges in game and introduce new ways
                     to play.</p>
                 <p> I couldn't find a good solution for tracking achievements in Steam games so I wrote a Windows Universal App.
@@ -156,7 +157,7 @@ const HomeBody = ({}): JSX.Element => (
 
     <a name="gaming"></a>
     <section className="two-col-group">
-      <div className="col info no-bg">
+      <div className="col no-bg">
         <h2>Gaming</h2>
         <p>
           I game when I can. My habits and tastes have evolved over the years. I

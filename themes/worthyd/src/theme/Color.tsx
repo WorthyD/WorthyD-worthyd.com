@@ -1,16 +1,26 @@
-import { createGlobalStyle, css } from "styled-components";
+import { createGlobalStyle, css } from 'styled-components';
 
 const Colors = css`
   :root {
-    --color-primary-100: #e88896;
-    --color-primary-200: #e47485;
-    --color-primary-300: #e06073;
-    --color-primary-400: #dc4c62;
-    --color-primary: #d83850;
-    --color-primary-600: #c23248;
-    --color-primary-700: #ad2d40;
-    --color-primary-800: #972738;
-    --color-primary-900: #822230;
+    --color-primary-100: #b3bdd1;
+    --color-primary-200: #8091b3;
+    --color-primary-300: #4d6594;
+    --color-primary-400: #26447d;
+    --color-primary: #002366;
+    --color-primary-600: #001f5e;
+    --color-primary-700: #001a53;
+    --color-primary-800: #001549;
+    --color-primary-900: #000c38;
+
+    --color-secondary-100: #b3cfcd;
+    --color-secondary-200: #80afab;
+    --color-secondary-300: #4d8e89;
+    --color-secondary-400: #267670;
+    --color-secondary: #005e57;
+    --color-secondary-600: #00564f;
+    --color-secondary-700: #004c46;
+    --color-secondary-800: #00423c;
+    --color-secondary-900: #00312c;
 
     --color-grey-100: #f7f7f7;
     --color-grey-200: #dbdbdb;

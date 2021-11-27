@@ -1,9 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import { useConfig } from "gatsby-theme-advanced";
+import { useConfig } from 'gatsby-theme-advanced';
 
-
-import * as S from "./style";
+import * as S from './style';
 
 const Navigation = (): JSX.Element => {
   const config = useConfig();
@@ -15,9 +14,15 @@ const Navigation = (): JSX.Element => {
         <S.SiteTitle>{config.website.titleShort}</S.SiteTitle>
       </S.HomeButton>
       <S.NavGrid>
-        <S.NavButton to="/">Posts</S.NavButton>
+        <S.NavButton noBasePath to="/">
+          Home
+        </S.NavButton>
+        <S.NavButton to="/blog">Posts</S.NavButton>
+        <S.NavButton noBasePath to="/resume">
+          Resume
+        </S.NavButton>
         <S.NavButton noBasePath to="/about">
-          About
+          Uses
         </S.NavButton>
       </S.NavGrid>
     </S.Wrapper>

@@ -16,7 +16,7 @@ export const IconCSS = css`
   color: var(--color-grey-700);
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
 `;
 
@@ -24,10 +24,10 @@ const PrimaryCSS = css`
   display: inline-block;
 
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
 `;
 
@@ -35,7 +35,7 @@ const AnimatedCSS = css<LinkStyleProps>`
   display: inline-block;
 
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 
   background-color: inherit;
 
@@ -46,14 +46,14 @@ const AnimatedCSS = css<LinkStyleProps>`
     width: 100%;
     height: 2px;
 
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
 
     transition: transform 300ms ease;
     transform: scaleX(0);
   }
 
   &:hover {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
   &:hover::after {
     transform: scaleX(1);
@@ -77,7 +77,7 @@ const HeadingCss = css`
     transform: translateX(-100%);
     padding-right: 8px;
 
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
 `;
 
