@@ -14,16 +14,17 @@ const LayoutGrid = styled.div`
   min-height: 100vh;
   min-width: 100%;
 
-  padding-top: 16px;
+  //padding-top: 16px;
+  //padding-bottom: 16px;
 
   display: grid;
   grid-template-columns: 100%;
-  gap: 80px;
+//  gap: 80px;
   align-content: space-between;
 
-  @media (max-width: ${constants.breakpoints.sm}) {
+  /* @media (max-width: ${constants.breakpoints.sm}) {
     gap: 40px;
-  }
+  } */
 `;
 
 type MainLayoutProps = {

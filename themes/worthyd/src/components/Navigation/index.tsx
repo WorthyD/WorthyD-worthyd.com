@@ -9,6 +9,7 @@ const Navigation = (): JSX.Element => {
 
   return (
     <S.Wrapper>
+      <S.Nav>
       <S.HomeButton to="/">
         {/* <AdvancedLogo width={36} height={36} /> */}
         <S.SiteTitle>{config.website.titleShort}</S.SiteTitle>
@@ -17,14 +18,13 @@ const Navigation = (): JSX.Element => {
         <S.NavButton noBasePath to="/">
           Home
         </S.NavButton>
-        <S.NavButton to="/blog">Posts</S.NavButton>
+        <S.NavButton to="/">Posts</S.NavButton>
         <S.NavButton noBasePath to="/resume">
           Resume
         </S.NavButton>
-        <S.NavButton noBasePath to="/about">
-          Uses
-        </S.NavButton>
+        <S.NavButton to="/uses">Uses</S.NavButton>
       </S.NavGrid>
+      </S.Nav>
     </S.Wrapper>
   );
 };

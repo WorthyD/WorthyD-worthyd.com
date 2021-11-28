@@ -109,6 +109,26 @@ $d_base: 0.1s;
 @media print {
   body {
     font-size: 10px;
+    h1 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    h3 {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    h4 {
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    p {
+      font-size: 10px;
+      line-height: 1.5;
+    }
     .head-spacer {
       height: 0px;
     }
@@ -129,7 +149,7 @@ $d_base: 0.1s;
       }
       .skill-list {
         li {
-          margin-bottom: $base-margin / 2;
+          margin-bottom: 5px;
           display: block;
           &::after {
             content: '';

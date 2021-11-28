@@ -8,6 +8,10 @@ export const Wrapper = styled.footer`
   padding: 32px 0px 16px;
   background-color: var(--color-grey-100);
   color: var(--color-grey-700);
+
+  @media print{
+    display:none;
+  }
 `;
 
 export const LinkGrid = styled.section`
