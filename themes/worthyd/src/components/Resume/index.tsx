@@ -93,7 +93,12 @@ const Resume = (): JSX.Element => (
               <h2>Experience</h2>
             </header>
             <div>
-              <h3>Senior Developer | RevUnit November 2019 - Present</h3>
+              <h3>RevUnit November 2019 - Present</h3>
+              <h4>Principal Engineer | September 2021 - Present</h4>
+              <p>
+             </p>
+
+              <h4>Senior Engineer | November 2019 - September 2021</h4>
               <p>
                 Work with mixed teams to provide software solutions that allow
                 companies to work better. Serve in the role of "Team Expert" in
@@ -181,7 +186,7 @@ const Resume = (): JSX.Element => (
               Bachelor of Science in Business Administration 2007 | Major: Small
               Business Management | Minor: Information Systems
             </p>
-            <p>Alpha Phi Omega - Service Fraternity - className of 2005</p>
+            <p>Alpha Phi Omega - Service Fraternity - Class of 2005</p>
             <p>Eagle Scout - Boys Scouts of America - 2001</p>
           </section>
         </article>
