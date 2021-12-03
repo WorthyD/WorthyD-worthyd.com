@@ -26,6 +26,9 @@ const WidthLimitedGrid = styled(LayoutWidthContainer)`
   gap: 80px;
   align-content: space-between;
   justify-items: stretch;
+  padding-top:16px;
+  padding-bottom:16px;
+  max-width: ${constants.main_width}
 `;
 
 type PostListingProps = {

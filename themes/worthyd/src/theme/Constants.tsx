@@ -1,6 +1,8 @@
 export const breakpoints = {
-  sm: "564px",
-  lg: "1100px",
+  sm: '564px',
+  lg: '1100px',
 };
 
-export default { breakpoints };
+export const main_width = '1176px';
+
+export default { breakpoints , main_width};

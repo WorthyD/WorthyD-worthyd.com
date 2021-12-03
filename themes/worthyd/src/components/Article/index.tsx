@@ -13,6 +13,8 @@ const Wrapper = styled.main`
   display: grid;
   grid-gap: 24px;
   justify-items: center;
+  padding-top:16px;
+  padding-bottom:16px;
 `;
 
 type ArticleProps = {

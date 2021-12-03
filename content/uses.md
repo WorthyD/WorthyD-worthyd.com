@@ -2,7 +2,6 @@
 id: 99999
 title: Uses
 description: testing
-cover: images/cover_1.jpeg
 coverAlt: "An image tagged as nature and water."
 slug: Uses
 datePublished: 2021-01-01

@@ -4,8 +4,9 @@ import { Link as GatsbyLink } from "gatsby";
 import { Exit } from "@styled-icons/boxicons-regular";
 
 import { styles, constants } from "../../theme";
+import { TransparentLink } from "../Links";
 
-const ReadButton = styled(GatsbyLink)`
+const ReadButton = styled(TransparentLink)`
   align-self: flex-end;
 
   text-decoration: none;
