@@ -18,4 +18,10 @@ Roughly two days into the new situation I started having super high levels of an
 
 I normally can rely on playing Destiny 2 for some relief, but I no longer have the same experience. I have an almost ritualistic method when it comes to Destiny 2 and it sounds so silly in my head considering how lavish it is compared to how most other people play the game.
 
-It wasn't just not having my setup that was hard, it was the anxiety of knowing there was stuff to be done in game.  Triumphs and quests are eventually going away and not working on them bothered me.  I  working on my in-game checklist takes my mind off things and gives me a sense of accomplishment.
+It wasn't just not having my setup that was hard, it was the anxiety of knowing there was stuff to be done in game.  Triumphs and quests are eventually going away and not working on them bothered me.  I working on my in-game checklist takes my mind off things and gives me a sense of accomplishment.
+
+I was amazed at how long it took me to convince myself that it was Ok not to play Destiny.  I guess you could say I'm partially addicted to it.  Playing Destiny is a hobby I enjoy.
+
+My wife also started working from home. This killed my normal woodworking schedule.
+
+That's a long way of saying that I needed to convince myself that my old stress relief methods needed to be replaced.  I coudldn't game the way I normally would and I couldn't work on wood the way I normally wood
