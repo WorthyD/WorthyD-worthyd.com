@@ -1,6 +1,8 @@
 ---
 title: New Charts D3 to ApexCharts
 date: 2021-07-22T11:39:35.377Z
+dateModified: 2021-07-22T11:39:35.377Z
+datePublished: 2021-07-22T11:39:35.377Z
 slug: new-charts-d3-to-apexcharts  
 category: Technology
 tags:
