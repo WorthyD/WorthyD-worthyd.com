@@ -4,8 +4,6 @@ comments: true
 date: 2014-04-15 
 datePublished: 2014-04-15  
 dateModified: 2014-04-15 
-publishDate: 2014-04-15  
-modifiedDate: 2014-04-15 12:02:07+00:00
 layout: post
 link: http://worthyd.com/blog/2014/04/i-am-a-web-developer/
 slug: i-am-a-web-developer

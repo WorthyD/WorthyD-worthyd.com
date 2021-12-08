@@ -4,8 +4,6 @@ comments: true
 date: 2014-10-15 
 datePublished: 2014-10-15  
 dateModified: 2014-10-15 
-publishDate: 2014-10-15  
-modifiedDate: 2014-10-15 10:56:10+00:00
 layout: post
 link: http://worthyd.com/blog/2014/10/bootstrap-the-framework-you-hate-for-all-the-wrong-reasons/
 slug: bootstrap-the-framework-you-hate-for-all-the-wrong-reasons

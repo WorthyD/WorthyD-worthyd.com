@@ -4,8 +4,6 @@ comments: true
 date: 2014-02-04 
 datePublished: 2014-02-04  
 dateModified: 2014-02-04 
-publishDate: 2014-02-04  
-modifiedDate: 2014-02-04 04:16:53+00:00
 layout: post
 link: http://worthyd.com/blog/2014/02/hey-look-another-update/
 slug: hey-look-another-update

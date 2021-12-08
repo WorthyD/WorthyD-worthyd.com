@@ -4,8 +4,6 @@ comments: true
 date: 2013-06-27 
 datePublished: 2013-06-27  
 dateModified: 2013-06-27 
-publishDate: 2013-06-27  
-modifiedDate: 2013-06-27 06:03:49+00:00
 layout: post
 link: http://worthyd.com/blog/2013/06/microsoft-build-conference-day-1/
 slug: microsoft-build-conference-day-1

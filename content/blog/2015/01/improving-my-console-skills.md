@@ -4,8 +4,6 @@ comments: true
 date: 2015-01-27 
 datePublished: 2015-01-27  
 dateModified: 2015-01-27 
-publishDate: 2015-01-27  
-modifiedDate: 2015-01-27 03:54:46+00:00
 layout: post
 link: http://worthyd.com/blog/2015/01/improving-my-console-skills/
 slug: improving-my-console-skills

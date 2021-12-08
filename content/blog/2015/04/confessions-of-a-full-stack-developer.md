@@ -4,8 +4,6 @@ comments: true
 date: 2015-04-20 
 datePublished: 2015-04-20  
 dateModified: 2015-04-20 
-publishDate: 2015-04-20  
-modifiedDate: 2015-04-20 01:40:26+00:00
 layout: post
 link: http://worthyd.com/blog/2015/04/confessions-of-a-full-stack-developer/
 slug: confessions-of-a-full-stack-developer

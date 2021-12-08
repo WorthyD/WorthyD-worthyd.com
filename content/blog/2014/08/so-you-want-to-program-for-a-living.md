@@ -4,8 +4,6 @@ comments: true
 date: 2014-08-25 
 datePublished: 2014-08-25  
 dateModified: 2014-08-25 
-publishDate: 2014-08-25  
-modifiedDate: 2014-08-25 03:43:52+00:00
 layout: post
 link: http://worthyd.com/blog/2014/08/so-you-want-to-program-for-a-living/
 slug: so-you-want-to-program-for-a-living

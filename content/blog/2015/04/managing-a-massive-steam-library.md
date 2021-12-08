@@ -4,8 +4,6 @@ comments: true
 date: 2015-04-21 
 datePublished: 2015-04-21  
 dateModified: 2015-04-21 
-publishDate: 2015-04-21  
-modifiedDate: 2015-04-21 17:08:00+00:00
 layout: post
 link: http://worthyd.com/blog/2015/04/managing-a-massive-steam-library/
 slug: managing-a-massive-steam-library
