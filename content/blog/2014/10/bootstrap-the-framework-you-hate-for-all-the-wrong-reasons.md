@@ -30,11 +30,10 @@ I've been utilizing the Bootstrap framework for over a year now. I've had a lot 
 
 This is one of the tag lines from Bootstrap's web site. Do I believe it's true? Yes, I do.
 
-<blockquote>
 
 > ### Designed for everyone, everywhere.
 >
-> Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</blockquote>
+> Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
 
 There is one big thing that gets overlooked a lot when looking at Bootstrap. Bootstrap is trying to do two big things. It's a responsive grid framework and a responsive UI framework. The UI part of the framework provides styled static elements like inputs and buttons, and also has a set of interactive components that work well on a smaller screen.
 
@@ -50,9 +49,7 @@ The full CSS library is around 130kb and the JavaScript library is around 30kb. 
 
 1. **Utilize a CDN** - There are several providers that serve up the full Bootstrap package over a CDN. A CDN will provides speed by caching the content and your browser will download it faster because it's on a different domain
 
-
 2. **Build your own Bootstrap package** - This is the less obvious choice, but you can really slim down the package by using [their tool](http://getbootstrap.com/customize/). You can also download their source code and create a custom build yourself.
-
 
 3. **Do both 1 and 2** - There should be other static assets in your project. You might as well invest in the service.
 

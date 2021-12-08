@@ -41,4 +41,4 @@ It turns out that Razer is releasing a keyboard next month called [The BlackWido
 
 Well, so yeah. I've put my foot in my mouth for the thousandth time.  Now, I leave you with the coolest thing I've done with a keyboard... and I did this before it broke!
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/worthydkeyboard-300x114.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/worthydkeyboard.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/worthydkeyboard-300x114.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/worthydkeyboard.jpg)

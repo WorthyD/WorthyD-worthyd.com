@@ -25,7 +25,7 @@ If any of you don't know about my obsessive video game collecting.... look [HERE
 
 Here is a list of games I owned or tried to own, and would love to revisit if time allowed.
 <!-- more -->
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/images-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/images.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/images-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/images.jpg)
 
 ### Kid Icarus - NES
 
@@ -33,7 +33,7 @@ Kid Icarus is one of those awesome old NES games that did not mess around on the
 
  I rented Kid Icarus a few times but never "played" it much. I never even completed the first level.  I remember seeing Kid Icarus on the Captain N tv show and thinking he was kinda dumb.  There is going to be a new Kid Icarus game on the 3DS and was on the last Smash Brothers' game. Pit is definitely one of the most neglected NES franchise characters that deserves some more games.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/563272_77471_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/563272_77471_front.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/563272_77471_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/563272_77471_front.jpg)
 
 ### Final Fantasy Adventure - Game Boy
 
@@ -51,7 +51,7 @@ Final Fantasy 5 was one of the few Final Fantasies that didn't make it across se
 
 I really did rush my way through the game and had two or three very large gaps between game play.  I never fully understood the story line. I brushed up on it later through Wikipedia.  The game contains many of the awesome features of FFVI and beautiful colors from FFIV.  I've been listening a lot to the original and remixed soundtrack. The Black Mages do some really awesome covers for the game.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/earthbound-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/earthbound.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/earthbound-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/earthbound.jpg)
 
 ### Earthbound - SNES
 
@@ -61,7 +61,7 @@ I consider myself fortunate to own the game. I sold it on Amazon.com for $75.00 
 
 Why do I feel like I neglected this game?  I only played through it once!!!  I've played through all of my SNES RPGs at least five times each.  
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/images3-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/images3.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/images3-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/images3.jpg)
 
 ### Harvest Moon - SNES
 
@@ -69,7 +69,7 @@ Harvest Moon is the the first SNES game I sought after that was truly rare. I've
 
 Harvest Moon 64 fixed a lot of issues I had with the first game... even though I never played it.  The original game ended after "two" years in game time.  The 64 version went on forever and you never had to restart all of your hard work.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/resident-evil2-150x150.gif)](http://blog.worthyd.com/wp-content/uploads/2010/09/resident-evil2.gif)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/resident-evil2-150x150.gif)](http://blog.worthyd.com/wp-content/uploads/2010/09/resident-evil2.gif)
 
 ### Resident Evil 2 - PSX
 
@@ -81,7 +81,7 @@ Resident Evil has a very unique and confusing story line.  I've read the book se
 
 My feelings for RE2 transfer to RE3.  I picked up a copy in mint condition in 2005 and never played through it.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/morrowind_logo-150x150.gif)](http://blog.worthyd.com/wp-content/uploads/2010/09/morrowind_logo.gif)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/morrowind_logo-150x150.gif)](http://blog.worthyd.com/wp-content/uploads/2010/09/morrowind_logo.gif)
 
 ### Elder Scrolls 3 - Morrowind - XBox/PC
 
@@ -89,7 +89,7 @@ I was a late adapter to the Xbox and I didn't start PC gaming until Elder Scroll
 
 Oblivion had a few small features that made Morrowind.  Auto-saving is a feature that I definitely wish was in Morrowind.  Maybe in a few months I'll gather enough desire to play the game on PC again.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/dark_cloud2_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/dark_cloud2_front.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/dark_cloud2_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/dark_cloud2_front.jpg)
 
 ### Dark Cloud 2 - PS2
 
@@ -97,13 +97,13 @@ Dark Cloud was one of the early games on the Playstation 2.  I picked it up (alo
 
 I had to hunt very hard to find a new copy of Dark Cloud 2 for under $75.  I played through the first several dungeons and really enjoyed the game.  However, this was during a time that I had tons of other games and I eventually lost interest in the game.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/Final_fantasy_IX-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/Final_fantasy_IX.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/Final_fantasy_IX-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/Final_fantasy_IX.jpg)
 
 ### Final Fantasy IX - PSX
 
 Like Final Fantasy 5, I played through Final Fantasy IX when I was in the "Beat all Final Fantasies" mode.  I played FF IX before I played Final Fantasy Origins.  There are TONS of nods to previous Final Fantasy games.  I had no idea until a year later that the Four Fiends from Final Fantasy I were in the game. Yeah I'm dumb.  I'd like to play this game again now that I have a firm grasp of all the FF games up to XI.  I still haven't played FF3 all the way, but I will in due time.  
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/107326-Metroid_Prime_U-1-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/107326-Metroid_Prime_U-1.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/107326-Metroid_Prime_U-1-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/107326-Metroid_Prime_U-1.jpg)
 
 ### Metroid Prime - Game Cube
 
@@ -116,13 +116,13 @@ Final Fantasy X got in the way and I eventually forgot about the game, same as m
 ### Honorable Mentions
 
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/sonic_the_hedgehog-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/sonic_the_hedgehog.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/sonic_the_hedgehog-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/sonic_the_hedgehog.jpg)
 
 ###  Sonic The Hedgehog - Genesis
 
 I was raised on Nintendo games. I never game Sonic a fair chance.  My wife LOVES playing Sonic and played it a lot as a kid. 
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/535836_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/535836_front.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/535836_front-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/09/535836_front.jpg)
 
 ### Resident Evil Remake - Gamecube
 

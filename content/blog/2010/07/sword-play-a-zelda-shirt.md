@@ -18,7 +18,7 @@ tags:
 - Video Game Shirts
 ---
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/07/swordplay.jpg)
 
 This is really the black sheep of my Zelda shirt collection (about 4 or 5 shirts).  It was available only at Game Stop for pre-ordering the Game Cube version of the 4 Sword Adventure.  I haven't ever seen someone else wearing it and I've only found a few images of it on the internet.  
 <!-- more -->

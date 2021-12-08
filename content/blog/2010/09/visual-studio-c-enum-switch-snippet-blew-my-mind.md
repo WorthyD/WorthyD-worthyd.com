@@ -43,10 +43,10 @@ So to start everything off create a generic class with an enum like this:
 
 
 
-Inside of `DoSomething` type `switch` and then press `tab`. Something cool like this should automatically be generated:[![](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet1.png)](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet1.png)
+Inside of `DoSomething` type `switch` and then press `tab`. Something cool like this should automatically be generated:[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet1.png)](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet1.png)
 
 While `switch_on` is highlighted, type `i` then press the down arrow. This should appear:
-[![](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet2.png)](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet2.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet2.png)](http://blog.worthyd.com/wp-content/uploads/2010/09/Snippet2.png)
 
 Blew my **MIND!** So much I skipped my lunch to do this blog post before I left work.
 

@@ -18,7 +18,7 @@ tags:
 - Video Game Shirts
 ---
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties.jpg)Another shirt from [Think Geek](http://www.thinkgeek.com)!  The [I Void Warranties shirt](http://www.thinkgeek.com/clearance/tshirtsapparel/8f52/) is probably one of my favorite shirts I've collected.  I've gotten a lot of laughs from this shirt. I think it's because it's so very true for me.  I'm rocking out at B&E; Paintball today and I felt it was appropriate to wear this!
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/i_void_warranties.jpg)Another shirt from [Think Geek](http://www.thinkgeek.com)!  The [I Void Warranties shirt](http://www.thinkgeek.com/clearance/tshirtsapparel/8f52/) is probably one of my favorite shirts I've collected.  I've gotten a lot of laughs from this shirt. I think it's because it's so very true for me.  I'm rocking out at B&E; Paintball today and I felt it was appropriate to wear this!
 
 I'm not one to appreciate warranties at home. I greatly value them in the professional world however.  As a kid, I ripped apart any and all mechanical or electronic toys I had.  I had boxes full of motors, circuit boards and batteries.  I learned at my first IT job that laptops were generally only as good as their warranty.  My brother and I had warranty issues on both of our first "new" computers.
 

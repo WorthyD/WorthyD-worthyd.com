@@ -20,4 +20,4 @@ tags:
 
 Hanging onto my childhood toys was a good idea.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.20.31-300x225.jpg)](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.20.31-1024x768.jpg)[![](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.21.24-300x225.jpg)](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.21.24-1024x768.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.20.31-300x225.jpg)](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.20.31-1024x768.jpg)[![alt](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.21.24-300x225.jpg)](http://blog.worthyd.com/wp-content/uploads/2012/03/2012-03-08-06.21.24-1024x768.jpg)

@@ -35,7 +35,7 @@ There isn't a developer in the world that will be willing to do this  for no rea
 
  This is hard to defend because developer's job is hard to do.  Developers ask a lot of questions, challenge requirements, and resistant to change.   There is a lot of truth in this xkcd comic.
 
-[![](http://imgs.xkcd.com/comics/tasks.png)](http://xkcd.com/1425/)
+[![alt](http://imgs.xkcd.com/comics/tasks.png)](http://xkcd.com/1425/)
 
 A simple task can turn into a mountain with one requirement.  Imagine you are told that you told to build a two page web app. That should be simple right?  It's a search page and a results page.  Super simple! Oh we need the search page to search the entire internet…. Yeah, it'll be just like Google.  Both of you need to slam on the brakes. The developer is most likely going to panic and say it'll take 10 years to do. You, the person wanting this product built, need to ask the right questions before throwing your hands up and requesting a different developer.  Developers have a good idea of the level of effort required for work.  You have to find a middle ground.  Trust them and work towards success together.
 

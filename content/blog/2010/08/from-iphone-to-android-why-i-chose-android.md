@@ -16,7 +16,7 @@ tags:
 - Android
 - iPhone
 - Mac
-- Rants
+- Rant
 - Tech Blog
 - Favorite
 ---
@@ -48,7 +48,7 @@ To develop an iPhone/iPad app you must have OSX and pay $200 a year to have your
 
  The bottom line is that for something to be truly "Open" is to allow your SDK to be available on Linux, the IDE of choice is Eclipse or Vi and you have to compile in command line..... oh wait!!! Android does that!
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/08/6a00e55225079e883401347fe5dca0970c-300x235.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/6a00e55225079e883401347fe5dca0970c.jpg)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/08/6a00e55225079e883401347fe5dca0970c-300x235.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/6a00e55225079e883401347fe5dca0970c.jpg)
 
 At Google I/O back in May, Froyo was shown off. This is Android 2.2.  This event definitely destroyed the MacFanBoy in me.  Google showed off their collaboration with Adobe to allow Flash to work on 2.2.  This event really pushed me to choose the Android OS for my next phone.
 

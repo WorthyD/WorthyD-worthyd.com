@@ -17,7 +17,7 @@ tags:
 - Geek Shirts
 ---
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail.jpg) I've been a fan of Lord of the Rings since before the movies were announced. I was definitely excited when [Shirt.Woot.com](http://shirt.woot.com/blog/viewentry.aspx?id=12330) released this shirt.  I haven't seen many other LOTR shirts, but this one is definitely my favorite. I love seeing the purely evil Sauron and the Ring depicted as a small somewhat innocent creatures. 
+[![asdf](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Soulmates3mpDetail.jpg) I've been a fan of Lord of the Rings since before the movies were announced. I was definitely excited when [Shirt.Woot.com](http://shirt.woot.com/blog/viewentry.aspx?id=12330) released this shirt.  I haven't seen many other LOTR shirts, but this one is definitely my favorite. I love seeing the purely evil Sauron and the Ring depicted as a small somewhat innocent creatures. 
 <!-- more -->
 I picked this up on sale for $12 before it got reckoned away.  It's definitely the best place to get cheap and unique nerd and video game shirts.  You can keep up with Shirt.Woot by using the [Wootalyzer](http://www.wootalyzer.com/) or following them on [twitter](http://twitter.com/wootshirt)
 

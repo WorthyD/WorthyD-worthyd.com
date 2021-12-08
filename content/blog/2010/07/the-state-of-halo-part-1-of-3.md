@@ -16,13 +16,13 @@ tags:
 - Halo
 ---
 
-So [Halo Reach](http://www.amazon.com/gp/product/B002BSA20M?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B002BSA20M)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B002BSA20M) comes out in the near future.  A lot of people I know aren't fully aware of the the series up to now.  It's a truly interesting series on a Star Wars level for the video game industry.  A lot of this is strictly my opinion, but feel free to share your opinions in the comments. I'm going to go over all the games. I'll go over their strong points and their weak points in my opinion. **Spoiler Alert: I'll be going over key points of the plot so reader beware.**
+So [Halo Reach](http://www.amazon.com/gp/product/B002BSA20M?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B002BSA20M)![alt](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B002BSA20M) comes out in the near future.  A lot of people I know aren't fully aware of the the series up to now.  It's a truly interesting series on a Star Wars level for the video game industry.  A lot of this is strictly my opinion, but feel free to share your opinions in the comments. I'm going to go over all the games. I'll go over their strong points and their weak points in my opinion. **Spoiler Alert: I'll be going over key points of the plot so reader beware.**
 <!-- more -->
 A brief rundown of the universe. 5 games and 5 books.  The year of the first game is 2552. The ware between the UNSC (humans) and the Covenant (aliens) started in 2525.  The Master Chief is a Spartan II super soldier. Think the Kurt Russell movie Soldier and you get the idea.  Trained since the age of 6 to be an obedient soldier.  They have bone and muscle augmentations to be near unstoppable soldiers. The Spartan IIs  are issued Mjolnir (Norse God Thor's Hammer) Mark IV armor in 2551. Several days before the first game, the Spartan IIs got Mark V armor. Their main military planet, Reach, is invaded by the Covenant.  The planet is destroyed right before the game starts.  During some of the games you are led to believe that you are the last super soldier, but in fact you are 1 of approximately 33 soldiers.  Spartan IIIs are introduced at some point in time that are cheaper, more drugged up than trained and more expendable than the IIs. You play as a Spartan III in Reach. 
 
 
 
-### [Halo: Combat Evolved](http://www.amazon.com/gp/product/B00005NZ1G?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00005NZ1G)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B00005NZ1G)
+### [Halo: Combat Evolved](http://www.amazon.com/gp/product/B00005NZ1G?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00005NZ1G)![alt](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B00005NZ1G)
 
 
 
@@ -38,7 +38,7 @@ This game was released November 15, 2001.  I still play this game for fun.  Simp
 
 
 
-### [Halo 2](http://www.amazon.com/gp/product/B00008J7NZ?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00008J7NZ)![](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B00008J7NZ)
+### [Halo 2](http://www.amazon.com/gp/product/B00008J7NZ?ie=UTF8&tag=woteblgebl-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00008J7NZ)![alt](http://www.assoc-amazon.com/e/ir?t=woteblgebl-20&l=as2&o=1&a=B00008J7NZ)
 
 
 

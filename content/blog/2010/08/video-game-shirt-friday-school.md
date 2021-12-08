@@ -16,7 +16,7 @@ tags:
 - Video Game Shirts
 ---
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor.jpg)I'm a big fan of the Mario Kart franchise.  I'm always excited to see a Mario Kart themed shirt on [Shirt.Woot](http://shirt.woot.com/).  You can still get [this shirt](http://shirt.woot.com/friends.aspx?k=14204) on the [reckoning wall](http://shirt.woot.com/Reckoning/) for $15 at the time of this posting. The first one I saw was [this one](http://shirt.woot.com/blog/viewentry.aspx?id=6407). If you're a fan like me, you love and hate the blue shell.
+[![dfdf](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor-150x150.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/08/Schoolqor.jpg)I'm a big fan of the Mario Kart franchise.  I'm always excited to see a Mario Kart themed shirt on [Shirt.Woot](http://shirt.woot.com/).  You can still get [this shirt](http://shirt.woot.com/friends.aspx?k=14204) on the [reckoning wall](http://shirt.woot.com/Reckoning/) for $15 at the time of this posting. The first one I saw was [this one](http://shirt.woot.com/blog/viewentry.aspx?id=6407). If you're a fan like me, you love and hate the blue shell.
 <!-- more -->
 Nothing makes getting first place easier, or maintaining first place harder than the [blue shell](http://mariokart.wikia.com/wiki/Blue_Shell). The first blue shell appeared in Mario Kart 64. It was a plain spiney shell. It would break on walls and couldn't jump far gaps.   It was the same way on Super Circuit for the Game Boy Advance. 
 

@@ -47,7 +47,7 @@ You can solve this by throwing an if statement around your JS includes like this
 
 This isn't too bad, but it can still be kinda messy if you are working on a large project.  If you structure you directories to mimic your Views like I do (see image below) it becomes really tedious to manage every file and remember to add new js files to your includes.  
 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/12/MessyScripts2.png)](http://blog.worthyd.com/wp-content/uploads/2010/12/MessyScripts2.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2010/12/MessyScripts2.png)](http://blog.worthyd.com/wp-content/uploads/2010/12/MessyScripts2.png)
 
 I wrote a simple HTML Helper that will help change this:
 

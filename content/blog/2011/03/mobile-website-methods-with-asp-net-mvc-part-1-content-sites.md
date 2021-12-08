@@ -28,31 +28,31 @@ I'm going to show how I made a mobile version of my site in just a couple hours 
 <!-- more -->
 In my project file, I added an Area for my mobile section.  You could also just create an additional view area, but I wanted to keep everything separated. I created a view for all of the pages I wanted.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)
 
 The first real step was to build out my master page and get all of my jQuery Mobile includes plugged in.  jQuery hosts their mobile library so you can reference straight from them.  You can read up more on the jQuery Mobile syntax [here](http://jquerymobile.com/).
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/master-300x150.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/master.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/master-300x150.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/master.png)
 
 I then made a simple list view on my home page for navigation.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/listview-300x55.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/listview.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/listview-300x55.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/listview.png)
 
 I then went back into my main project and moved the main content of my pages into partial views and updated those pages to reference the partial views.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/partial.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/partial.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/partial.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/partial.png)
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/codepartial-300x77.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/codepartial.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/codepartial-300x77.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/codepartial.png)
 
 I then went back into my Mobile Area and referenced the same partial view.
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio-300x83.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio-300x83.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio.png)
 
 Now all I needed to do was style the page. This didn't really take much effort because I wanted it to look the same. I adjusted font-sizes and margins to accommodate the mobile device.  In the end, my custom CSS file was only 40 lines.  jQuery Mobile has a really nice theme that takes care of themes. I'm not a designer at all so I really utilized this.  
 
 When it was all said and done I had a mobile site that looked like this:
 
-[![](http://blog.worthyd.com/wp-content/uploads/2011/03/mobilehome-138x300.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/mobilehome.png)
+[![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/mobilehome-138x300.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/mobilehome.png)
 
 
 

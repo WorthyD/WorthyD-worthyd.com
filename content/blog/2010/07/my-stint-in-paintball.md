@@ -46,6 +46,6 @@ I haven't played in over a year.  After getting married and buying a house, I do
 Paintball was always kinda "my" thing. My brother played for a little bit. My parents never once saw me play.  I only had a few girlfriends go to the field with me.  I kinda liked it. It was like a second life.  I had a feeling what it would be like to be a rockstar.  I made a ton of really good friends from all over the place. 
 
 I'll leave you guys with one of my favorite pictures of me playing. It's from my last tournament. National College Paintball Association Nationals in Dallas Texas in spring 2007.  Note the Mario Death Mushroom wrist band on my right wrist. Next to my left hand, you can see a Legend of Zelda wrist band on my tank. I was the geekiest person on that team... next to Kyle. :)  It's from [Warpig.com](http://warpig.com/).  I always felt if I could picture on WarPig I could retire happy and i did. 
-[![](http://blog.worthyd.com/wp-content/uploads/2010/07/n20601938_32412763_6043.jpg)](http://blog.worthyd.com/wp-content/uploads/2010/07/n20601938_32412763_6043.jpg)
+http://blog.worthyd.com/wp-content/uploads/2010/07/n20601938_32412763_6043.jpg
 
 Thanks for reading.

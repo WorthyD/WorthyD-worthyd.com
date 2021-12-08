@@ -81,8 +81,8 @@ export class PlayerService {
   memberId$: Observable<string>;
   memberProfile$: Observable<MemberProfile>;
   seasonPass$: Observable<ClanMemberSeasonPassProgression>;
-  characters$: Observable<DestinyEntitiesCharactersDestinyCharacterComponent[]>;
-  memberSnapShot$: Observable<Callout[]>;
+  characters$: Observable<DestinyEntitiesCharactersDestinyCharacterComponent[alt]>;
+  memberSnapShot$: Observable<Callout[alt]>;
 }
 ```
 
