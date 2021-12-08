@@ -4,10 +4,6 @@ comments: true
 date: 2016-07-19 
 datePublished: 2016-07-19  
 dateModified: 2016-07-19 
-publishDate: 2016-07-19  
-modifiedDate: 2016-07-19 01:08:04+00:00
-datePublished: 2016-07-19 01:08:04+00:00
-dateModified: 2016-07-19 01:08:04+00:00
 layout: post
 link: http://worthyd.com/blog/2016/07/happy-and-productive-developers-motivating-developers/
 slug: happy-and-productive-developers-motivating-developers
