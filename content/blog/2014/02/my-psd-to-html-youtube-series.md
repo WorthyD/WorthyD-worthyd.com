@@ -4,8 +4,6 @@ comments: true
 date: 2014-02-06 
 datePublished: 2014-02-06  
 dateModified: 2014-02-06 
-publishDate: 2014-02-06  
-modifiedDate: 2014-02-06 13:16:00+00:00
 layout: post
 link: http://worthyd.com/blog/2014/02/my-psd-to-html-youtube-series/
 slug: my-psd-to-html-youtube-series

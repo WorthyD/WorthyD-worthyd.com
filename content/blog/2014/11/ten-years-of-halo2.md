@@ -4,8 +4,6 @@ comments: true
 date: 2014-11-11 
 datePublished: 2014-11-11  
 dateModified: 2014-11-11 
-publishDate: 2014-11-11  
-modifiedDate: 2014-11-11 03:00:12+00:00
 layout: post
 link: http://worthyd.com/blog/2014/11/ten-years-of-halo2/
 slug: ten-years-of-halo2

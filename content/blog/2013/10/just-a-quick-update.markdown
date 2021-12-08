@@ -2,6 +2,8 @@
 author: worthyd
 comments: true
 date: 2013-10-09 01:39:51+00:00
+datePublished: 2013-10-09 01:39:51+00:00
+dateModified: 2013-10-09 01:39:51+00:00
 layout: post
 link: http://worthyd.com/blog/2013/10/just-a-quick-update/
 slug: just-a-quick-update

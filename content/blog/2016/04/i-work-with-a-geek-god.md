@@ -4,10 +4,6 @@ comments: true
 date: 2016-04-07 
 datePublished: 2016-04-07  
 dateModified: 2016-04-07 
-publishDate: 2016-04-07  
-modifiedDate: 2016-04-07 15:19:11+00:00
-datePublished: 2016-04-07 15:19:11+00:00
-dateModified: 2016-04-07 15:19:11+00:00
 layout: post
 link: http://worthyd.com/blog/2016/04/i-work-with-a-geek-god/
 slug: i-work-with-a-geek-god

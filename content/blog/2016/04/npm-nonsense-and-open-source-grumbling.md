@@ -3,10 +3,6 @@ title: NPM Nonsense and Open Source Grumbling
 date: 2016-04-20 
 datePublished: 2016-04-20  
 dateModified: 2016-04-20 
-publishDate: 2016-04-20  
-modifiedDate: 2016-04-20 01:57:42+00:00
-datePublished: 2016-04-20 01:57:42+00:00
-dateModified: 2016-04-20 01:57:42+00:00
 layout: post
 link: http://worthyd.com/blog/2016/04/npm-nonsense-and-open-source-grumbling/
 slug: npm-nonsense-and-open-source-grumbling

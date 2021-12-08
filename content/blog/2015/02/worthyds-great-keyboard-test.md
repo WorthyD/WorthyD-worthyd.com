@@ -4,8 +4,6 @@ comments: true
 date: 2015-02-05 
 datePublished: 2015-02-05  
 dateModified: 2015-02-05 
-publishDate: 2015-02-05  
-modifiedDate: 2015-02-05 11:43:14+00:00
 layout: post
 link: http://worthyd.com/blog/2015/02/worthyds-great-keyboard-test/
 slug: worthyds-great-keyboard-test

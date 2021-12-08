@@ -4,8 +4,6 @@ comments: true
 date: 2014-09-26 
 datePublished: 2014-09-26  
 dateModified: 2014-09-26 
-publishDate: 2014-09-26  
-modifiedDate: 2014-09-26 12:56:06+00:00
 layout: post
 link: http://worthyd.com/blog/2014/09/debug-your-angularjs-app-with-angularjs-batarang/
 slug: debug-your-angularjs-app-with-angularjs-batarang

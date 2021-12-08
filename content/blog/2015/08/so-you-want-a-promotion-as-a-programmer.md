@@ -4,8 +4,6 @@ comments: true
 date: 2015-08-10 
 datePublished: 2015-08-10  
 dateModified: 2015-08-10 
-publishDate: 2015-08-10  
-modifiedDate: 2015-08-10 02:57:48+00:00
 layout: post
 link: http://worthyd.com/blog/2015/08/so-you-want-a-promotion-as-a-programmer/
 slug: so-you-want-a-promotion-as-a-programmer

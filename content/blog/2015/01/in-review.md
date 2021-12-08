@@ -4,8 +4,6 @@ comments: true
 date: 2015-01-31 
 datePublished: 2015-01-31  
 dateModified: 2015-01-31 
-publishDate: 2015-01-31  
-modifiedDate: 2015-01-31 22:44:21+00:00
 layout: post
 link: http://worthyd.com/blog/2015/01/2014-in-review/
 slug: 2014-in-review

@@ -4,8 +4,6 @@ comments: true
 date: 2015-05-07 
 datePublished: 2015-05-07  
 dateModified: 2015-05-07 
-publishDate: 2015-05-07  
-modifiedDate: 2015-05-07 23:03:07+00:00
 layout: post
 link: http://worthyd.com/blog/2015/05/how-to-be-an-effective-remote-developer/
 slug: how-to-be-an-effective-remote-developer
