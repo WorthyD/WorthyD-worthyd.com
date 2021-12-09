@@ -1,9 +1,10 @@
 ---
 title: Responsive and Animated Charts on Destiny Clan Dashboard
-date: 2021-03-07T11:39:35.377Z
-dateModified: 2021-03-07T11:39:35.377Z
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2021-03-07T11:39:35.377Z
-slug: responsive-and-animated-charts-on-destiny-clan-dashboard
+dateModified: 2021-03-07T11:39:35.377Z
 category: Technology
 tags:
   - destiny-clan-dashboard

@@ -1,9 +1,10 @@
 ---
 title: Sharing Angular Components with Different Data Sources
-date: 2021-06-15T11:39:35.377Z
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2021-06-15T11:39:35.377Z
 dateModified: 2021-06-15T11:39:35.377Z
-slug: sharing-components
 category: Technology
 tags:
   - destiny-clan-dashboard

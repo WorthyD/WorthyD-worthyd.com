@@ -1,10 +1,13 @@
 ---
 title: The Blog is Back
-date: 2021-03-02T22:33:54.957Z
-dateModified: 2021-03-02T22:33:54.957Z
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2021-03-02T22:33:54.957Z
-slug: the-blog-is-back
+dateModified: 2021-03-02T22:33:54.957Z
 category: Technology
+tags:
+
 ---
 I've missed blogging and sharing my knowledge/opinions for a while. I've looked into several different self hosted solution and I decided to create a Gatsby site. I'd like to learn a little more React and GraphQL.  
 

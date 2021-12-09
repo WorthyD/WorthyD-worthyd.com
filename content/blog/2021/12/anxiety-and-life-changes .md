@@ -1,11 +1,13 @@
 ---
 title: Anxiety and Life Changes
+cover: 
+coverAlt: ""
 description: Lots of stuff going on
-date: 2021-12-03T01:33:54.957Z
 datePublished: 2021-12-03T01:33:54.957Z
 dateModified: 2021-12-03T01:33:54.957Z
-slug: anxiety-and-life-changes 
 category: Geek Stuff
+tags:
+
 ---
 
 *This doesn't contain actual advice and isn't a cry for help.  If anything, this is my therapeutical vent session.*
