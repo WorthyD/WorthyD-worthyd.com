@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-11-04 
+title: How to use cloud storage services to sync saved games across PCs
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-11-04  
 dateModified: 2012-11-04 
-publishDate: 2012-11-04  
-modifiedDate: 2012-11-04 11:35:37+00:00
-layout: post
-link: http://worthyd.com/blog/2012/11/how-to-use-cloud-storage-services-to-sync-saved-games-across-pcs/
-slug: how-to-use-cloud-storage-services-to-sync-saved-games-across-pcs
-title: How to use cloud storage services to sync saved games across PCs
-wordpress_id: 361
 category: Technology
 tags:
 - batch files

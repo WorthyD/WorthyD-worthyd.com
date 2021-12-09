@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-17 
+title: '"Sword Play" A Zelda Shirt'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-17  
 dateModified: 2010-07-17 
-publishDate: 2010-07-17  
-modifiedDate: 2010-07-17 00:15:33+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/sword-play-a-zelda-shirt/
-slug: sword-play-a-zelda-shirt
-title: '"Sword Play" A Zelda Shirt'
-wordpress_id: 15
 category: Geek Stuff
 tags:
 - Retro

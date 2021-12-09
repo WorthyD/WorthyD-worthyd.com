@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-14 
+title: My First Video Game Band â€“ The Minibosses
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-14  
 dateModified: 2010-09-14 
-publishDate: 2010-09-14  
-modifiedDate: 2010-09-14 02:33:59+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/my-first-video-game-band-the-minibosses/
-slug: my-first-video-game-band-the-minibosses
-title: My First Video Game Band â€“ The Minibosses
-wordpress_id: 183
 category: Geek Stuff
 tags:
 - Music

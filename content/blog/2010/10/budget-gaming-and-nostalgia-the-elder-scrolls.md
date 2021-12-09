@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-10-18 
+title: 'Budget Gaming and Nostalgia: The Elder Scrolls'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-10-18  
 dateModified: 2010-10-18 
-publishDate: 2010-10-18  
-modifiedDate: 2010-10-18 00:32:48+00:00
-layout: post
-link: http://worthyd.com/blog/2010/10/budget-gaming-and-nostalgia-the-elder-scrolls/
-slug: budget-gaming-and-nostalgia-the-elder-scrolls
-title: 'Budget Gaming and Nostalgia: The Elder Scrolls'
-wordpress_id: 224
 category: Gaming
 tags:
 - Budget Gaming

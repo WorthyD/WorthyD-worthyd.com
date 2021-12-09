@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-22 
+title: The State of Halo Part 1 of 3
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-22  
 dateModified: 2010-07-22 
-publishDate: 2010-07-22  
-modifiedDate: 2010-07-22 03:36:38+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/the-state-of-halo-part-1-of-3/
-slug: the-state-of-halo-part-1-of-3
-title: The State of Halo Part 1 of 3
-wordpress_id: 23
 category: Gaming
 tags:
 - Halo

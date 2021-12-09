@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-04-20 
+title: Confessions of a Full Stack Developer
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-04-20  
 dateModified: 2015-04-20 
-layout: post
-link: http://worthyd.com/blog/2015/04/confessions-of-a-full-stack-developer/
-slug: confessions-of-a-full-stack-developer
-title: Confessions of a Full Stack Developer
-wordpress_id: 645
 category: Technology
 tags:
 - Rant

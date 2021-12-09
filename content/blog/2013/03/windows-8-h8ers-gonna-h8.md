@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-03-06 
+title: 'Windows 8: H8ers gonna H8'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-03-06  
 dateModified: 2013-03-06 
-publishDate: 2013-03-06  
-modifiedDate: 2013-03-06 01:37:12+00:00
-layout: post
-link: http://worthyd.com/blog/2013/03/windows-8-h8ers-gonna-h8/
-slug: windows-8-h8ers-gonna-h8
-title: 'Windows 8: H8ers gonna H8'
-wordpress_id: 433
 category: Technology
 tags:
 - Rant

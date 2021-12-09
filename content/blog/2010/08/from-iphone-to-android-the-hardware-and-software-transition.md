@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-24 
+title: 'From iPhone to Android: The Hardware and Software Transition'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-24  
 dateModified: 2010-08-24 
-publishDate: 2010-08-24  
-modifiedDate: 2010-08-24 00:10:09+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/from-iphone-to-android-the-hardware-and-software-transition/
-slug: from-iphone-to-android-the-hardware-and-software-transition
-title: 'From iPhone to Android: The Hardware and Software Transition'
-wordpress_id: 538
 category: Technology
 tags:
 - Android

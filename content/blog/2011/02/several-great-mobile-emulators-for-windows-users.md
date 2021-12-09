@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-02-05 
+title: Several Great Mobile Emulators for Windows Users
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-02-05  
 dateModified: 2011-02-05 
-publishDate: 2011-02-05  
-modifiedDate: 2011-02-05 00:22:16+00:00
-layout: post
-link: http://worthyd.com/blog/2011/02/several-great-mobile-emulators-for-windows-users/
-slug: several-great-mobile-emulators-for-windows-users
-title: Several Great Mobile Emulators for Windows Users
-wordpress_id: 178
 category: Technology
 tags:
 - apps

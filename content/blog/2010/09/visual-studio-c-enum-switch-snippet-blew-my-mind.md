@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-16 
+title: Visual Studio C# Enum Switch Snippet - Blew My Mind
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-16  
 dateModified: 2010-09-16 
-publishDate: 2010-09-16  
-modifiedDate: 2010-09-16 20:33:42+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/visual-studio-c-enum-switch-snippet-blew-my-mind/
-slug: visual-studio-c-enum-switch-snippet-blew-my-mind
-title: Visual Studio C# Enum Switch Snippet - Blew My Mind
-wordpress_id: 117
 category: 
 tags:
 - C#

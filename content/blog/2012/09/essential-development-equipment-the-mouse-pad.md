@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-09-04 
+title: 'Essential Development Equipment: The Mouse Pad'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-09-04  
 dateModified: 2012-09-04 
-publishDate: 2012-09-04  
-modifiedDate: 2012-09-04 01:52:53+00:00
-layout: post
-link: http://worthyd.com/blog/2012/09/essential-development-equipment-the-mouse-pad/
-slug: essential-development-equipment-the-mouse-pad
-title: 'Essential Development Equipment: The Mouse Pad'
-wordpress_id: 545
 category: Technology 
 tags:
 - hardware

@@ -1,17 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-03-09 
+title: WorthyD's Tech Blog, Brought To You By The $1 iPad Stand And $2 Dual Phone
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-03-09  
 dateModified: 2012-03-09 
-publishDate: 2012-03-09  
-modifiedDate: 2012-03-09 03:36:54+00:00
-layout: post
-link: http://worthyd.com/blog/2012/03/worthyds-tech-blog-brought-to-you-by-the-1-ipad-stand-and-2-dual-phone-stand/
-slug: worthyds-tech-blog-brought-to-you-by-the-1-ipad-stand-and-2-dual-phone-stand
-title: WorthyD's Tech Blog, Brought To You By The $1 iPad Stand And $2 Dual Phone
-  Stand
-wordpress_id: 297
 category: Technology 
 tags:
 - Tech Blog

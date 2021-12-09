@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-15 
+title: Equipment Counts! A lesson I keep learning!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-15  
 dateModified: 2010-09-15 
-publishDate: 2010-09-15  
-modifiedDate: 2010-09-15 22:09:59+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/equipment-counts/
-slug: equipment-counts
-title: Equipment Counts! A lesson I keep learning!
-wordpress_id: 189
 category: Technology
 tags:
 - paintball

@@ -1,15 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-04-15 
+title: I am a Web Developer
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-04-15  
 dateModified: 2014-04-15 
-layout: post
-link: http://worthyd.com/blog/2014/04/i-am-a-web-developer/
-slug: i-am-a-web-developer
-title: I am a Web Developer
-wordpress_id: 556
-categories:
 category: Technology
 tags:
 - Rant

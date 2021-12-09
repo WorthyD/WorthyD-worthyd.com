@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-11-11 
+title: Ten years of Halo 2
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-11-11  
 dateModified: 2014-11-11 
-layout: post
-link: http://worthyd.com/blog/2014/11/ten-years-of-halo2/
-slug: ten-years-of-halo2
-title: Ten years of Halo 2
-wordpress_id: 605
 category: Gaming 
 tags:
 - FPS

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-08-20 
+title: 'Infinite Playlist: My top 10 console games that never get old.'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-08-20  
 dateModified: 2012-08-20 
-publishDate: 2012-08-20  
-modifiedDate: 2012-08-20 02:39:46+00:00
-layout: post
-link: http://worthyd.com/blog/2012/08/infinite-playlist-my-top-10-console-games-that-never-get-old/
-slug: infinite-playlist-my-top-10-console-games-that-never-get-old
-title: 'Infinite Playlist: My top 10 console games that never get old.'
-wordpress_id: 390
 category: Gaming
 tags:
 - FPS

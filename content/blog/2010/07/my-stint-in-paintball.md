@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-31 
+title: My Stint In Paintball
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-31  
 dateModified: 2010-07-31 
-publishDate: 2010-07-31  
-modifiedDate: 2010-07-31 08:42:07+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/my-stint-in-paintball/
-slug: my-stint-in-paintball
-title: My Stint In Paintball
-wordpress_id: 65
 category: Geek Stuff 
 tags:
 - paintball

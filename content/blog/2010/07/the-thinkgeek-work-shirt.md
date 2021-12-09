@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-16 
+title: The ThinkGeek Work Shirt
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-16  
 dateModified: 2010-07-16 
-publishDate: 2010-07-16  
-modifiedDate: 2010-07-16 01:28:18+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/the-thinkgeek-work-shirt/
-slug: the-thinkgeek-work-shirt
-title: The ThinkGeek Work Shirt
-wordpress_id: 5
 category: Geek Stuff 
 tags:
 - Think Geek

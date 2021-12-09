@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-06-21 
+title: 'jQuery Performance Tips: Caching Selectors'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-06-21  
 dateModified: 2012-06-21 
-publishDate: 2012-06-21  
-modifiedDate: 2012-06-21 11:28:18+00:00
-layout: post
-link: http://worthyd.com/blog/2012/06/jquery-performance-tips-caching-selectors/
-slug: jquery-performance-tips-caching-selectors
-title: 'jQuery Performance Tips: Caching Selectors'
-wordpress_id: 304
 category: Technology
 tags:
 - best practices

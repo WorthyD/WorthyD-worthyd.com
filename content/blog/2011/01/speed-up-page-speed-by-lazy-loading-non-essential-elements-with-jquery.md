@@ -1,20 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-01-26 
+title: Speed up page speed by lazy loading non-essential elements with jQuery
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-01-26  
 dateModified: 2011-01-26 
-publishDate: 2011-01-26  
-modifiedDate: 2011-01-26 22:31:42+00:00
-excerpt: I worked up this idea after using some Facebook like buttons and the <a href="http://jscrollpane.kelvinluck.com/"
-  target="_blank">jScrollPane</a> jQuery plugin.  I'm a big fan of jScrollPane, but
-  the iframes from the like buttons caused some unfortunate page flashing after document.ready
-  fired.
-layout: post
-link: http://worthyd.com/blog/2011/01/speed-up-page-speed-by-lazy-loading-non-essential-elements-with-jquery/
-slug: speed-up-page-speed-by-lazy-loading-non-essential-elements-with-jquery
-title: Speed up page speed by lazy loading non-essential elements with jQuery
-wordpress_id: 541
 category: Technology
 tags:
 - Code Snippets

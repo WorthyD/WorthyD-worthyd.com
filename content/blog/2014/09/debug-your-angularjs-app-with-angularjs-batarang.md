@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-09-26 
+title: Debug your AngularJS app with AngularJS Batarang
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-09-26  
 dateModified: 2014-09-26 
-layout: post
-link: http://worthyd.com/blog/2014/09/debug-your-angularjs-app-with-angularjs-batarang/
-slug: debug-your-angularjs-app-with-angularjs-batarang
-title: Debug your AngularJS app with AngularJS Batarang
-wordpress_id: 571
 category: Technology
 tags:
 - Frontend Development

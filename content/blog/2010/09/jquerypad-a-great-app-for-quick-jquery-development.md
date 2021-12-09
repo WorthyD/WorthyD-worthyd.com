@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-08 
+title: jQueryPad - A Great App for Quick jQuery Development
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-08  
 dateModified: 2010-09-08 
-publishDate: 2010-09-08  
-modifiedDate: 2010-09-08 01:40:01+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/jquerypad-a-great-app-for-quick-jquery-development/
-slug: jquerypad-a-great-app-for-quick-jquery-development
-title: jQueryPad - A Great App for Quick jQuery Development
-wordpress_id: 537
 category: Technology
 tags:
 - Javascript

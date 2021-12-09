@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-03-22 
+title: Weekend Tech Reads For 3-22-2013
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-03-22  
 dateModified: 2013-03-22 
-publishDate: 2013-03-22  
-modifiedDate: 2013-03-22 11:10:55+00:00
-layout: post
-link: http://worthyd.com/blog/2013/03/weekend-tech-reads-for-3-22-2013/
-slug: weekend-tech-reads-for-3-22-2013
-title: Weekend Tech Reads For 3-22-2013
-wordpress_id: 460
 category: Technology
 tags:
 - best practices

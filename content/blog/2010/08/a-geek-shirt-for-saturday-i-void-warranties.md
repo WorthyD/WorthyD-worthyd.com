@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-21 
+title: A Geek Shirt For Saturday! I Void Warranties!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-21  
 dateModified: 2010-08-21 
-publishDate: 2010-08-21  
-modifiedDate: 2010-08-21 17:59:48+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/a-geek-shirt-for-saturday-i-void-warranties/
-slug: a-geek-shirt-for-saturday-i-void-warranties
-title: A Geek Shirt For Saturday! I Void Warranties!
-wordpress_id: 133
 category: Geek Stuff
 tags:
 - paintball

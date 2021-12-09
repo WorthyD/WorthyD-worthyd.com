@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-24 
+title: 'Budget Gaming: The Left 4 Dead series'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-24  
 dateModified: 2010-09-24 
-publishDate: 2010-09-24  
-modifiedDate: 2010-09-24 00:32:48+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/budget-gaming-the-left-4-dead-series/
-slug: budget-gaming-the-left-4-dead-series
-title: 'Budget Gaming: The Left 4 Dead series'
-wordpress_id: 210
 category: Gaming
 tags:
 - video games

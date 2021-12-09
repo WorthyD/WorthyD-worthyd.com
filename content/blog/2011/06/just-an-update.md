@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-06-30 
+title: Just an update
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-06-30  
 dateModified: 2011-06-30 
-publishDate: 2011-06-30  
-modifiedDate: 2011-06-30 02:23:55+00:00
-layout: post
-link: http://worthyd.com/blog/2011/06/just-an-update/
-slug: just-an-update
-title: Just an update
-wordpress_id: 226
 category: Geek Stuff 
 tags:
 - life

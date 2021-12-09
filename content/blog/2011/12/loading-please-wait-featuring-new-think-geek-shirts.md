@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-12-08 
+title: Loading...... Please Wait.  Featuring new Think Geek Shirts!!!!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-12-08  
 dateModified: 2011-12-08 
-publishDate: 2011-12-08  
-modifiedDate: 2011-12-08 03:18:17+00:00
-layout: post
-link: http://worthyd.com/blog/2011/12/loading-please-wait-featuring-new-think-geek-shirts/
-slug: loading-please-wait-featuring-new-think-geek-shirts
-title: Loading...... Please Wait.  Featuring new Think Geek Shirts!!!!
-wordpress_id: 364
 category: Geek Stuff
 tags:
 - geek shirt

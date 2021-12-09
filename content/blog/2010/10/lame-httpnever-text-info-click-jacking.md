@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-10-18 
+title: Lame http://never-text.info/ click jacking
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-10-18  
 dateModified: 2010-10-18 
-publishDate: 2010-10-18  
-modifiedDate: 2010-10-18 01:24:58+00:00
-layout: post
-link: http://worthyd.com/blog/2010/10/lame-httpnever-text-info-click-jacking/
-slug: lame-httpnever-text-info-click-jacking
-title: Lame http://never-text.info/ click jacking
-wordpress_id: 136
 category: Technology
 tags:
 - Tech Blog

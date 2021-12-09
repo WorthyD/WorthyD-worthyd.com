@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-01-18 
+title: Weekend Tech Reads For 1-18-2013
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-01-18  
 dateModified: 2013-01-18 
-publishDate: 2013-01-18  
-modifiedDate: 2013-01-18 11:32:58+00:00
-layout: post
-link: http://worthyd.com/blog/2013/01/weekend-tech-reads-for-1-18-2013/
-slug: weekend-tech-reads-for-1-18-2013
-title: Weekend Tech Reads For 1-18-2013
-wordpress_id: 404
 category: Technology
 tags:
 - css

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-22 
+title: 'Zelda T-Shirt: +30 Nerd Cred'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-22  
 dateModified: 2010-09-22 
-publishDate: 2010-09-22  
-modifiedDate: 2010-09-22 18:03:14+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/zeldashirtnerd/
-slug: zeldashirtnerd
-title: 'Zelda T-Shirt: +30 Nerd Cred'
-wordpress_id: 217
 category: Geek Stuff
 tags:
   - Geek Shirt

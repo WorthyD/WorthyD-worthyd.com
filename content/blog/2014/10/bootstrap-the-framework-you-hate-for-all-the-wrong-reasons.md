@@ -1,15 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-10-15 
+title: Bootstrap - The framework you hate for all the wrong reasons.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-10-15  
 dateModified: 2014-10-15 
-layout: post
-link: http://worthyd.com/blog/2014/10/bootstrap-the-framework-you-hate-for-all-the-wrong-reasons/
-slug: bootstrap-the-framework-you-hate-for-all-the-wrong-reasons
-title: Bootstrap - The framework you hate for all the wrong reasons.
-wordpress_id: 580
-categories:
 category: Technology
 tags:
   - Frontend Development

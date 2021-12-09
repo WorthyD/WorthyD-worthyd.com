@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2016-04-20 
+title: 'Series Introduction: Happy and Productive Developers'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2016-04-20  
 dateModified: 2016-04-20 
-layout: post
-link: http://worthyd.com/blog/2016/04/series-introduction-happy-and-productive-developers/
-slug: series-introduction-happy-and-productive-developers
-title: 'Series Introduction: Happy and Productive Developers'
-wordpress_id: 1070
 category: Technology
 tags:
 - Being A Developer

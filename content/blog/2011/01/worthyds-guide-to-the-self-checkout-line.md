@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-01-01 
+title: WorthyD's Guide to the Self-Checkout Line
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-01-01  
 dateModified: 2011-01-01 
-publishDate: 2011-01-01  
-modifiedDate: 2011-01-01 00:47:34+00:00
-layout: post
-link: http://worthyd.com/blog/2011/01/worthyds-guide-to-the-self-checkout-line/
-slug: worthyds-guide-to-the-self-checkout-line
-title: WorthyD's Guide to the Self-Checkout Line
-wordpress_id: 265
 category: Geek Stuff 
 tags:
 - Rant

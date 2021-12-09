@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-12-03 
+title: Easily Manage Many Javascript/CSS Files in Your .Net MVC Project
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-12-03  
 dateModified: 2010-12-03 
-publishDate: 2010-12-03  
-modifiedDate: 2010-12-03 22:15:59+00:00
-layout: post
-link: http://worthyd.com/blog/2010/12/manage-scripts-styles/
-slug: manage-scripts-styles
-title: Easily Manage Many Javascript/CSS Files in Your .Net MVC Project
-wordpress_id: 540
 category: Technology
 tags:
 - .net

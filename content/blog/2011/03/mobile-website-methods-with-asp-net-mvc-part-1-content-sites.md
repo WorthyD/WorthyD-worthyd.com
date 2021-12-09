@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-03-21 
+title: Mobile Website Methods with Asp.Net MVC. Part 1 - Content Sites
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-03-21  
 dateModified: 2011-03-21 
-publishDate: 2011-03-21  
-modifiedDate: 2011-03-21 20:31:55+00:00
-layout: post
-link: http://worthyd.com/blog/2011/03/mobile-website-methods-with-asp-net-mvc-part-1-content-sites/
-slug: mobile-website-methods-with-asp-net-mvc-part-1-content-sites
-title: Mobile Website Methods with Asp.Net MVC. Part 1 - Content Sites
-wordpress_id: 542
 category: Technology
 tags:
 - Asp.net

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-24 
+title: 'Video Game Shirt Friday: Team Mario!'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-24  
 dateModified: 2010-07-24 
-publishDate: 2010-07-24  
-modifiedDate: 2010-07-24 03:34:09+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/video-game-shirt-friday-team-mario/
-slug: video-game-shirt-friday-team-mario
-title: 'Video Game Shirt Friday: Team Mario!'
-wordpress_id: 53
 category: Geek Stuff
 tags:
 - Mario

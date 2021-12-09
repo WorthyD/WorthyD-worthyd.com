@@ -1,18 +1,13 @@
 ---
-author: worthyd
-comments: true
-date: 2011-03-18 
+title: Self Checkout. A new experience.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-03-18  
 dateModified: 2011-03-18 
-publishDate: 2011-03-18  
-modifiedDate: 2011-03-18 01:49:23+00:00
-layout: post
-link: http://worthyd.com/blog/2011/03/self-checkout-a-new-experience/
-slug: self-checkout-a-new-experience
-title: Self Checkout. A new experience.
-wordpress_id: 283
 category: Geek Stuff 
 tags: 
+
 ---
 
 Happy St. Patrick's day!

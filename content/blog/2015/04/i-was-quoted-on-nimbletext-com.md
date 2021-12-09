@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-04-20 
+title: I was quoted on NimbleText.com!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-04-20  
 dateModified: 2015-04-20 
-layout: post
-link: http://worthyd.com/blog/2015/04/i-was-quoted-on-nimbletext-com/
-slug: i-was-quoted-on-nimbletext-com
-title: I was quoted on NimbleText.com!
-wordpress_id: 655
 category: Technology
 tags:
 - Cool Apps

@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-02-06 
+title: My PSD to HTML YouTube Series
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-02-06  
 dateModified: 2014-02-06 
-layout: post
-link: http://worthyd.com/blog/2014/02/my-psd-to-html-youtube-series/
-slug: my-psd-to-html-youtube-series
-title: My PSD to HTML YouTube Series
-wordpress_id: 550
 category: Technology
 tags:
 - Frontend Development

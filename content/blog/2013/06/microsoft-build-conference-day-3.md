@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-06-29 
+title: Microsoft Build Conference Day 3
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-06-29  
 dateModified: 2013-06-29 
-layout: post
-link: http://worthyd.com/blog/2013/06/microsoft-build-conference-day-3/
-slug: microsoft-build-conference-day-3
-title: Microsoft Build Conference Day 3
-wordpress_id: 507
 category: Technology
 tags:
 - Build Conference

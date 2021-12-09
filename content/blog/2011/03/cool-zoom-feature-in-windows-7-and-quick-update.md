@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-03-10 
+title: Cool zoom feature in Windows 7 and quick update
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-03-10  
 dateModified: 2011-03-10 
-publishDate: 2011-03-10  
-modifiedDate: 2011-03-10 01:25:35+00:00
-layout: post
-link: http://worthyd.com/blog/2011/03/cool-zoom-feature-in-windows-7-and-quick-update/
-slug: cool-zoom-feature-in-windows-7-and-quick-update
-title: Cool zoom feature in Windows 7 and quick update
-wordpress_id: 190
 category: Technology
 tags:
 - cutout

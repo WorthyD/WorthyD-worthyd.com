@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-21 
+title: 'From iPhone to Android: Why I Chose Android'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-21  
 dateModified: 2010-08-21 
-publishDate: 2010-08-21  
-modifiedDate: 2010-08-21 21:27:21+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/from-iphone-to-android-why-i-chose-android/
-slug: from-iphone-to-android-why-i-chose-android
-title: 'From iPhone to Android: Why I Chose Android'
-wordpress_id: 82
 category: Technology
 tags:
 - Android

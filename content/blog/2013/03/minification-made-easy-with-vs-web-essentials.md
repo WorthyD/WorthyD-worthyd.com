@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-03-28 
+title: Minification Made Easy with VS Web Essentials for Visual Studio 2012
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-03-28  
 dateModified: 2013-03-28 
-publishDate: 2013-03-28  
-modifiedDate: 2013-03-28 11:27:24+00:00
-layout: post
-link: http://worthyd.com/blog/2013/03/minification-made-easy-with-vs-web-essentials/
-slug: minification-made-easy-with-vs-web-essentials
-title: Minification Made Easy with VS Web Essentials for Visual Studio 2012
-wordpress_id: 463
 category: Technology
 tags:
 - Frontend Development

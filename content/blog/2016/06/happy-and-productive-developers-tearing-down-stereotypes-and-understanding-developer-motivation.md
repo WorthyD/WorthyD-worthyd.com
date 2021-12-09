@@ -1,15 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2016-06-14 
+title: 'Happy and Productive Developers: Tearing Down Stereotypes and Understanding
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2016-06-14  
 dateModified: 2016-06-14 
-layout: post
-link: http://worthyd.com/blog/2016/06/happy-and-productive-developers-tearing-down-stereotypes-and-understanding-developer-motivation/
-slug: happy-and-productive-developers-tearing-down-stereotypes-and-understanding-developer-motivation
-title: 'Happy and Productive Developers: Tearing Down Stereotypes and Understanding
-  Developer Motivation'
-wordpress_id: 1084
 category: Technology
 tags:
 - Being A Developer

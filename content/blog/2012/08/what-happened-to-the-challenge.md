@@ -1,20 +1,13 @@
 ---
-author: worthyd
-comments: true
-date: 2012-08-11 
+title: What happened to the challenge?
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-08-11  
 dateModified: 2012-08-11 
-publishDate: 2012-08-11  
-modifiedDate: 2012-08-11 02:10:37+00:00
-layout: post
-link: http://worthyd.com/blog/2012/08/what-happened-to-the-challenge/
-slug: what-happened-to-the-challenge
-title: What happened to the challenge?
-wordpress_id: 385
 category: Gaming
-post_format:
-- Standard
 tags:
+
 ---
 
 I recently finished a second play through of Fable 2 and Fable 3.  I came to a realization shortly after finishing the games. Both games are virtually impossible to lose. Losing all your life knocks you down and you gain a scar and lose some xp.  Sure there is an achievement for not getting knocked down, but you can easily spam your unlimited magic or infinite ammo gun. 

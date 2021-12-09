@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-27 
+title: Get New File Types in Your "New" Context Menu
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-27  
 dateModified: 2010-07-27 
-layout: post
-link: http://worthyd.com/blog/2010/07/get-new-file-types-in-your-new-context-menu/
-slug: get-new-file-types-in-your-new-context-menu
-title: Get New File Types in Your "New" Context Menu
-wordpress_id: 38
 category: Technology
 tags:
 - Quick OS Tips and Tricks

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: false
-date: 2013-01-21 
+title: A 24 Hour Hackathon And My Experience.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-01-21  
 dateModified: 2013-01-21 
-publishDate: 2013-01-21  
-modifiedDate: 2013-01-21 03:18:33+00:00
-layout: post
-link: http://worthyd.com/blog/2013/01/24-hour-hackathon-my-experience/
-slug: 24-hour-hackathon-my-experience
-title: A 24 Hour Hackathon And My Experience.
-wordpress_id: 408
 category: Technology
 tags:
 - web development

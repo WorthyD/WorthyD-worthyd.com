@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-01-02 
+title: A Couple Tips to Type Code Faster
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-01-02  
 dateModified: 2012-01-02 
-publishDate: 2012-01-02  
-modifiedDate: 2012-01-02 22:58:46+00:00
-layout: post
-link: http://worthyd.com/blog/2012/01/a-couple-tips-to-type-code-faster/
-slug: a-couple-tips-to-type-code-faster
-title: A Couple Tips to Type Code Faster
-wordpress_id: 543
 category: Technology
 tags:
 - code

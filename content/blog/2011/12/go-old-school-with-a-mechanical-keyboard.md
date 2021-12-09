@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-12-08 
+title: Go old school with a mechanical keyboard!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-12-08  
 dateModified: 2011-12-08 
-publishDate: 2011-12-08  
-modifiedDate: 2011-12-08 03:00:04+00:00
-layout: post
-link: http://worthyd.com/blog/2011/12/go-old-school-with-a-mechanical-keyboard/
-slug: go-old-school-with-a-mechanical-keyboard
-title: Go old school with a mechanical keyboard!
-wordpress_id: 252
 category: Technology
 tags:
 - hardware

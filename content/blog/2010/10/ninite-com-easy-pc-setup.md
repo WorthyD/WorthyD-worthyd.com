@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-10-07 
+title: Ninite.com- Easy PC Setup!
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-10-07  
 dateModified: 2010-10-07 
-publishDate: 2010-10-07  
-modifiedDate: 2010-10-07 02:24:57+00:00
-layout: post
-link: http://worthyd.com/blog/2010/10/ninite-com-easy-pc-setup/
-slug: ninite-com-easy-pc-setup
-title: Ninite.com- Easy PC Setup!
-wordpress_id: 129
 category: Technology
 tags:
 - install

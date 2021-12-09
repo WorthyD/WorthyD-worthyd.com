@@ -1,15 +1,13 @@
 ---
-author: worthyd
-comments: true
-date: 2015-01-31 
+title: 2014 in Review
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-01-31  
 dateModified: 2015-01-31 
-layout: post
-link: http://worthyd.com/blog/2015/01/2014-in-review/
-slug: 2014-in-review
-title: 2014 in Review
-wordpress_id: 612
 category: Technology
+tags:
+
 ---
 
 We're a month into 2015 and I haven't given much time to look back at 2014.  

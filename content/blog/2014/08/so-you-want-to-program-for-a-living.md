@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2014-08-25 
+title: So you want to program for a living?
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2014-08-25  
 dateModified: 2014-08-25 
-layout: post
-link: http://worthyd.com/blog/2014/08/so-you-want-to-program-for-a-living/
-slug: so-you-want-to-program-for-a-living
-title: So you want to program for a living?
-wordpress_id: 567
 category: Technology
 tags:
 - Rant

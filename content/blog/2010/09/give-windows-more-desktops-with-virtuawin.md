@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-14 
+title: Give Windows More Desktops with VirtuaWin
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-14  
 dateModified: 2010-09-14 
-publishDate: 2010-09-14  
-modifiedDate: 2010-09-14 22:30:06+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/give-windows-more-desktops-with-virtuawin/
-slug: give-windows-more-desktops-with-virtuawin
-title: Give Windows More Desktops with VirtuaWin
-wordpress_id: 539
 category: Technology
 tags:
 - productivity

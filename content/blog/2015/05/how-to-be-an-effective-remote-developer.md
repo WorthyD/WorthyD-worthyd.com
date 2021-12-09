@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-05-07 
+title: How to be an effective remote developer
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-05-07  
 dateModified: 2015-05-07 
-layout: post
-link: http://worthyd.com/blog/2015/05/how-to-be-an-effective-remote-developer/
-slug: how-to-be-an-effective-remote-developer
-title: How to be an effective remote developer
-wordpress_id: 678
 category: Technology
 tags:
 - Productive Developer

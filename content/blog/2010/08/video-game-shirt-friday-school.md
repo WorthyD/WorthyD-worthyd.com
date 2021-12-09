@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-07 
+title: 'Video Game Shirt Friday: School'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-07  
 dateModified: 2010-08-07 
-publishDate: 2010-08-07  
-modifiedDate: 2010-08-07 01:39:37+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/video-game-shirt-friday-school/
-slug: video-game-shirt-friday-school
-title: 'Video Game Shirt Friday: School'
-wordpress_id: 86
 category: Geek Stuff
 tags:
 - Video Game Shirts

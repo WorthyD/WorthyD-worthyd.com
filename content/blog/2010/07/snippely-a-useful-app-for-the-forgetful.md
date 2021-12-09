@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-22 
+title: Snippely - A useful app for the forgetful
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-22  
 dateModified: 2010-07-22 
-publishDate: 2010-07-22  
-modifiedDate: 2010-07-22 22:14:05+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/snippely-a-useful-app-for-the-forgetful/
-slug: snippely-a-useful-app-for-the-forgetful
-title: Snippely - A useful app for the forgetful
-wordpress_id: 25
 category: Technology 
 tags:
 - Code Snippets

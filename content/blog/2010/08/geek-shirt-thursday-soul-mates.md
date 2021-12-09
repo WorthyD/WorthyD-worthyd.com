@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-12 
+title: 'Geek Shirt Thursday: Soul Mates'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-12  
 dateModified: 2010-08-12 
-publishDate: 2010-08-12  
-modifiedDate: 2010-08-12 17:00:03+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/geek-shirt-thursday-soul-mates/
-slug: geek-shirt-thursday-soul-mates
-title: 'Geek Shirt Thursday: Soul Mates'
-wordpress_id: 111
 category: Geek Stuff
 tags:
 - Lord of the Rings

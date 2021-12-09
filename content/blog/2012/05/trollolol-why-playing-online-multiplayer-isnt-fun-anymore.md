@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-05-08 
+title: Trollolol - Why playing online multiplayer isn't fun anymore.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-05-08  
 dateModified: 2012-05-08 
-publishDate: 2012-05-08  
-modifiedDate: 2012-05-08 23:09:59+00:00
-layout: post
-link: http://worthyd.com/blog/2012/05/trollolol-why-playing-online-multiplayer-isnt-fun-anymore/
-slug: trollolol-why-playing-online-multiplayer-isnt-fun-anymore
-title: Trollolol - Why playing online multiplayer isn't fun anymore.
-wordpress_id: 377
 category: Gaming
 tags:
 - multiplayer

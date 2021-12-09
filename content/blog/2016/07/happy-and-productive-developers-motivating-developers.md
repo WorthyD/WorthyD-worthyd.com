@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2016-07-19 
+title: 'Happy and Productive Developers: Motivating Developers'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2016-07-19  
 dateModified: 2016-07-19 
-layout: post
-link: http://worthyd.com/blog/2016/07/happy-and-productive-developers-motivating-developers/
-slug: happy-and-productive-developers-motivating-developers
-title: 'Happy and Productive Developers: Motivating Developers'
-wordpress_id: 1096
 category: Technology
 tags:
 - Being A Developer

@@ -1,27 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-06-29 
+title: Geek Office In The Closet
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-06-29  
 dateModified: 2011-06-29 
-publishDate: 2011-06-29  
-modifiedDate: 2011-06-29 18:01:50+00:00
-excerpt: 'Space is running out in our house. We''re looking to clean out one of our
-  bed rooms.  Amanda had her craft room and I had my office. I read an article recently
-  from Elijah Manor, a developer I follow on twitter, about how he moved his office
-  into his closet.  I got a little inspired.  I probably have A.D.D. and being in
-  a smaller space would probably do me some good.
-
-
-  I moved into the closet and used a spare plank and some shelves I had for a desk.  This
-  worked, but the desk was shaky and wasn''t a comfortable height.  I decided that
-  I really needed to build a desk into my wall to really utilize the space.  I did
-  little bit of research and found out I could do all of this at a fairly low price.'
-layout: post
-link: http://worthyd.com/blog/2011/06/geek-office-in-the-closet/
-slug: geek-office-in-the-closet
-title: Geek Office In The Closet
-wordpress_id: 280
 category: Woodworking 
 tags:
 - computer setup

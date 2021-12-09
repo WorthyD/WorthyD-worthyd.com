@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-05 
+title: 'Geek Shirt Thursday: Bridges and Boxleitner'
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-05  
 dateModified: 2010-08-05 
-publishDate: 2010-08-05  
-modifiedDate: 2010-08-05 17:16:02+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/geek-shirt-thursday-bridges-and-boxleitner/
-slug: geek-shirt-thursday-bridges-and-boxleitner
-title: 'Geek Shirt Thursday: Bridges and Boxleitner'
-wordpress_id: 75
 category: Geek Stuff
 tags:
 - Geek Shirts

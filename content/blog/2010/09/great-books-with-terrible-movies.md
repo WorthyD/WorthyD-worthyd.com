@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-29 
+title: Great Books With Terrible Movies
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-29  
 dateModified: 2010-09-29 
-publishDate: 2010-09-29  
-modifiedDate: 2010-09-29 02:15:28+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/great-books-with-terrible-movies/
-slug: great-books-with-terrible-movies
-title: Great Books With Terrible Movies
-wordpress_id: 231
 category: Geek Stuff
 tags:
 - Books

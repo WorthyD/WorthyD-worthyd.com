@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-07-19 
+title: Awesome jQuery performance tips by Addy Osmani.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-07-19  
 dateModified: 2011-07-19 
-publishDate: 2011-07-19  
-modifiedDate: 2011-07-19 01:16:22+00:00
-layout: post
-link: http://worthyd.com/blog/2011/07/awesome-jquery-performance-tips-by-addy-osmani/
-slug: awesome-jquery-performance-tips-by-addy-osmani
-title: Awesome jQuery performance tips by Addy Osmani.
-wordpress_id: 234
 category: Technology
 tags:
 - best practices

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-07-30 
+title: WinSplit - One of the Best Multi Monitor Tools
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-07-30  
 dateModified: 2010-07-30 
-publishDate: 2010-07-30  
-modifiedDate: 2010-07-30 20:36:12+00:00
-layout: post
-link: http://worthyd.com/blog/2010/07/winsplit/
-slug: winsplit
-title: WinSplit - One of the Best Multi Monitor Tools
-wordpress_id: 24
 category: Geek Stuff
 tags:
  - Cool Apps

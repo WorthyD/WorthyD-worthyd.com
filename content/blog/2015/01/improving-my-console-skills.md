@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-01-27 
+title: Improving my console skills
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-01-27  
 dateModified: 2015-01-27 
-layout: post
-link: http://worthyd.com/blog/2015/01/improving-my-console-skills/
-slug: improving-my-console-skills
-title: Improving my console skills
-wordpress_id: 613
 category: Technology
 tags:
 - console

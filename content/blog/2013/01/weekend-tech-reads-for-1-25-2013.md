@@ -1,17 +1,13 @@
 ---
-author: worthyd
-comments: true
-date: 2013-01-24 
+title: Weekend Tech Reads For 1-25-2013
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-01-24  
 dateModified: 2013-01-24 
-publishDate: 2013-01-24  
-modifiedDate: 2013-01-24 12:02:26+00:00
-layout: post
-link: http://worthyd.com/blog/2013/01/weekend-tech-reads-for-1-25-2013/
-slug: weekend-tech-reads-for-1-25-2013
-title: Weekend Tech Reads For 1-25-2013
-wordpress_id: 424
 category: Technology
+tags:
+
 ---
 
 ### Asp.net / Asp.net MVC

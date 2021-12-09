@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-03-07 
+title: Don't like it? Fix it yourself! My quest to build a Wordpress Theme.
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-03-07  
 dateModified: 2012-03-07 
-publishDate: 2012-03-07  
-modifiedDate: 2012-03-07 02:05:25+00:00
-layout: post
-link: http://worthyd.com/blog/2012/03/dont-like-it-fix-it-yourself-my-quest-to-build-a-wordpress-theme/
-slug: dont-like-it-fix-it-yourself-my-quest-to-build-a-wordpress-theme
-title: Don't like it? Fix it yourself! My quest to build a Wordpress Theme.
-wordpress_id: 289
 category: Technology 
 tags:
 - Tech Blog

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-09-07 
+title: 10 Games That Deserved More From Me
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-09-07  
 dateModified: 2010-09-07 
-publishDate: 2010-09-07  
-modifiedDate: 2010-09-07 02:32:48+00:00
-layout: post
-link: http://worthyd.com/blog/2010/09/10-games-that-deserved-more-from-me/
-slug: 10-games-that-deserved-more-from-me
-title: 10 Games That Deserved More From Me
-wordpress_id: 144
 category: Gaming
 tags:
 - nintendo

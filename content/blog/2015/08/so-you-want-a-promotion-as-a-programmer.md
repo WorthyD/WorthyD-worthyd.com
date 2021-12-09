@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-08-10 
+title: So you want a promotion as a programmer?
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-08-10  
 dateModified: 2015-08-10 
-layout: post
-link: http://worthyd.com/blog/2015/08/so-you-want-a-promotion-as-a-programmer/
-slug: so-you-want-a-promotion-as-a-programmer
-title: So you want a promotion as a programmer?
-wordpress_id: 684
 category: Technology
 tags:
 - web development

@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2012-11-09 
+title: Lessons Learned And Tips - Responsive Design
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2012-11-09  
 dateModified: 2012-11-09 
-publishDate: 2012-11-09  
-modifiedDate: 2012-11-09 12:29:30+00:00
-layout: post
-link: http://worthyd.com/blog/2012/11/lessons-learned-and-tips-responsive-design/
-slug: lessons-learned-and-tips-responsive-design
-title: Lessons Learned And Tips - Responsive Design
-wordpress_id: 370
 category: Technology
 tags:
 - Android

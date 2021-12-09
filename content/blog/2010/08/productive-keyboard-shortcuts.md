@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-12 
+title: Productive Keyboard Shortcuts
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-12  
 dateModified: 2010-08-12 
-publishDate: 2010-08-12  
-modifiedDate: 2010-08-12 01:08:44+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/productive-keyboard-shortcuts/
-slug: productive-keyboard-shortcuts
-title: Productive Keyboard Shortcuts
-wordpress_id: 22
 category: Technology
 tags:
 - keyboard short cuts

@@ -1,22 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2011-06-19 
+title: A trip to Ireland
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2011-06-19  
 dateModified: 2011-06-19 
-publishDate: 2011-06-19  
-modifiedDate: 2011-06-19 02:33:28+00:00
-excerpt: My wife and I just recently got back from a vacation in Ireland. It was a
-  pretty amazing experience.  Our last big vacation was to Jamaica for our honeymoon.  We
-  flew into Shannon, drove the southern coast, and flew out of Dublin.  We spent nights
-  in Tralee, Waterville, Kinsale, Kilkenny, and Dublin.  We had a day long layover
-  in New York where we did some fun stuff too. A trip this long and traveling that
-  distance is too long to much for a single post so I'll give the a major overview.
-layout: post
-link: http://worthyd.com/blog/2011/06/a-trip-to-ireland/
-slug: a-trip-to-ireland
-title: A trip to Ireland
-wordpress_id: 286
 category: Geek Stuff 
 tags:
 - Castles

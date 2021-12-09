@@ -1,14 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2015-02-05 
+title: WorthyD's Great Keyboard Test
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2015-02-05  
 dateModified: 2015-02-05 
-layout: post
-link: http://worthyd.com/blog/2015/02/worthyds-great-keyboard-test/
-slug: worthyds-great-keyboard-test
-title: WorthyD's Great Keyboard Test
-wordpress_id: 630
 category: Technology
 tags:
   - Being A Geek

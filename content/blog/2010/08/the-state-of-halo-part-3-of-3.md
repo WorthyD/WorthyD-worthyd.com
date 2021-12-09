@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-08-07 
+title: The State of Halo Part 3 of 3
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-08-07  
 dateModified: 2010-08-07 
-publishDate: 2010-08-07  
-modifiedDate: 2010-08-07 23:39:42+00:00
-layout: post
-link: http://worthyd.com/blog/2010/08/the-state-of-halo-part-3-of-3/
-slug: the-state-of-halo-part-3-of-3
-title: The State of Halo Part 3 of 3
-wordpress_id: 91
 category: Gaming
 tags:
 - Halo

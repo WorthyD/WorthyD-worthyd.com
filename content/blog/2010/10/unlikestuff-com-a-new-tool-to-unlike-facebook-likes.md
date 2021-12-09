@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2010-10-26 
+title: UnlikeStuff.com - A new tool to unlike Facebook Likes
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2010-10-26  
 dateModified: 2010-10-26 
-publishDate: 2010-10-26  
-modifiedDate: 2010-10-26 17:21:15+00:00
-layout: post
-link: http://worthyd.com/blog/2010/10/unlikestuff-com-a-new-tool-to-unlike-facebook-likes/
-slug: unlikestuff-com-a-new-tool-to-unlike-facebook-likes
-title: UnlikeStuff.com - A new tool to unlike Facebook Likes
-wordpress_id: 139
 category: Technology
 tags:
 - Tech Blog

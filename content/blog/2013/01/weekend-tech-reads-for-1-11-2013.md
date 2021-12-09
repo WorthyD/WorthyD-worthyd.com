@@ -1,16 +1,10 @@
 ---
-author: worthyd
-comments: true
-date: 2013-01-12 
+title: Weekend Tech Reads For 1-11-2013
+cover: 
+coverAlt: ""
+description: ""
 datePublished: 2013-01-12  
 dateModified: 2013-01-12 
-publishDate: 2013-01-12  
-modifiedDate: 2013-01-12 00:36:05+00:00
-layout: post
-link: http://worthyd.com/blog/2013/01/weekend-tech-reads-for-1-11-2013/
-slug: weekend-tech-reads-for-1-11-2013
-title: Weekend Tech Reads For 1-11-2013
-wordpress_id: 387
 category: Technology 
 tags:
 - Asp.net
