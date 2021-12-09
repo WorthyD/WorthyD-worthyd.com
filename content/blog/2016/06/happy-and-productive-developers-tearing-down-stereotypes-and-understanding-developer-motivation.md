@@ -1,5 +1,5 @@
 ---
-title: 'Happy and Productive Developers: Tearing Down Stereotypes and Understanding
+title: "Happy and Productive Developers: Tearing Down Stereotypes and Understanding"
 cover: 
 coverAlt: ""
 description: ""
