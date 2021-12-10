@@ -1,7 +1,7 @@
 backend:
   name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
-  repo: vagr9k/gatsby-advanced-starter # Repo for pushing new commits. Make sure to replace with your repo!
+  branch: drafts # Branch to update
+  repo: worthyd/worthyd-worthyd.com # Repo for pushing new commits. Make sure to replace with your repo!
 
 media_folder: static/assets
 public_folder: assets
@@ -9,9 +9,11 @@ public_folder: assets
 collections:
   - name: blog
     label: "Post"
-    folder: "content"
+    folder: "../../contentblog"
+    path: '{{year}}/{{month}}/{{slug}}'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    slug: '{{slug}}'
+   # slug: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }

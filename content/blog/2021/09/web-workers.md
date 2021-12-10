@@ -1,7 +1,10 @@
 ---
 title: Angular Web Workers
-date: 2021-09-26T11:39:35.377Z
-slug: angular-web-workers
+cover: 
+coverAlt: ""
+description: ""
+datePublished: 2021-09-26T11:39:35.377Z
+dateModified: 2021-09-26T11:39:35.377Z
 category: Technology
 tags:
   - destiny-clan-dashboard
