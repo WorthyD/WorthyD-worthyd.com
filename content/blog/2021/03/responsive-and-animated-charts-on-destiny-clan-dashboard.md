@@ -1,7 +1,10 @@
 ---
 title: Responsive and Animated Charts on Destiny Clan Dashboard
-date: 2021-03-07T11:39:35.377Z
-slug: responsive-and-animated-charts-on-destiny-clan-dashboard
+cover: 
+coverAlt: ""
+description: ""
+datePublished: 2021-03-07T11:39:35.377Z
+dateModified: 2021-03-07T11:39:35.377Z
 category: Technology
 tags:
   - destiny-clan-dashboard
@@ -16,7 +19,7 @@ D3 allows you to dynamically create these as a chart.  My first solution was som
 
 I decided to set a max width to the element to prevent this. The result was a lot better, but resulted in a lot of extra white space.
 
-![](/assets/capture.png)
+![graph](./capture.png)
 
 I did a little research and figured out how to make a full width chart.  I run a little JavaScript to determine the width and apply that to the x axis.
 
@@ -48,7 +51,7 @@ const bounds = this.svg.node().getBoundingClientRect(),
 
 Result:
 
-![](/assets/responsive-chart-result.png)
+![result](/assets/responsive-chart-result.png)
 
 the above solution worked out great, but there was one big drawback. The chart would remain the same size if the user resized the page.  I needed to add code that would redraw the chart whenever the user resized their browser.
 

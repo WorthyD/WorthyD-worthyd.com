@@ -1,0 +1,167 @@
+$dark: #202020;
+$white-text: rgba(255, 255, 255, 0.9);
+$base-text-color: rgba(0, 0, 0, 0.5);
+
+$primary: #002366;
+$secondary: #16006a;
+$third: #005e57;
+$fourth: #996400;
+
+$baseFontSize: 20px;
+
+// Breakpoints
+$mobileBP: 28rem;
+$mediumBP: 48rem;
+$laregeBP: 28rem;
+
+/////////////////////////
+$base-font-size: 20px;
+
+$main-bg-color: #fff;
+$main-txt-color: $dark;
+
+$base-gutter: 1rem;
+$base-margin: 1rem;
+$slim-margin: 0.5rem;
+
+$d_base: 0.1s;
+
+.resume {
+  width: 90%;
+  margin: $slim-margin auto;
+  max-width: 1200px;
+  h2 {
+    margin: $base-margin 0;
+    border-bottom: 2px solid $primary;
+  }
+  h3 {
+    color: $third;
+    margin: ($base-margin * 0.8) 0;
+  }
+  h4 {
+    margin: ($base-margin * 0.2) 0;
+  }
+  p {
+    margin: 0 0 ($base-margin * 0.8) 0;
+  }
+  header .main {
+    text-align: center;
+  }
+  main {
+    margin-top: $base-margin;
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    h4,
+    p {
+      padding-left: ($base-margin * 0.8);
+      padding-right: ($base-margin * 0.8);
+    }
+  }
+  .my-info {
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      border-radius: 25%;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+  .skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      &::after {
+        content: ', ';
+      }
+    }
+  }
+  @media (min-width: 48em) {
+    main {
+      flex-direction: row;
+      aside {
+        //max-width: 500px;
+        flex: 0 0 25%;
+        margin-right: $base-margin * 2;
+      }
+      article {
+        flex-grow: 1;
+      }
+    }
+    .skill-list {
+      li {
+        margin-bottom: $base-margin;
+        display: block;
+        &::after {
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+@media print {
+  body {
+    font-size: 10px;
+    h1 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    h3 {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    h4 {
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    p {
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    .head-spacer {
+      height: 0px;
+    }
+    .main-nav {
+      display: none;
+    }
+    .resume {
+      main {
+        flex-direction: row;
+        aside {
+          //max-width: 500px;
+          flex: 0 0 20%;
+          margin-right: $base-margin * 2;
+        }
+        article {
+          flex-grow: 1;
+        }
+      }
+      .skill-list {
+        li {
+          margin-bottom: 5px;
+          display: block;
+          &::after {
+            content: '';
+          }
+        }
+      }
+      .hp {
+        display: none;
+      }
+    }
+    > footer {
+      display: none !important;
+    }
+  }
+}

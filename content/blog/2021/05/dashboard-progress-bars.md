@@ -1,7 +1,10 @@
 ---
 title: Dashboard Progress Bars
-date: 2021-05-02T22:33:54.957Z
-slug: dashboard-progress-bars
+cover: 
+coverAlt: ""
+description: ""
+datePublished: 2021-05-02T22:33:54.957Z
+dateModified: 2021-05-02T22:33:54.957Z
 category: Technology
 tags:
   - destiny-clan-dashboard

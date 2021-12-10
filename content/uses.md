@@ -1,9 +1,14 @@
 ---
 id: 99999
 title: Uses
+description: testing
+coverAlt: "An image tagged as nature and water."
 slug: Uses
-date: 2021-01-01
+datePublished: 2021-01-01
+dateModified: 2021-01-01
+category: "tech"
 tags:
+ - none
 ---
 
 ## Primary PC

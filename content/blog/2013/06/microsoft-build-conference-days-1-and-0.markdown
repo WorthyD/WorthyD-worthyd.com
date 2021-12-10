@@ -1,7 +1,9 @@
 ---
 author: worthyd
 comments: true
-date: 2013-06-26 05:41:56+00:00
+date: 2013-06-26 
+publishDate: 2013-06-26  
+modifiedDate: 2013-06-26 05:41:56+00:00
 layout: post
 link: http://worthyd.com/blog/2013/06/microsoft-build-conference-days-1-and-0/
 slug: microsoft-build-conference-days-1-and-0

@@ -1,7 +1,10 @@
 ---
 title: Sharing Angular Components with Different Data Sources
-date: 2021-06-15T11:39:35.377Z
-slug: sharing-components
+cover: 
+coverAlt: ""
+description: ""
+datePublished: 2021-06-15T11:39:35.377Z
+dateModified: 2021-06-15T11:39:35.377Z
 category: Technology
 tags:
   - destiny-clan-dashboard
@@ -79,8 +82,8 @@ export class PlayerService {
   memberId$: Observable<string>;
   memberProfile$: Observable<MemberProfile>;
   seasonPass$: Observable<ClanMemberSeasonPassProgression>;
-  characters$: Observable<DestinyEntitiesCharactersDestinyCharacterComponent[]>;
-  memberSnapShot$: Observable<Callout[]>;
+  characters$: Observable<DestinyEntitiesCharactersDestinyCharacterComponent[alt]>;
+  memberSnapShot$: Observable<Callout[alt]>;
 }
 ```
 

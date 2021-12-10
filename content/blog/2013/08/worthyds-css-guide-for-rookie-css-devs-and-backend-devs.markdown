@@ -2,6 +2,8 @@
 author: worthyd
 comments: true
 date: 2013-08-17 01:42:42+00:00
+dateModified: 2013-08-17 01:42:42+00:00
+datePublished: 2013-08-17 01:42:42+00:00
 layout: post
 link: http://worthyd.com/blog/2013/08/worthyds-css-guide-for-rookie-css-devs-and-backend-devs/
 slug: worthyds-css-guide-for-rookie-css-devs-and-backend-devs
