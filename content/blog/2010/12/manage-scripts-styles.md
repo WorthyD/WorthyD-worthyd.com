@@ -8,7 +8,6 @@ dateModified: 2010-12-03
 category: Technology
 tags:
 - .net
-- C#
 - Code Snippets
 - Javascript
 - mvc

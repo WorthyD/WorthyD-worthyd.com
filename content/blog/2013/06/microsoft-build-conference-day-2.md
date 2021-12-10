@@ -8,7 +8,6 @@ dateModified: 2013-06-28
 category: Technology
 tags:
   - Build Conference
-  - C#
   - code
   - Javascript
   - mvc

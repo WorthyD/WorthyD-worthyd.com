@@ -7,7 +7,6 @@ datePublished: 2010-09-16
 dateModified: 2010-09-16 
 category: 
 tags:
-- C#
 - Code Snippets
 - visual studio
 - Tech Blog
