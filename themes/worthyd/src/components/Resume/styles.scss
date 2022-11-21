@@ -32,10 +32,12 @@ $d_base: 0.1s;
   max-width: 1200px;
   h2 {
     margin: $base-margin 0;
+    font-size:1.5rem;
     border-bottom: 2px solid $primary;
   }
   h3 {
     color: $third;
+    font-size:1.25rem;
     margin: ($base-margin * 0.8) 0;
   }
   h4 {

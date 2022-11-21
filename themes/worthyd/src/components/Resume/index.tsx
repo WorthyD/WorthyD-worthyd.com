@@ -57,6 +57,8 @@ const Resume = (): JSX.Element => (
               <li>Angular 2+</li>
               <li>Angular Material</li>
               <li>NGRX</li>
+              <li>React</li>
+              <li>Apollo Client</li>
               <li>Asp.Net MVC</li>
               <li>Entity Framework</li>
               <li>.Net Core</li>
