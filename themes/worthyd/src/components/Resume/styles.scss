@@ -25,26 +25,37 @@ $base-margin: 1rem;
 $slim-margin: 0.5rem;
 
 $d_base: 0.1s;
-
+ul {
+  font-family: 'Fira Sans', sans-serif;
+}
 .resume {
   width: 90%;
   margin: $slim-margin auto;
   max-width: 1200px;
   h2 {
     margin: $base-margin 0;
-    font-size:1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     border-bottom: 2px solid $primary;
   }
   h3 {
     color: $third;
-    font-size:1.25rem;
-    margin: ($base-margin * 0.8) 0;
+    font-size: 1.35rem;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0 0 ($base-margin * 0.8) 0;
   }
   h4 {
-    margin: ($base-margin * 0.2) 0;
+    font-size: 1.125rem;
+    line-height: normal;
+    font-weight: bold;
+    margin: 0 0 ($base-margin * 0.6) 0;
   }
   p {
+    font-size: 1rem;
     margin: 0 0 ($base-margin * 0.8) 0;
+  }
+  li {
   }
   header .main {
     text-align: center;
@@ -57,15 +68,15 @@ $d_base: 0.1s;
   article {
     h4,
     p {
-      padding-left: ($base-margin * 0.8);
-      padding-right: ($base-margin * 0.8);
+      // padding-left: ($base-margin * 0.8);
+      // padding-right: ($base-margin * 0.8);
     }
   }
   .my-info {
     img {
       display: block;
       max-width: 100%;
-      margin: 0 auto;
+      margin: 0 auto 1rem auto;
       border-radius: 25%;
     }
     ul {
@@ -84,6 +95,29 @@ $d_base: 0.1s;
       }
     }
   }
+
+  .job {
+    // display: flex;
+    margin-bottom: 1rem;
+    .job-date {
+      //  margin-right: $base-margin;
+      //min-width: 125px;
+    }
+    .job-info {
+      flex: 1;
+      ul {
+        padding-left: 1.125rem;
+        margin-bottom: $base-margin;
+        li {
+          margin-bottom: $base-margin / 2;
+        }
+      }
+    }
+    .mb {
+      margin-bottom: 1rem;
+    }
+  }
+
   @media (min-width: 48em) {
     main {
       flex-direction: row;
@@ -105,6 +139,13 @@ $d_base: 0.1s;
         }
       }
     }
+    .job {
+      display: flex;
+      .job-date {
+        width: 150px;
+        padding-right: 50px;
+      }
+    }
   }
 }
 
@@ -112,23 +153,23 @@ $d_base: 0.1s;
   body {
     font-size: 10px;
     h1 {
-      font-size: 20px;
+      font-size: 18px !important;
       line-height: 1.5;
     }
     h2 {
-      font-size: 15px;
+      font-size: 15px !important;
       line-height: 1.5;
     }
     h3 {
-      font-size: 12px;
+      font-size: 12px !important;
       line-height: 1.5;
     }
     h4 {
-      font-size: 10px;
+      font-size: 10px !important;
       line-height: 1.5;
     }
     p {
-      font-size: 10px;
+      font-size: 10px !important;
       line-height: 1.5;
     }
     .head-spacer {
@@ -158,8 +199,15 @@ $d_base: 0.1s;
           }
         }
       }
-      .hp {
-        display: none;
+      // .hp {
+      //   display: none;
+      // }
+      .job {
+        display: flex;
+        .job-date {
+          width: 75px;
+          padding-right: 25px;
+        }
       }
     }
     > footer {
