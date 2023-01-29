@@ -17,7 +17,6 @@ on:
 # Jobs to carry out
 jobs:
 
-
   deployment_prod:
     name: Deployment (Prod)
     runs-on: ubuntu-latest
