@@ -12,7 +12,6 @@ on:
     branches: [main]
 
   # Allows manual trigger
-  workflow_dispatch:
 
 # Jobs to carry out
 jobs:
@@ -23,10 +22,7 @@ jobs:
     # Operating system to run job on
     if: github.ref == 'refs/heads/main'
     environment: production
-    needs:
-      - test_and_build
-      - deployment_stage
-      # Steps in job
+     # Steps in job
     steps:
       # Get code from repo
       - name: Checkout code
