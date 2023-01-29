@@ -57,6 +57,8 @@ const Resume = (): JSX.Element => (
               <li>Angular 2+</li>
               <li>Angular Material</li>
               <li>NGRX</li>
+              <li>React</li>
+              <li>Apollo Client</li>
               <li>Asp.Net MVC</li>
               <li>Entity Framework</li>
               <li>.Net Core</li>
@@ -92,91 +94,131 @@ const Resume = (): JSX.Element => (
             <header>
               <h2>Experience</h2>
             </header>
-            <div>
-              <h3>RevUnit November 2019 - Present</h3>
-              <h4>Principal Engineer | September 2021 - Present</h4>
-              <p>
-             </p>
+            <div className="job">
+              <div className="job-date"><p>2019-11 - Present</p></div>
+              <div className="job-info">
+                <h3>RevUnit</h3>
+                <h4>Principal Engineer | September 2021 - Present</h4>
+                <ul>
+                  <li>
+                    Perform managerial duties for a team of 2 to 3 engineers</li>
+                  <li> Serve as Angular expert within the company</li>
+                </ul>
 
-              <h4>Senior Engineer | November 2019 - September 2021</h4>
-              <p>
-                Work with mixed teams to provide software solutions that allow
-                companies to work better. Serve in the role of "Team Expert" in
-                the Angular platform.
-              </p>
+                <h4>Senior Engineer | November 2019 - September 2021</h4>
+                <ul>
+                  <li>
+                    Architect front end solutions using Angular(10+), Angular Material, NGRX, React, Material UI, and D3.js</li>
+                  <li>Provided assistance when needed for backend services using .Net Core and Spring Boot</li>
+                  <li>Participate in Agile rituals including sprint planning, task estimation, retrospectives and client demos</li>
+                </ul>
+
+
+                {/* <p>
+                  Work with mixed teams to provide software solutions that allow
+                  companies to work better. Serve in the role of "Team Expert" in
+                  the Angular platform.
+                </p> */}
+              </div>
             </div>
             <div>
-              <h3>
-                Staff Software Engineer | Stonehenge Technology Labs March 2019
-                - October 2019{' '}
-              </h3>
-              <h3>Staff Software Engineer | OneStone Jan 2019 - March 2019</h3>
-              <p>
-                I wrote software that helped customers with their eCommerce
-                needs. I architected front end solutions using Angular, NGRX,
-                and Angular Material. I also maintained middleware written in
-                .Net Core. We followed agile practice in planning and executing
-                software releases. <br />
-                <br />{' '}
-                <small>
-                  <em>
-                    OneStone's software team was broken out into Stonehenge Tech
-                    Labs in March 2019.
-                  </em>
-                </small>
-              </p>
+              <div className="job">
+                <div className="job-date"> <p>2019-01 - 2019-10</p></div>
+                <div className="job-info">
+                  <h3> OneStone / Stonehenge Technology Labs</h3>
+                  <h4>
+                    Staff Software Engineer |  March 2019
+                    - October 2019{' '}
+                  </h4>
+                  <h4>Staff Software Engineer | Jan 2019 - March 2019</h4>
+                  <ul>
+                    <li>Wrote software that helped customers with their eCommerce
+                      needs</li>
+                    <li>Architected front end solutions using Angular, NGRX,
+                      and Angular Material.</li>
+                    <li>Followed agile practice in planning and executing
+                      software releases</li>
+                  </ul>
+                  <small>
+                    <em>
+                      OneStone's software team was broken out into Stonehenge Tech
+                      Labs in March 2019.
+                    </em>
+                  </small>
+                </div>
+              </div>
+
             </div>
             <div>
-              <h3>Director, Technology | VML Jan 2018 - Jan 2019</h3>
-              <p>
-                Rockfish Digital was merged with VML in early 2018. I lead a
-                team of 4 to 8 developers. I manage weekly work forecasting,
-                assign projects, contribute to budget estimates, and contribute
-                to the Monthly Technology Report. I continue to guide technology
-                direction and provide guidance in technology projects.{' '}
-              </p>
+              <div className="job">
+                <div className="job-date"> <p>2016-10 - 2018-01</p> </div>
+                <div className="job-info">
+                  <h3>University of Arkansas - IT Readiness </h3>
+                  <h4>Front End Development Instructor </h4>
+                  <ul>
+                    <li>Instructed two 6 month long Front End Development Courses</li>
+                    <li>Class size was from 12 to 14 students already in professional jobs. Students were seeking new technology careers.</li>
+                    <li>Responsible for establishing
+                      curriculum, writing material, administering assignments, and
+                      coaching students</li>
+                  </ul>
+
+                </div>
+              </div>
             </div>
             <div>
-              <h3>Rockfish Digital | 2007 - 2018</h3>
-              <h4>Enterprise Architect | Jan 2017 - Jan 2018</h4>
-              <p>
-                I'm responsible for directing technical standards and
-                development best practices across Rockfish technology
-                disciplines. I also serve as a technical expert with a a broad
-                level of knowledge across multiple disciplines. I traditionally
-                apply my knowledge to multiple projects across the organization.
-              </p>
-              <h4>Technology Architect - Front End | May 2013 - Jan 2017</h4>
-              <p>
-                I was primarily responsible for identifying new technologies to
-                implement and bringing the technology department up to speed
-                with them. I also provided technical standards direction, best
-                practice documentation, and promoted code quality via
-                mentorship. I was involved in establishing and assessing
-                developer skill tests for job applications and contractor
-                applicants.
-              </p>
-              <h4>Sr. Developer | Apr 2011 - May 2013</h4>
-              <h4 className="hp">Developer II | Nov 2009 - Apr 2011</h4>
-              <h4 className="hp">Developer I | Nov 2007 - Nov 2009</h4>
-              <p className="hp">
-                Developed websites using Asp.net and JavaScript. Evolved my
-                skill set throughout the years to be as useful as possible.
-                Worked and shipped over 75 projects during this time frame.
-              </p>
+              <div className="job">
+                <div className="job-date">
+                  <p>
+                    2007-11 - 2019-01
+                  </p>
+                </div>
+                <div className="job-info">
+                  <h3>Rockfish Digital / VML</h3>
+                  <h4>Director, Technology | VML Jan 2018 - Jan 2019</h4>
+                  <ul>
+                    <li>Lead a team of 4 to 8 developers</li>
+                    <li>Manage weekly work forecasting,
+                      assign projects, contribute to budget estimates, and contribute
+                      to the Monthly Technology Report</li>
+                    <li>Continue to guide technology
+                      direction and provide guidance in technology projects</li>
+                  </ul>
+                  <div className="mb"><small><em>Rockfish Digital was merged with VML in early 2018.</em></small></div>
+                  <h4>Enterprise Architect | Jan 2017 - Jan 2018</h4>
+                  <ul>
+                    <li>
+                      Responsible for directing technical standards and
+                      development best practices across Rockfish technology
+                      disciplines
+                    </li>
+                    <li>Serve as a technical expert with a a broad
+                      level of knowledge across multiple disciplines</li>
+                    <li>Apply knowledge to multiple projects across the organization</li>
+                  </ul>
+                  <h4>Technology Architect - Front End | May 2013 - Jan 2017</h4>
+                  <p>
+                    I was primarily responsible for identifying new technologies to
+                    implement and bringing the technology department up to speed
+                    with them. I also provided technical standards direction, best
+                    practice documentation, and promoted code quality via
+                    mentorship. I was involved in establishing and assessing
+                    developer skill tests for job applications and contractor
+                    applicants.
+                  </p>
+                  <h4>Sr. Developer | Apr 2011 - May 2013</h4>
+                  <h4 className="hp">Developer II | Nov 2009 - Apr 2011</h4>
+                  <h4 className="hp">Developer I | Nov 2007 - Nov 2009</h4>
+                  <p className="hp">
+                    Developed websites using Asp.net and JavaScript. Evolved my
+                    skill set throughout the years to be as useful as possible.
+                    Worked and shipped over 75 projects during this time frame.
+                  </p>
+
+                </div>
+              </div>
             </div>
-            <div>
-              <h3>University of Arkansas IT Readiness 2016 - 2018</h3>
-              <h4>Front End Development Instructor | Oct 2016 - Jan 2018</h4>
-              <p>
-                I instructed a 6 month long Front End Development Course.
-                className size is from 12 to 14 students. Students are
-                established in a profession, but are wanting to either expand a
-                skill set or change careers. I'm responsible for establishing
-                curriculum, writing material, administering assignments, and
-                coaching students.
-              </p>
-            </div>
+
           </section>
           <section>
             <header>

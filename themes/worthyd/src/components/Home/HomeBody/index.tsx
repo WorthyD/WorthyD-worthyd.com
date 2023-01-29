@@ -35,7 +35,7 @@ const HomeBody = ({}): JSX.Element => (
           Right now, I'm mainly blogging about tech, wood working and video game
           stuff.
         </p>
-        <S.NavButton to="/blog">Blog</S.NavButton>
+        <S.NavButton to="/">Blog</S.NavButton>
       </div>
       <div className="callout">
         <i className="fab fa-youtube" aria-hidden="true"></i>

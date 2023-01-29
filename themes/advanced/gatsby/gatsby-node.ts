@@ -3,6 +3,7 @@
 import { kebabCase } from "lodash";
 
 import { GatsbyNode } from "gatsby";
+const path = require('path');
 
 import urlJoin from "url-join";
 import { BasicFrontmatter } from "./types";
@@ -38,7 +39,7 @@ const generateSlug = (frontmatter?: BasicFrontmatter): string | undefined => {
 
 // Gets invoked on GraphQl node creation
 export const onCreateNode: GatsbyNode["onCreateNode"] = (
-  { node, actions },
+  { node, actions, getNode },
   userConfig
 ) => {
   const config = withDefaults(userConfig as unknown as SiteConfig);
@@ -57,6 +58,10 @@ export const onCreateNode: GatsbyNode["onCreateNode"] = (
       );
       return;
     }
+
+    const fileNode = getNode(node.parent);
+    const parsedFilePath = path.parse(fileNode.relativePath);
+    console.log();
 
     // Route is the pathName without the pathPrefix, used for creating pages
     const route = withBasePath(config, slug);
