@@ -12,6 +12,7 @@ on:
     branches: [main]
 
   # Allows manual trigger
+  workflow_dispatch:
 
 # Jobs to carry out
 jobs:
