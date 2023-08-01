@@ -6,10 +6,10 @@ import FeedListing from '../../components/FeedListing';
 // import { ScreenReaderH1 } from '../../components/shared/ScreenReader';
 // import useConfig from '@/config/useConfig';
 import useInfiniteFeed from './useInfiniteFeed';
-import ListingPageWrapper from '@/components/Shared/ListingPageWrapper';
 import { PageContext } from './types';
 import SEO from '@/components/SEO';
 import { Includes } from '@/components/Includes';
+import ListingPageWrapper from '@/components/shared/ListingPageWrapper';
 
 export type FeedTemplateProps = {
   pageContext: PageContext;
