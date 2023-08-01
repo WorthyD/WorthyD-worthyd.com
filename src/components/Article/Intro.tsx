@@ -34,7 +34,7 @@ type ArticleIntroProps = {
   post: Post;
 };
 
-const ArticleIntro = ({ post }: ArticleIntroProps): JSX.Element => {
+const ArticleIntro = ({ post }: ArticleIntroProps): React.JSX.Element => {
   // if (!post.coverImg)
   //   throw Error(
   //     'ArticleIntro: Failed to render ArticleIntro without cover image.'

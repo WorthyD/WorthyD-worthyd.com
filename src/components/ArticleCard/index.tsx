@@ -16,7 +16,10 @@ type ArticleHeroCardProps = {
   hero?: boolean;
 };
 
-const ArticleCard = ({ post, hero }: ArticleHeroCardProps): JSX.Element => {
+const ArticleCard = ({
+  post,
+  hero
+}: ArticleHeroCardProps): React.JSX.Element => {
   // If no post is provided, render a skeleton view with a loading animation
   if (!post) return <ArticleCardSkeleton />;
 

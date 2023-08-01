@@ -1,4 +1,3 @@
-import { JSX, ReactNode } from 'react';
 import styled from 'styled-components';
 
 // import { MDXRenderer } from 'gatsby-plugin-mdx';

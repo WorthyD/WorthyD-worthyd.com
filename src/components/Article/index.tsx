@@ -2,9 +2,7 @@ import { JSX } from 'react';
 import styled from 'styled-components';
 import Intro from './Intro';
 import Render from './Render';
-// import Share from './Share';
 import { Post } from '@/types';
-import Share from './Share';
 
 const ArticleWrapper = styled.main`
   width: 100%;
