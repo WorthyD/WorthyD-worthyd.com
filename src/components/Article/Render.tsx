@@ -13,8 +13,13 @@ const MDXWrapper = styled.article`
   overflow-x: auto;
 
   /* Center and space child elements */
+  & > a {
+    display: inline;
+  }
+
   & > *,
   & .gatsby-highlight,
+  & figure,
   .gatsby-resp-image-figure {
     margin-bottom: 24px;
     margin-right: auto;

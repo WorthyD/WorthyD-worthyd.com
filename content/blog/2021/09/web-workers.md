@@ -1,8 +1,8 @@
 ---
 title: Angular Web Workers
-cover: 
-coverAlt: ""
-description: ""
+cover:
+coverAlt: ''
+description: 'Angular Web Workers'
 datePublished: 2021-09-26T11:39:35.377Z
 dateModified: 2021-09-26T11:39:35.377Z
 category: Technology
@@ -25,7 +25,7 @@ import { BehaviorSubject } from 'rxjs';
 import { environment } from '../../../environments/environment';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class ProfileWorkerService {
   constructor() {}
@@ -48,7 +48,7 @@ export class ProfileWorkerService {
     worker.postMessage({
       clanId,
       clanMembers,
-      apiKey: environment.bungieAPI, // Web worked doesn't have access to our environment config
+      apiKey: environment.bungieAPI // Web worked doesn't have access to our environment config
     });
 
     return members;
@@ -59,10 +59,12 @@ export class ProfileWorkerService {
 Service Usage
 
 ```ts
-  const progress = (progressCount) => {
-    // Update progress indicator
-   };
-  this.profileWorkerService.loadProfiles(clanId.toString(), clanMembers, progress).pipe(
+const progress = (progressCount) => {
+  // Update progress indicator
+};
+this.profileWorkerService
+  .loadProfiles(clanId.toString(), clanMembers, progress)
+  .pipe(
     filter((x) => x.length > 0),
     map((x) => {
       // Do stuff with results
@@ -79,11 +81,11 @@ import { take } from 'rxjs/operators';
 
 addEventListener('message', ({ data }) => {
   // Our indexeddb browser storage
-  const clanDatabase = new ClanDatabase();  
+  const clanDatabase = new ClanDatabase();
 
   // This was once an injectable service, but we've removed all angular stuff from it and only
   // use fetch for the web request
-  const profileService = new ProfileService(clanDatabase, data.apiKey); 
+  const profileService = new ProfileService(clanDatabase, data.apiKey);
 
   const progress = (progressData) => {
     postMessage({ type: 'progress', data: progressData });
@@ -96,9 +98,8 @@ addEventListener('message', ({ data }) => {
       postMessage({ type: 'complete', data: x });
     });
 });
-
 ```
 
-It took me a lot of sporadic time spent on the enhancement.  I spent a lot of time digging into this and I'm glad to finally have it implemented.  Stuff doesn't load any faster, but it doesn't lok up like it used to. 
+It took me a lot of sporadic time spent on the enhancement. I spent a lot of time digging into this and I'm glad to finally have it implemented. Stuff doesn't load any faster, but it doesn't lok up like it used to.
 
 You can checkout my project at [https://destinyclandashboard.com/](https://destinyclandashboard.com/) or checkout my source code at [https://github.com/WorthyD/d2-clandashboard](https://github.com/WorthyD/d2-clandashboard)

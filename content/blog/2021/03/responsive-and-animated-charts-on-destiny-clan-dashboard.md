@@ -1,17 +1,17 @@
 ---
 title: Responsive and Animated Charts on Destiny Clan Dashboard
-cover: 
+cover:
 coverAlt: ""
-description: ""
+description: "Responsive and Animated Charts on Destiny Clan Dashboard"
 datePublished: 2021-03-07T11:39:35.377Z
 dateModified: 2021-03-07T11:39:35.377Z
 category: Technology
 tags:
   - destiny-clan-dashboard
 ---
-I've been working on my side project [Destiny Clan Dashboard](https://destinyclandashboard.com/) since late 2018. One of the primary reasons for this was to become more proficient in Angular and D3, a charting library.  I've been working on this somewhat daily for 30 minutes to an hour a day before the kids get up or after they went to bed. This is the absolute worst way to do a side project if you are wanting results fast. 
+I've been working on my side project [Destiny Clan Dashboard](https://destinyclandashboard.com/) since late 2018. One of the primary reasons for this was to become more proficient in Angular and D3, a charting library.  I've been working on this somewhat daily for 30 minutes to an hour a day before the kids get up or after they went to bed. This is the absolute worst way to do a side project if you are wanting results fast.
 
-I've spent roughly the last two months building out D3 charts for the home screen to help display how active a Destiny Clan has been.  About half that time was spent getting the data need and the other half rendering the data. 
+I've spent roughly the last two months building out D3 charts for the home screen to help display how active a Destiny Clan has been.  About half that time was spent getting the data need and the other half rendering the data.
 
 D3 charts are rendered within a [Scalable Vector Graphic](https://developer.mozilla.org/en-US/docs/Web/SVG). SVG for short. SVGs are marvelous in the web world because you can take one image and scale it infinitely to any size.  You typically see icons rendered this way.
 
@@ -51,7 +51,7 @@ const bounds = this.svg.node().getBoundingClientRect(),
 
 Result:
 
-![result](/assets/responsive-chart-result.png)
+![result](./responsive-chart-result.png)
 
 the above solution worked out great, but there was one big drawback. The chart would remain the same size if the user resized the page.  I needed to add code that would redraw the chart whenever the user resized their browser.
 
@@ -59,7 +59,7 @@ This part is Angular specific.  I added this block of code to the component cons
 
 ```typescript
  constructor(private zone: NgZone) {
-    
+
     this.zone.runOutsideAngular(() => {
       fromEvent(window, 'resize')
         .pipe(
@@ -81,7 +81,7 @@ This part is Angular specific.  I added this block of code to the component cons
 
 This was a straight copy and past from Stack Overflow.  I haven't done much with `NgZone` in the past, but I'm going to dig through and get a better understanding of what's going on.
 
-The most important line of code is the `debounceTime(500)` call.  Window resizes and window scrolls fire of a significantly high number of times. We turn 20 or 30 calls to just one by delaying the event trigger. 
+The most important line of code is the `debounceTime(500)` call.  Window resizes and window scrolls fire of a significantly high number of times. We turn 20 or 30 calls to just one by delaying the event trigger.
 
 ### Bonus: Animations
 

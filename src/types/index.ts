@@ -99,12 +99,12 @@ export function mdxNodeIntoPost(
   //     }. Aborting.`
   //   );
 
-  if (!frontmatter.description)
-    console.warn(
-      `Post missing description. Post slug: ${
-        mdxNode.fields?.slug || 'not defined'
-      }. SEO capabilities will be limited.`
-    );
+  // if (!frontmatter.description)
+  //   console.warn(
+  //     `Post missing description. Post slug: ${
+  //       mdxNode.fields?.slug || 'not defined'
+  //     }. SEO capabilities will be limited.`
+  //   );
 
   const tagList = frontmatter.tags
     ? frontmatter.tags.filter(

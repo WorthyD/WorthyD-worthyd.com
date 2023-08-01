@@ -1,8 +1,8 @@
 ---
 title: New Charts D3 to ApexCharts
-cover: 
+cover:
 coverAlt: ""
-description: ""
+description: "New Charts D3 to ApexCharts"
 datePublished: 2021-07-22T11:39:35.377Z
 dateModified: 2021-07-22T11:39:35.377Z
 category: Technology
@@ -12,9 +12,9 @@ tags:
 
 ### Current Chart Situation
 
-I've been using [D3.js](https://d3js.org/) charts for a while on [Destiny Clan Dashboard](https://destinyclandashboard.com).  I use it for my basic bar charts and an advanced heatmap that displays a player's activity for the duration of Destiny 2.  
+I've been using [D3.js](https://d3js.org/) charts for a while on [Destiny Clan Dashboard](https://destinyclandashboard.com).  I use it for my basic bar charts and an advanced heatmap that displays a player's activity for the duration of Destiny 2.
 
-I put in a lot of work to get these charts up and running, but I was never really 100% happy with them.  I had to write the animations, make them responsive, and theme them to the site.  
+I put in a lot of work to get these charts up and running, but I was never really 100% happy with them.  I had to write the animations, make them responsive, and theme them to the site.
 
 ### Problems
 
@@ -40,7 +40,7 @@ My heat map has a lot of work put into it.  D3 would draw out the grid and add a
 
 ApexCharts heat maps handle data very differently for their heat maps. Heat maps are essentially a table with cell shading.
 
-D3.js's dataset needed to be in sequential order. 
+D3.js's dataset needed to be in sequential order.
 
 ```ts
 const dataSet = [
@@ -50,13 +50,13 @@ const dataSet = [
     },
     {
         date: '1/2/1900',
-        seconds: 333333 
+        seconds: 333333
     },
     // ETC..
 ]
 ```
 
-Apex Required something totally different. It didn't have a way to wrap lines for new years.  I split the data sets out by year and created one chart for each year. 
+Apex Required something totally different. It didn't have a way to wrap lines for new years.  I split the data sets out by year and created one chart for each year.
 
 
 ##### Grouping by week
@@ -68,7 +68,7 @@ I also had to group data by the day of the week and what week it belonged to. Th
 const dataSet = [
     {
         name: 'Sunday',
-        data:[ 
+        data:[
             {
                 x: 'w1',
                 y:11111
@@ -81,7 +81,7 @@ const dataSet = [
     },
     {
         name: 'Monday',
-        data:[ 
+        data:[
             {
                 x: 'w1',
                 y:11111
@@ -117,7 +117,7 @@ const endDateAdjusted = new Date(endDate.setDate(endDate.getDate() - endDate.get
 
 ##### The final challenge
 
-The last challenge had to do with presenting appropriate tool tips.  Hovering over a cell should display the Date and the total playtime for the day. Apex does a lot of work for you by automatically grouping the x and y info in the tool tip. Well this is worthless in our instance.  `w1: 132323` isn't helpful at all.  
+The last challenge had to do with presenting appropriate tool tips.  Hovering over a cell should display the Date and the total playtime for the day. Apex does a lot of work for you by automatically grouping the x and y info in the tool tip. Well this is worthless in our instance.  `w1: 132323` isn't helpful at all.
 
 I had to write a custom solution that stored all the data in a variable and look it up by what year, day and week.
 
@@ -141,6 +141,6 @@ I had to write a custom solution that stored all the data in a variable and look
 
 There were several other challenges with this build, but nothing worth writing home about.  I continue to put in about 5 hours a week into the tool and I'm really motivated to keep momentum going.
 
-Next steps are to re-work the seal displays.  I have no idea how to find out if a seal has been guilded. I also want to learn how to leverage Web Workers to increase the overall performance.  
+Next steps are to re-work the seal displays.  I have no idea how to find out if a seal has been guilded. I also want to learn how to leverage Web Workers to increase the overall performance.
 
 You can checkout my project at [https://destinyclandashboard.com/](https://destinyclandashboard.com/) or checkout my source code at [https://github.com/WorthyD/d2-clandashboard](https://github.com/WorthyD/d2-clandashboard)

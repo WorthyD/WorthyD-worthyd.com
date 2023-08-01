@@ -1,8 +1,8 @@
 ---
 title: Sharing Angular Components with Different Data Sources
-cover: 
+cover:
 coverAlt: ""
-description: ""
+description: "Sharing Angular Components with Different Data Sources"
 datePublished: 2021-06-15T11:39:35.377Z
 dateModified: 2021-06-15T11:39:35.377Z
 category: Technology
@@ -18,7 +18,7 @@ I envisioned having a set of shared components that could be used in both places
 
 ```md
 src
-├── clan 
+├── clan
 │   └── player-details
 │       ├── player-details.module.ts
 │       ├── player-details-routes.module.ts
@@ -31,7 +31,7 @@ src
      ├── player-activity/player-activity.component.ts
      ├── player-details/player-details.component.ts
      ├── player-overview/player-overview.component.ts
-     └── player.service.ts 
+     └── player.service.ts
 ```
 
 I started by moving our existing player based components into a `shared` folder. The player details section currently only has 3 components.
@@ -133,7 +133,7 @@ export class PlayerService extends BasePlayerService {
           map((memberProfileResponse) => {
             return memberProfileResponse.Response;
           })
-      );    
+      );
     }),
     shareReplay(1)
   );
@@ -158,13 +158,13 @@ import { PlayerService as BasePlayerService } from '../shared/components/player/
       provide: BasePlayerService,
       useExisting: PlayerService
     },
-    
+
   ]
 })
 export class PlayerModule {}
 ```
 
-There is a lot to this and it took a lot of smashing my head on my desk to figure it out.  
+There is a lot to this and it took a lot of smashing my head on my desk to figure it out.
 
 I'm pretty happy with the outcome and it was worth the stress.
 
