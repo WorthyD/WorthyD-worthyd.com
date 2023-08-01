@@ -1,10 +1,10 @@
 ---
 title: A Couple Tips to Type Code Faster
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2012-01-02  
-dateModified: 2012-01-02 
+datePublished: 2012-01-02
+dateModified: 2012-01-02
 category: Technology
 tags:
 - code
@@ -17,7 +17,7 @@ tags:
 ---
 
 I'm not too embarrassed to say it, but I was looking at my fingers when I was typing until I was a senior in highschool.   I was sneaky with the keyboarding teacher.  Over the past year or so, I've really been trying hard to learn to type faster and more efficiently.
-<!-- more -->
+
 
 
 
@@ -48,7 +48,7 @@ Find an acceptable snippet manager for your IDE.  I've been using [Snip Mate](ht
 
 
 
-  4. 
+  4.
 
 
 #### Use VIM!!!!
@@ -56,7 +56,7 @@ Find an acceptable snippet manager for your IDE.  I've been using [Snip Mate](ht
 
 
 
-I'm a big fan of VIM.  VIM prevents you from EVER having to use the mouse or arrow keys.  I'm still not an expert on it, but I don't see how someone could be an expert. There is a ton of stuff to learn.  I've been watching [Derek Wyatt's videos](http://derekwyatt.org/vim/tutorials/index.html) and they have helped out A LOT.  I generally use [VSVim](http://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) for my Visual Studio.  It's not perfect, but it's pretty darn close.    
+I'm a big fan of VIM.  VIM prevents you from EVER having to use the mouse or arrow keys.  I'm still not an expert on it, but I don't see how someone could be an expert. There is a ton of stuff to learn.  I've been watching [Derek Wyatt's videos](http://derekwyatt.org/vim/tutorials/index.html) and they have helped out A LOT.  I generally use [VSVim](http://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) for my Visual Studio.  It's not perfect, but it's pretty darn close.
 
 
 

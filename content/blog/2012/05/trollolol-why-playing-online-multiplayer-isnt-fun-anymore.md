@@ -1,10 +1,10 @@
 ---
 title: Trollolol - Why playing online multiplayer isn't fun anymore.
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2012-05-08  
-dateModified: 2012-05-08 
+datePublished: 2012-05-08
+dateModified: 2012-05-08
 category: Gaming
 tags:
 - multiplayer
@@ -13,10 +13,10 @@ tags:
 - Tech Blog
 ---
 
-I know it's pretty much the norm that players rage on each other during games. I still consider myself fairly new to online gaming, but I don't think I'll ever get use to the unsportsmanlike behavior that happens online games.  The first online game I ever played with other people was Starcraft 1 and I only played it with other friends.  I pretty much stayed offline until I got an Xbox360 in November of 2009. 
+I know it's pretty much the norm that players rage on each other during games. I still consider myself fairly new to online gaming, but I don't think I'll ever get use to the unsportsmanlike behavior that happens online games.  The first online game I ever played with other people was Starcraft 1 and I only played it with other friends.  I pretty much stayed offline until I got an Xbox360 in November of 2009.
 
 I played Halo 3, Halo Reach, and the Left 4 Dead series pretty extensively.  Every once in a while I'd hear someone insult me on the score screen at the end of a match. Xbox live allow for easy blocking of voice chat.  I got my feelings hurt every once in a while, but it was fairly easy to shrug off.
-<!-- more -->
+
 Battlefield 2 was the first PC game that I played online since Starcraft.  I would typically play 32 vs 32 games so I wouldn't be the one blamed for losing a game. I really could care less if we won. You typically got decent points even if you lost the match.  I really enjoyed playing it and I wont deny that I got a little addicted to it.
 
 Last November, I picked up Starcraft 2.  I really planned on getting the game at launch, but just wasn't into PC games when it launched.  I played the campaign thoroughly (at least 4 times).  I worked really hard to beat it on the hardest difficulty and earned the Kerrigan portrait.  The expansion is due out sometime this year (hopefully), and to kill time I started playing online.  There was one thing I learned, random teams typically lead to some pretty hard core trolling.

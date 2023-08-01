@@ -1,10 +1,10 @@
 ---
 title: Mobile Website Methods with Asp.Net MVC. Part 1 - Content Sites
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2011-03-21  
-dateModified: 2011-03-21 
+datePublished: 2011-03-21
+dateModified: 2011-03-21
 category: Technology
 tags:
 - Asp.net
@@ -19,7 +19,7 @@ tags:
 I have a fair amount of experience building mobile sites. Mobile sites are essential now because so many people are using mobile phones and tablet devices to browse the internet.  Many sites don't have great mobile experience. They use flash, rely heavily on hover effects, or they have so much content that it takes forever for the page to load.
 
 I'm going to show how I made a mobile version of my site in just a couple hours using Asp.Net MVC and jQuery mobile.  My site is primarily content and has very little code involved on it. My website is very basic and very straight forward.  I browsed through my site and decided to find the basic information I wanted to display on my mobile version.  In my case, I wanted to display my portfolio, resume, about me, contact me, some of my social links, and an about my mobile page so people could see what technology I used.
-<!-- more -->
+
 In my project file, I added an Area for my mobile section.  You could also just create an additional view area, but I wanted to keep everything separated. I created a view for all of the pages I wanted.
 
 [![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/solution.png)
@@ -42,7 +42,7 @@ I then went back into my Mobile Area and referenced the same partial view.
 
 [![alt](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio-300x83.png)](http://blog.worthyd.com/wp-content/uploads/2011/03/mobileportfolio.png)
 
-Now all I needed to do was style the page. This didn't really take much effort because I wanted it to look the same. I adjusted font-sizes and margins to accommodate the mobile device.  In the end, my custom CSS file was only 40 lines.  jQuery Mobile has a really nice theme that takes care of themes. I'm not a designer at all so I really utilized this.  
+Now all I needed to do was style the page. This didn't really take much effort because I wanted it to look the same. I adjusted font-sizes and margins to accommodate the mobile device.  In the end, my custom CSS file was only 40 lines.  jQuery Mobile has a really nice theme that takes care of themes. I'm not a designer at all so I really utilized this.
 
 When it was all said and done I had a mobile site that looked like this:
 

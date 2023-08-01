@@ -1,10 +1,10 @@
 ---
 title: 'From iPhone to Android: The Hardware and Software Transition'
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2010-08-24  
-dateModified: 2010-08-24 
+datePublished: 2010-08-24
+dateModified: 2010-08-24
 category: Technology
 tags:
 - Android
@@ -12,16 +12,16 @@ tags:
 - mobile
 ---
 
-Less of a rant, more of an analysis.  This is based off of the Samsung Captivate running Eclair(2.1) on the AT&T; network. You may see slight differences in other android phones.  Initially, you wont notice much a difference.  You lock with the button on the right side of the device. This is much like the lock button on the top.  The device is unlocked by swiping, but in any direction.   Navigation through interfaces is very similar. 
+Less of a rant, more of an analysis.  This is based off of the Samsung Captivate running Eclair(2.1) on the AT&T; network. You may see slight differences in other android phones.  Initially, you wont notice much a difference.  You lock with the button on the right side of the device. This is much like the lock button on the top.  The device is unlocked by swiping, but in any direction.   Navigation through interfaces is very similar.
 
 I'm going to give a quick rundown of: the home screen, general settings, email, applications, and the market.
-<!-- more -->
+
 
 
 ### The home screen and buttons
 
 
-The home screen of the Android is similar to the iPhone's.  The home screen acts more like a desktop than a list of applications.  The bottom bar has your phone, email, browser, and applications buttons. Very similar to the iPhone's. You can view all of your applications by pressing the applications button on the bottom right.  You can place application shortcuts  and widgets on your home screen.  Android's Power Controls widget allows you to quickly turn on or off your GPS, Wifi, blue tooth, and several other features.  You can install shortcuts, widgets (both Android and Samsung specific), add folders,  and change wallpaper by pressing and holding on the screen like you did to rearrange your apps on iPhone.  I prefer the home screen with shortcuts and a separate catch all application screen to the iPhone's folders.  
+The home screen of the Android is similar to the iPhone's.  The home screen acts more like a desktop than a list of applications.  The bottom bar has your phone, email, browser, and applications buttons. Very similar to the iPhone's. You can view all of your applications by pressing the applications button on the bottom right.  You can place application shortcuts  and widgets on your home screen.  Android's Power Controls widget allows you to quickly turn on or off your GPS, Wifi, blue tooth, and several other features.  You can install shortcuts, widgets (both Android and Samsung specific), add folders,  and change wallpaper by pressing and holding on the screen like you did to rearrange your apps on iPhone.  I prefer the home screen with shortcuts and a separate catch all application screen to the iPhone's folders.
 
 The keyboard on the larger screen is awesome. I can type twice as face in landscape mode. The autocorrect is a lot better than the iPhone's.  My phone include a swipe keyboard. You swipe to each character then select the word on a list. I haven't used it much, but I have friends who swear by it.
 

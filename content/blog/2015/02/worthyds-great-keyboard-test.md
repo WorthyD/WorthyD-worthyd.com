@@ -1,10 +1,10 @@
 ---
 title: WorthyD's Great Keyboard Test
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2015-02-05  
-dateModified: 2015-02-05 
+datePublished: 2015-02-05
+dateModified: 2015-02-05
 category: Technology
 tags:
   - Being A Geek
@@ -34,79 +34,55 @@ I've really been curious how much faster my typing speed is with a mechanical co
 
 ##### The Results
 
-<table >
-<tr >
-<td >Keyboard
-</td>
-<td >Average WPM
-</td>
-<td >Average MPM
-</td>
-<td >Highest WPM
-</td></tr>
-<tr >
-<td >G15
-</td>
-<td >69
-</td>
-<td >5.4
-</td>
-<td >76
-</td></tr>
-<tr >
-<td >Apple Keyboard
-</td>
-<td >70
-</td>
-<td >1.4
-</td>
-<td >78
-</td></tr>
-<tr >
-<td >Microsoft 3000
-</td>
-<td >69
-</td>
-<td >8.4
-</td>
-<td >75
-</td></tr>
-<tr >
-<td >Microsoft 2000
-</td>
-<td >77.4
-</td>
-<td >7.6
-</td>
-<td >83
-</td></tr>
-<tr >
-<td >BlackWidow w/ Blues
-</td>
-<td >82.4
-</td>
-<td >6.4
-</td>
-<td >86
-</td></tr>
-<tr >
-<td >BlackWidow w/ Browns
-</td>
-<td >81.4
-</td>
-<td >7.3
-</td>
-<td >82
-</td></tr>
-<tr >
-<td >CMStorm w/ Blues
-</td>
-<td >84
-</td>
-<td >6.2
-</td>
-<td >88
-</td></tr>
+<table>
+  <tr>
+    <td>Keyboard</td>
+    <td>Average WPM</td>
+    <td>Average MPM</td>
+    <td>Highest WPM</td>
+  </tr>
+  <tr>
+    <td>G15</td>
+    <td>69</td>
+    <td>5.4</td>
+    <td>76</td>
+  </tr>
+  <tr>
+    <td>Apple Keyboard</td>
+    <td>70</td>
+    <td>1.4</td>
+    <td>78</td>
+  </tr>
+  <tr>
+    <td>Microsoft 3000</td>
+    <td>69</td>
+    <td>8.4</td>
+    <td>75</td>
+  </tr>
+  <tr>
+    <td>Microsoft 2000</td>
+    <td>77.4</td>
+    <td>7.6</td>
+    <td>83</td>
+  </tr>
+  <tr>
+    <td>BlackWidow w/ Blues</td>
+    <td>82.4</td>
+    <td>6.4</td>
+    <td>86</td>
+  </tr>
+  <tr>
+    <td>BlackWidow w/ Browns</td>
+    <td>81.4</td>
+    <td>7.3</td>
+    <td>82</td>
+  </tr>
+  <tr>
+    <td>CMStorm w/ Blues</td>
+    <td>84</td>
+    <td>6.2</td>
+    <td>88</td>
+  </tr>
 </table>
 
 _wpm - words per minute. mpm - mistakes per minute_

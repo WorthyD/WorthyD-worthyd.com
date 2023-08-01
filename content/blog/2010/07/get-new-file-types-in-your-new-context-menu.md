@@ -1,17 +1,17 @@
 ---
 title: Get New File Types in Your "New" Context Menu
-cover: 
+cover:
 coverAlt: ""
 description: ""
-datePublished: 2010-07-27  
-dateModified: 2010-07-27 
+datePublished: 2010-07-27
+dateModified: 2010-07-27
 category: Technology
 tags:
 - Quick OS Tips and Tricks
 ---
 
 The "New" menu on the windows context menu has always annoyed me. It seems that every software suite adds something new and ridiculous to it.  I think I got five or six new items after installing CS4 and Office 2010.  I've frequently been in the situation where I could use a quick .html, .css or .js file on the fly.
-<!-- more -->
+
 There is a quick and easy way to remove and add new items to this menu.  First off, it's never a bad idea to back up your registry before trying this.  Second, create two .reg files. Create one for removing and one for adding.
 
 Example:
