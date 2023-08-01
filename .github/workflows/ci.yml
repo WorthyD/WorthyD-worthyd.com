@@ -1,40 +1,48 @@
-name: Check PR
+# #  Name of workflow
+name: Main CI/CD
 
-on: [pull_request]
+# When workflow is triggered
+on:
+  # Trigger on push to main
+  push:
+    branches: [main]
 
+  # Trigger on PR
+  pull_request:
+    branches: [main]
+
+  # Allows manual trigger
+  workflow_dispatch:
+
+# Jobs to carry out
 jobs:
-  run-ci:
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    name: Run Type Check & Linters
+  deployment_prod:
+    name: Deployment (Prod)
     runs-on: ubuntu-latest
-
+    # Operating system to run job on
+    if: github.ref == 'refs/heads/main'
+    environment: production
+     # Steps in job
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # Get code from repo
+      - name: Checkout code
+        uses: actions/checkout@v1
+      # Install NodeJS
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v1
         with:
-          fetch-depth: 0
+          node-version: 18.x
+      # Run npm install and build on our code
+      - run: npm install
+      - run: npm run build
 
-
-
-      - name: Set up Node
-        uses: actions/setup-node@v3
+      # Deploy to Netlify using our production secrets
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
         with:
-          node-version: lts/*
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Check types
-        run: npm type-check
-
-      - name: Check linting
-        run: npm lint
-
-      - name: Run tests
-        run: npm test
-
-      - name: Check commits messages
-        uses: wagoid/commitlint-github-action@v5
+          publish-dir: './public'
+          production-deploy: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
