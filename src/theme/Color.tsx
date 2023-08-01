@@ -32,6 +32,8 @@ const Colors = css`
     --color-grey-800: #2e2e2e;
     --color-grey-900: #1a1a1a;
 
+    --color-warning: #ff0000;
+
     --color-text: #000000;
     --color-inverted-text: #ffffff;
     --color-background: #ffffff;

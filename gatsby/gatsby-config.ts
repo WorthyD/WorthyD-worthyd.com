@@ -21,16 +21,16 @@ const gatsbyConfig: GatsbyConfig = {
       image_url: `${urlJoin(config.website.url, config.pathPrefix)}${
         config.website.logoUrl
       }`,
-      copyright: config.website.copyright,
-    },
+      copyright: config.website.copyright
+    }
   },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: path.join(__dirname, config.contentDir || ''),
-      },
+        path: path.join(__dirname, config.contentDir || '')
+      }
     },
     {
       resolve: `gatsby-plugin-mdx`,
@@ -48,20 +48,20 @@ const gatsbyConfig: GatsbyConfig = {
               prompt: {
                 user: 'root',
                 host: 'localhost',
-                global: false,
+                global: false
               },
-              escapeEntities: {},
-            },
+              escapeEntities: {}
+            }
           },
           {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: config.embeddedImageWidth,
-              showCaptions: ['title', 'alt'],
-            },
-          },
-        ],
-      },
+              showCaptions: ['title', 'alt']
+            }
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-sharp',
@@ -69,17 +69,18 @@ const gatsbyConfig: GatsbyConfig = {
         defaults: {
           formats: ['auto', 'webp', 'avif'],
           placeholder: 'blurred',
-          backgroundColor: 'transparent',
+          backgroundColor: 'transparent'
         },
-        failOnError: true,
-      },
+        failOnError: true
+      }
     },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sass',
+    'gatsby-plugin-netlify-cms'
   ],
-  jsxRuntime: `automatic`,
+  jsxRuntime: `automatic`
 };
 
 export default gatsbyConfig;
