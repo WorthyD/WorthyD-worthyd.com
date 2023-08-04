@@ -1,11 +1,10 @@
 ---
 title: Getting back with the paintball family
+cover: dsc_0510.jpg
+coverAlt: Dirt Family
 description: Getting back with my paintball family after 15 years.
 datePublished: 2022-11-29T11:27:48.492Z
 dateModified: 2022-11-29T11:27:48.501Z
-cover: dsc_0510.jpg
-coverAlt: Dirt Family
-slug: hairband-heroes
 category: Geek Stuff
 tags:
   - paintball

@@ -31,19 +31,7 @@ const SEO = ({ post }: SeoProps): JSX.Element => {
     ...TwitterTags({ seoData, userData, websiteData })
   ];
 
-  return (
-    <>
-      <html lang={websiteData.language} />
-      {tagList}
-    </>
-    // <Helmet
-    //   htmlAttributes={{
-    //     lang: websiteData.language,
-    //   }}
-    // >
-    //   {tagList}
-    // </Helmet>
-  );
+  return <>{tagList}</>;
 };
 
 export default SEO;

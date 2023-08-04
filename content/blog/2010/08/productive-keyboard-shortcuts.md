@@ -20,19 +20,37 @@ I've compiled a list of shortcuts for the following programs: Visual Studio, Fir
 ## Visual Studio
 
 |     |     |     |
-| --- | --- | --- |
-| Ctrl + k, Ctrl + d | Format Document | Great for quickly re-indenting HTML or XML |
-| Ctrl + k, ctrl + c | Comment Block of Text | Works on everything except CSS |
-| Ctrl + k, ctrl + u | Uncomment Block of Text | Same as above |
-| Ctrl + Alt + L | Moves cursor to solution explorere | This can be really useful depending on how you have your directories set up. |
-| Ctrl + Shift + b | Builds Solution |     |
-| Ctrl + W | Window.CloseCurrentDocumentWindow | Normally Ctrl + F4, but I remapped mine to be more like Firefox |
-| Ctrl + tab or ctrl + shift + tab | Navigate between tabs |     |
+| ---
 
-## Firefox
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
 
-|     |     |     |
-| --- | --- | --- |
+--- | ---
+
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
+
+--- | ---
+
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
+
+--- |
 | Ctrl + t | Open New Tab |     |
 | Ctrl + w | Close current Tab |     |
 | Ctrl + k | Set cursor to Search Box | After doing this you can use Ctrl + Up or down to navigate through the different search types. |
@@ -44,17 +62,36 @@ I've compiled a list of shortcuts for the following programs: Visual Studio, Fir
 ## Outlook
 
 |     |     |     |
-| --- | --- | --- |
-| Ctrl + n | New Message |     |
-| Ctrl + r | Reply |     |
-| Ctrl + shift + r | Reply to All |     |
-| Ctrl + f | Forward |     |
-| Ctrl + i | Navigate to Inbox |     |
-| Ctrl + shift + tab | Navigate to the left menu |     |
+| ---
 
-## Windows 7
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
 
-|     |     |     |
-| --- | --- | --- |
+--- | ---
+
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
+
+--- | ---
+
+cover: 
+coverAlt: ""
+description: ""
+datePublished: ""
+dateModified: ""
+category: ""
+tags:
+
+--- |
 | Windows + Arrow Keys | Move Window | Kinda cool if you don't have Winsplit. Windows 7 only. |
 | Ctrl + w | Close current explorer window |     |

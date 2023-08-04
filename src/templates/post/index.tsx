@@ -1,5 +1,4 @@
 import { JSX, ReactNode } from 'react';
-// import SEO from '../../components/SEO';
 import MainLayout from '@/layouts';
 import {
   BlogPostBySlugQuery,
@@ -10,8 +9,6 @@ import {
 import SEO from '@/components/SEO';
 import { Includes } from '@/components/Includes';
 import Article from '@/components/Article';
-// import { MDXProvider } from '@mdx-js/react';
-// import { getComponentMapping } from '@/components/Article/MdxTheme';
 import AuthorSegment from '@/components/AuthorSegment';
 import RelatedPosts from '@/components/RelatedPosts';
 import styled from 'styled-components';

@@ -15,14 +15,6 @@ import {
 // Re-export types
 export * from './types';
 
-// Re-export the config types
-// export type {
-//   SiteConfig,
-//   OrganizationData,
-//   UserData,
-//   WebsiteData,
-// } from '../config';
-
 // Convert MDX based GraphQL query responses into a Post object
 export function mdxNodeIntoPost(
   mdxNode: MdxNode,

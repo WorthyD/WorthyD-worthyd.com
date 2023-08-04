@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`context QueryWrapper > renders correctly 1`] = `
+<QueryClientProvider
+  client={
+    QueryClient {
+      "defaultOptions": {},
+      "mutationCache": MutationCache {
+        "config": {},
+        "listeners": [],
+        "mutationId": 0,
+        "mutations": [],
+      },
+      "mutationDefaults": [],
+      "queryCache": QueryCache {
+        "config": {},
+        "listeners": [],
+        "queries": [],
+        "queriesMap": {},
+      },
+      "queryDefaults": [],
+    }
+  }
+>
+  Test
+  <ReactQueryDevtools
+    initialIsOpen={false}
+  />
+</QueryClientProvider>
+`;

@@ -1,14 +1,13 @@
 import React, { JSX } from 'react';
 import styled from 'styled-components';
 
-// import _ from 'lodash';
-// import * as styles from '../../../theme';
 import { ExtendingWrapper } from '../Spacing';
 import { kebabCase } from '@/utils/kebabCase';
-import Link from '../../Link';
-export const Paragraph = styled.p``; // Default works fine
 import { HeadingLink } from '../../Links';
+
 import * as styles from '../../../theme';
+
+export const Paragraph = styled.p``; // Default works fine
 
 // Extract header hashlink from child components
 const getHeaderHashLink = (children: React.ReactNode): string | null => {

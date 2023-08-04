@@ -1,4 +1,4 @@
-import React from 'react';
+import { JSX } from 'react';
 
 import * as S from './style';
 import useConfig from '@/config/useConfig';
