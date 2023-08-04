@@ -18,12 +18,12 @@ import { getCategoryListing } from './utils/queries/getCategoryListing';
 const POST_PAGE_COMPONENT = path.resolve('./src/templates/post/query.ts');
 
 export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
-  actions,
+  actions
 }) => {
   actions.setWebpackConfig({
     resolve: {
-      plugins: [new TsconfigPathsPlugin()],
-    },
+      plugins: [new TsconfigPathsPlugin()]
+    }
   });
 };
 
@@ -61,7 +61,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions }) => {
     const slug = generateSlug(frontmatter);
     if (!slug) {
       console.error(
-        'onCreateNode: Failed to generate a slug for an MDX post. Aborting.',
+        'onCreateNode: Failed to generate a slug for an MDX post. Aborting.'
       );
       return;
     }
@@ -83,7 +83,7 @@ export const onCreateNode: GatsbyNode['onCreateNode'] = ({ node, actions }) => {
 // Gets invoked on page creation stage
 export const createPages: GatsbyNode['createPages'] = async ({
   graphql,
-  actions,
+  actions
 }) => {
   const config = siteConfig;
   // const config = withDefaults(themeOptions as unknown as SiteConfig);
@@ -129,8 +129,8 @@ export const createPages: GatsbyNode['createPages'] = async ({
         nextslug: nextPost?.slug,
         prevtitle: prevPost?.title,
         prevslug: prevPost?.slug,
-        relatedPosts,
-      },
+        relatedPosts
+      }
     });
   });
   // Create a main "index" feed

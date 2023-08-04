@@ -8,9 +8,12 @@ export default defineConfig({
     globals: true,
     setupFiles: `./vitest-setup.ts`,
     environment: `jsdom`,
-    include: [`src/**/*.{spec,test}.{ts,tsx}`],
+    include: [
+      `src/**/*.{spec,test}.{ts,tsx}`,
+      `gatsby/**/*.{spec,test}.{ts,tsx}`
+    ],
     coverage: {
-      reporter: [`text`, `json`, `html`],
-    },
-  },
+      reporter: [`text`, `json`, `html`]
+    }
+  }
 });

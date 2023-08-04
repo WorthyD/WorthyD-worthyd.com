@@ -11,10 +11,10 @@ vi.mock(`gatsby`, async () => {
     Link: vi.fn().mockImplementation(({ to, ...rest }) =>
       React.createElement(`a`, {
         ...rest,
-        href: to,
-      }),
+        href: to
+      })
     ),
     StaticQuery: vi.fn(),
-    useStaticQuery: vi.fn(),
+    useStaticQuery: vi.fn()
   };
 });

@@ -15,7 +15,7 @@
       "@/*": ["./src/*"],
       "@/static/*": ["./static/*"]
     },
-    "types": ["node", "@testing-library/jest-dom"]
+    "types": ["node", "@testing-library/jest-dom", "vitest/globals"]
   },
   "exclude": ["node_modules"],
   "include": ["./src/**/*"]

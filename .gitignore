@@ -11,6 +11,8 @@
 # testing
 /coverage
 
+/blog-lj
+
 # gatsby
 .cache/
 public/
