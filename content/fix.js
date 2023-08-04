@@ -15,6 +15,7 @@ const options = {
     const description = items.find((x) => x.indexOf('description') > -1);
     const datePublished = items.find((x) => x.indexOf('datePublished') > -1);
     const dateModified = items.find((x) => x.indexOf('dateModified') > -1);
+    //const ljDate = items.find((x) => x.indexOf('date') > -1);
     const category = items.find((x) => x.indexOf('category') > -1);
 
     const tagIndex = items.findIndex((x) => x.indexOf('tags') > -1);
@@ -36,7 +37,7 @@ const options = {
       : 'description: ""';
     const datePublishedS = datePublished
       ? datePublished.trimStart()
-      : 'datePublished: ""';
+      :  'datePublished: ""';
     const dateModifiedS = dateModified
       ? dateModified.trimStart()
       : 'dateModified: ""';

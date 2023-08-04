@@ -1,5 +1,6 @@
 import React, { ReactNode, JSX } from 'react';
 
+import styled from 'styled-components';
 import { MDXProvider } from '@mdx-js/react';
 
 import * as TextComponents from './Text';
@@ -45,7 +46,8 @@ export const getComponentMapping = (post: Post) => {
 
     a: MiscComponents.Link,
     img: MiscComponents.Image,
-    figure: MiscComponents.Figure
+    figure: MiscComponents.Figure,
+    delete: styled.del``
   };
 };
 
