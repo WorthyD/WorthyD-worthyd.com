@@ -35,7 +35,7 @@ const Article = ({ post }: ArticleProps): JSX.Element => (
       <BlockquoteStyle>
         <H4>Warning: Here be dragons</H4>
         <Caption>
-          This is an archived post from my Livejournal account. Take everything
+          This is an archived post from my LiveJournal account. Take everything
           in the post with a 5 pound grain of salt.{' '}
         </Caption>
       </BlockquoteStyle>

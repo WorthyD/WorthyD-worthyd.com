@@ -1,6 +1,6 @@
 ---
-title: Livejournal Summary - 2008-01-01
-description: Livejournal Summary - 2008-01-01
+title: LiveJournal Summary - 2008-01-01
+description: LiveJournal Summary - 2008-01-01
 datePublished: 2008-01-01
 dateModified:
 category:
