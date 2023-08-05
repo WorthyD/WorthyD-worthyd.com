@@ -1,8 +1,7 @@
+/*
 const replace = require('replace-in-file');
 
 const options = {
-  files: 'blog/**/*.md',
-  // files: 'blog/**/the-blog-is-back.md',
   // from: ---\n([\s\S]*?)---\n,
   from: /---([\s\S]*?)---/g,
   to: (match) => {
@@ -61,40 +60,70 @@ replace(options)
   .catch((error) => {
     console.error('Error occurred:', error);
   });
+  */
 
-// const options2 = {
-//     files: 'blog/201*/**/*.md',
-//     from: /npublishDate: (.+?)* /g,
-//     to: (match) => {
-//         return '';
-//     },
-//   };
-//   replace(options2)
-//   .then(results => {
-//     console.log('Replacement results:', results);
-//   })
-//   .catch(error => {
-//     console.error('Error occurred:', error);
-//   });
-//   const options3 = {
-//     files: 'blog/201*/**/*.md',
-//     from: /nmodifiedDate: (.+?)* /g,
-//     to: (match) => {
-//         return '';
-//     },
-//   };
+const fs = require('fs');
+const readFile = require('fs/promises').readFile;
+const path = require('path');
+const contentDir = '../blog-lj/drafts/2008/01';
+const outputDir = './blog/2008/01';
 
-// //   const results = replace.sync(options);
+(async () => {
+  const summaryText = `---
+title: Livejournal Summary - 2008-01-01
+description: Livejournal Summary - 2008-01-01
+datePublished: 2008-01-01
+dateModified:
+category:
+tags:
+  - livejournal
+---\n\n`;
+  const posts = [];
+  try {
+    // Get the files as an array
+    const files = await fs.promises.readdir(contentDir);
+    // Loop them all with the new for...of
+    for (const file of files) {
+      console.log('file', file);
+      if (file !== 'summary.md' && file.indexOf('.md') > -1) {
+        const text = await content(path.join(contentDir, file));
 
-// //   console.log(results);
+        const items = text.split('\n');
+        const title = items
+          .find((x) => x.indexOf('title') > -1)
+          ?.replace('title: ', '')
+          .replace('\r', '');
 
-//   replace(options3)
-//   .then(results => {
-//     console.log('Replacement results:', results);
-//   })
-//   .catch(error => {
-//     console.error('Error occurred:', error);
-//   });
+        let pubDate = items.find((x) => x.indexOf('datePublished') > -1) ?? '';
+        const pubDateStr = pubDate.replace('datePublished: ', '');
 
+        if (pubDateStr === '') {
+          const otherPubDate = items.find((x) => x.indexOf('date:') > -1);
+          pubDate = otherPubDate.replace('date: ', '');
+        }
 
-/// Get-ChildItem -Recurse *.md | ForEach-Object { Get-Content $_ } | Out-File -Path .\summary.txt
+        const postTitle = `## ${title} - ${pubDateStr}`;
+        const postContent = text.replace(/---[\S\s]*---/, '');
+
+        posts.push({
+          content: `${postTitle}\n\n ${postContent}`,
+          pubDate: pubDateStr
+        });
+      }
+    }
+    posts.sort(function (a, b) {
+      return new Date(a.pubDate) - new Date(b.pubDate);
+    });
+    await fs.writeFile(
+      `${outputDir}/summary.md`,
+      `${summaryText}${posts.map((x) => x.content).join('\n\n---\n\n')}`,
+      () => {}
+    );
+  } catch (e) {
+    // Catch anything bad that happens
+    console.error('Error!', e);
+  }
+})();
+async function content(path) {
+  return await readFile(path, 'utf8');
+}
