@@ -102,7 +102,7 @@ Overall I did have fun but overall the tournament sucked.
 
 I'm tired. More details tomorrow.
 
-![](http://i3.photobucket.com/albums/y85/bgilley/Picture075.jpg)
+![alt](http://i3.photobucket.com/albums/y85/bgilley/Picture075.jpg)
 more pics here
 
 http://nwapaintball.proboards27.com/index.cgi?board=gpb&action;=display&thread;=1099515243&page;=5
