@@ -10,10 +10,9 @@ tags:
 
 ## 2005-07-02 07:18:55 - 2005-07-02 07:18:55
 
-
 I completed all the thieves guild quests in Morrowind.. w00t.
 
-I've had the same schedule for over four monthes now... mon through thursday work at harps. Friday and Saturday work at the store. Sunday off.
+I've had the same schedule for over four months now... mon through thursday work at harps. Friday and Saturday work at the store. Sunday off.
 
 ---
 
