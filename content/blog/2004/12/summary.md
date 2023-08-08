@@ -10,7 +10,7 @@ tags:
 
 ## Uber updates ^\_^ THE PILE! - 2004-12-03 05:43:30
 
-![](http://img.photobucket.com/albums/v432/shadow_x/thepile.jpg)
+![alt](http://img.photobucket.com/albums/v432/shadow_x/thepile.jpg)
 1/4 $5 sale at Circuit City
 
 All PS1 and GB games bought in highschool during my "break" from video games. Maybe 1/4 of the tower.
@@ -72,9 +72,9 @@ I erased a kids 295 hour game..... on a game checkout... well one this is that w
 ## 2004-12-13 16:22:55 - 2004-12-13 16:22:55
 
 Playing in a warm up 2 on 2 game. That was my baby gun. It broke on me shortly after that game. I spend 5 hours teching it this morning. There is no more blue on it. Oh and I do shoot better left handed than right. Note "Shadow X" and the triforce on the tank.
-![](http://img.photobucket.com/albums/v432/shadow_x/WorthyShooting.jpg)
+![alt](http://img.photobucket.com/albums/v432/shadow_x/WorthyShooting.jpg)
 I blasted Jimmy's Kid in the face in a one on one game after talking trash.
-![](http://img.photobucket.com/albums/v432/shadow_x/WhoGotWhoEvan.jpg)
+![alt](http://img.photobucket.com/albums/v432/shadow_x/WhoGotWhoEvan.jpg)
 
 ---
 
@@ -109,7 +109,7 @@ Went to best buy and picked up a new fridge for the store. On the way back to th
 
 I then went to Siloam to help Jimmy set up his web page. I'm going to clean up my room and get busy on the web page. I leave you with this. A pic of me sporting my new Empire gear.
 
-![](http://img.photobucket.com/albums/v432/shadow_x/yarg.jpg)
+![alt](http://img.photobucket.com/albums/v432/shadow_x/yarg.jpg)
 
 ---
 

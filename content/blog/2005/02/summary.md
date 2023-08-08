@@ -96,7 +96,7 @@ I think my long time back problems are because I have a fat wallet... full of po
 I went to the career fair and I was completely ignored! It was awesome. I just walked around amongst the people and snatched brochures. I hope I got enough of them. I avoided Tyson... but I probably shouldn't have.
 
 So I tore my room apart looking for my RF switch. I last place I looked was in my PS2 box... that is kinda on display.
-![](http://img.photobucket.com/albums/v432/shadow_x/mydesk.jpg) Big blue box in the center.
+![alt](http://img.photobucket.com/albums/v432/shadow_x/mydesk.jpg) Big blue box in the center.
 
 Yeah I looked in it while loading up the game boxes above it. Looked down and thought. Thats those are those dumb AV cables that don't work. I took the box in my mouth to reach in and grab them. I kept telling myself "Where the heck is that darn RF switch"... I look down and turns out the connecting part of AV cables are just like the RF switch..... yeah I'm dumb.... That happens from time to time :)
 

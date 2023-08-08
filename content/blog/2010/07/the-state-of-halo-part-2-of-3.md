@@ -8,6 +8,7 @@ dateModified: 2010-07-31
 category: Gaming
 tags:
 - Halo
+- game-review
 ---
 
 I'm going to give a brief overview of Halo 3 and Halo Wars both of these games are for the XBox 360 and utilize Xbox Live.  Halo Wars is a little bit different than the other Halo games. It is an RTS game. In other words, it's like Starcraft.  In the last part of the series, I will go over Halo 3: ODST and what we know about Reach.

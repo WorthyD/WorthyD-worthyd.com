@@ -24,7 +24,7 @@ const HomeHeader = (): JSX.Element => {
                 <i className="fab fa-facebook" aria-hidden="true"></i>
               </a> */}
               <a
-                href="https://bsky.app/profile/worthyd.bsky.social"
+                href="https://bsky.app/profile/worthyd.com"
                 className="card-link"
               >
                 <i className="fas fa-cloud" aria-hidden="true"></i>

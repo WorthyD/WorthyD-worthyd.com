@@ -42,7 +42,7 @@ I really need to get offline so I can do some home work.
 
 You get no cuts today
 
-**The Drive** Five guys in an s-10 blazer. How about that crap? Kyle, Ben, Brandon, Mike and myself.
+**The Drive** Five guys in an s-10 blazer.  Kyle, Ben, Brandon, Mike and myself.
 
 **The Frat Party** We get to K.S. around 10 grab some food and go to a frat house. The guy who was in charge of the tournament was Phi Kappa Theta and he made arrangements so we could stay at the house. We all go and purchase our alcohol so we could sleep (not me). We get to the house "as the party was starting" and ... it wasn't very exciting. We sat and talked to this guy from K-State who was talking trash about how he's an Am player and plays three times a week. After a while he stumbles off and goes to sleep. We walk around and socialize. I met some Alpha Phi Omegas from K-state who were really really cool.. I walked around with a beer in hand (unopened) just to fit in. Kyle got a pic of me. According to Ben, our back guy who is a Lambda Chi Alpha, this party was like a normal night at a frat. By the time I get back to Brandon he has a new sophomore friend who wont leave him alone. She was kinda cute, but not my type. Brandon was EXCITED (extreme sarcasim). We talked to some Oklahoma guys who were talking like they were badasses. We kept telling everyone that we've only played together once... which was very true. They figured they would 0wn us. We watched super troopers for about 45 minutes then I went to bed.
 

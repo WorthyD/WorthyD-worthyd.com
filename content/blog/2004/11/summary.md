@@ -147,7 +147,7 @@ It was a really busy day.
 
 I went to the mall and picked up some Dot//Hack toys. I got a stuffed grunty (seen below) for 7 bucks normally 20. Two action figures both for 2.99. its awesome!
 
-![](http://img.photobucket.com/albums/v432/shadow_x/grunty.jpg) ![](http://img.photobucket.com/albums/v432/shadow_x/grunty2.jpg)
+![alt](http://img.photobucket.com/albums/v432/shadow_x/grunty.jpg) ![alt](http://img.photobucket.com/albums/v432/shadow_x/grunty2.jpg)
 OH! I LEARNED THAT MYSPACE.COM SPONSORS THE NATIONAL PROFESSIONAL PAINTBALL LEAGUE! HOW COOL IS THAT!
 
 ---
