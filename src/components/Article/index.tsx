@@ -6,6 +6,7 @@ import Render from './Render';
 import { Post } from '@/types';
 import { ARTICLE_WIDTH } from './Spacing';
 import { Caption, H4 } from '../../theme';
+import Share from './Share';
 const ArticleWrapper = styled.main`
   width: 100%;
 
@@ -50,7 +51,7 @@ const Article = ({ post }: ArticleProps): JSX.Element => (
     )}
 
     <Render post={post} />
-    {/* <Share post={post} /> */}
+    <Share post={post} />
   </ArticleWrapper>
 );
 

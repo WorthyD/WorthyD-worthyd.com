@@ -7,7 +7,7 @@ media_folder: static/assets
 public_folder: assets
 
 # Run npx netlify-cms-proxy-server   to work locally
-#local_backend: true
+local_backend: true
 
 collections:
   - name: blog
@@ -46,13 +46,9 @@ collections:
 
               # Geek Tags
               'Star Wars',
-              'nintendo',
-              'playstation',
-              'xBox',
               'retro games',
               'video games',
-              'Zelda',
-              'Halo',
+              'game-review',
               'Geek Shirts',
               'Video Game Shirts',
 
