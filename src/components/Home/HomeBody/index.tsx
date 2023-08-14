@@ -24,6 +24,13 @@ const HomeBody = (): JSX.Element => (
             className="home-link button-link"
           >
             Resume
+          </AnimatedLink>{' '}
+          <AnimatedLink
+            noBasePath
+            to="/skillset"
+            className="home-link button-link"
+          >
+            Skill Set
           </AnimatedLink>
           {/* <AnimatedLink noBasePath to="/resume">
             Resume
@@ -43,9 +50,11 @@ const HomeBody = (): JSX.Element => (
           Right now, I'm mainly blogging about tech, wood working and video game
           stuff.
         </p>
-        <AnimatedLink to="/" className="home-link button-link">
-          Blog
-        </AnimatedLink>
+        <p>
+          <AnimatedLink to="/" className="home-link button-link">
+            Blog
+          </AnimatedLink>
+        </p>
       </div>
       <div className="callout">
         <i className="fab fa-youtube" aria-hidden="true"></i>
@@ -55,14 +64,14 @@ const HomeBody = (): JSX.Element => (
           pretty out of date now, but I'm proud of what I was able to do with
           what little time I have.
         </p>
-
-        <AnimatedLink
-          to="https://www.youtube.com/user/CaptainWorthy/"
-          className="home-link button-link"
-        >
-          YouTube Channel
-        </AnimatedLink>
-
+        <p>
+          <AnimatedLink
+            to="https://www.youtube.com/user/CaptainWorthy/"
+            className="home-link button-link"
+          >
+            YouTube Channel
+          </AnimatedLink>
+        </p>
         {/* <a
           className="btn btn-default"
           href="https://www.youtube.com/user/CaptainWorthy/"
@@ -89,9 +98,11 @@ const HomeBody = (): JSX.Element => (
           I get a lot of questions about what gear I use for gaming and working
           from home. I put all my gear into a post for easy reference.
         </p>
-        <AnimatedLink to="/uses" className="home-link button-link">
-          Gear
-        </AnimatedLink>
+        <p>
+          <AnimatedLink to="/uses" className="home-link button-link">
+            Gear
+          </AnimatedLink>
+        </p>
         {/* <a className="btn btn-default" href="/uses">
           Gear
         </a> */}
@@ -103,19 +114,21 @@ const HomeBody = (): JSX.Element => (
           I've been working on a dashboard for managing Destiny 2 Clans. This is
           my current passion project.
         </p>
-        <AnimatedLink
-          to="https://github.com/WorthyD/d2-clandashboard"
-          className="home-link button-link"
-        >
-          GitHub Repo
-        </AnimatedLink>
-        &nbsp;&nbsp;
-        <AnimatedLink
-          to="http://destinyclandashboard.com/"
-          className="home-link button-link"
-        >
-          Website
-        </AnimatedLink>
+        <p>
+          <AnimatedLink
+            to="https://github.com/WorthyD/destiny-clan-dashboard"
+            className="home-link button-link"
+          >
+            GitHub Repo
+          </AnimatedLink>
+          &nbsp;&nbsp;
+          <AnimatedLink
+            to="http://destinyclan.report/"
+            className="home-link button-link"
+          >
+            Website
+          </AnimatedLink>
+        </p>
         {/* <a
           className="btn btn-default"
           href="https://github.com/WorthyD/d2-clandashboard"

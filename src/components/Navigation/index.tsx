@@ -18,6 +18,9 @@ const Navigation = (): JSX.Element => {
             Home
           </S.NavButton>
           <S.NavButton to="/">Posts</S.NavButton>
+          <S.NavButton noBasePath to="/skillset">
+            Skill Set
+          </S.NavButton>
           <S.NavButton noBasePath to="/resume">
             Resume
           </S.NavButton>
