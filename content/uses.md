@@ -2,7 +2,8 @@
 id: 99999
 title: Uses
 description: testing
-coverAlt: "An image tagged as nature and water."
+cover: 'images/uses.jpg'
+coverAlt: "Uses"
 slug: Uses
 datePublished: 2021-01-01
 dateModified: 2021-01-01
@@ -57,7 +58,7 @@ I run a home NAS for storage, as a media server, and remote gaming system.
 ### Keyboards
 
 - **Home Keyboard** - [POK3R RGB 60%](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3527) - Brown Switches
-- **Home Keyboard Key Caps** - [HyperX Pudding Keycaps](https://www.amazon.com/gp/product/B087QTWCTQ) 
+- **Home Keyboard Key Caps** - [HyperX Pudding Keycaps](https://www.amazon.com/gp/product/B087QTWCTQ)
 - **Work Keyboard** - [Code Keyboard 60%](https://codekeyboards.com/) - Brown Switches
 - **Secondary Workstation Keyboard** - [CM Storm Quickfire Stealth](https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-stealth/) - Blue Switches
 

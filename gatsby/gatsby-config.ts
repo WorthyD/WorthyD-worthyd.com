@@ -78,6 +78,14 @@ const gatsbyConfig: GatsbyConfig = {
       }
     },
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.svg$/
+        }
+      }
+    },
+    {
       resolve: 'gatsby-plugin-feed',
       options: {
         setup: RssUtils.setup,
