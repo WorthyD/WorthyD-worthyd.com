@@ -53,8 +53,7 @@ export const SkillContainer = styled.div`
   display: grid;
   grid-template-columns: 100%;
   gap: 20px;
-
-`
+`;
 export const SkillGrid = styled.div`
   width: 100%;
 

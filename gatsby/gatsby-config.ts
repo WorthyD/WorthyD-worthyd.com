@@ -142,7 +142,8 @@ const gatsbyConfig: GatsbyConfig = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sass',
-    'gatsby-plugin-netlify-cms'
+    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-styled-components'
   ],
   jsxRuntime: `automatic`
 };

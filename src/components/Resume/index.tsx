@@ -57,13 +57,19 @@ const Resume = () => (
               <li>Angular Material</li>
               <li>NGRX</li>
               <li>React</li>
+              <li>MUI</li>
               <li>Apollo Client</li>
+              <li>Vue</li>
               <li>Asp.Net MVC</li>
               <li>Entity Framework</li>
               <li>.Net Core</li>
               <li>Microsoft SQL Server</li>
               <li>Git</li>
+              <li>Github Actions</li>
               <li>Azure DevOps</li>
+              <li>Terraform</li>
+              <li>Microsoft Azure</li>
+              <li>Google Cloud Platform</li>
               <li>Visual Studio</li>
               <li>Visual Studio Code</li>
             </ul>
@@ -77,7 +83,7 @@ const Resume = () => (
             <div>
               <p>
                 I'm a full stack web developer with over 12 years experience in
-                Microsoft and JavaScript tech stacks. I find a lot of excitement
+                JavaScript and Microsoft tech stacks. I find a lot of excitement
                 in creative problem solving and continuous improvement.
               </p>
               <p>
