@@ -28,9 +28,6 @@ const Resume = () => (
               <li>
                 <i className="fab fa-github"></i> worthyd
               </li>
-              <li>
-                <i className="fab fa-twitter"></i> worthyd
-              </li>
             </ul>
           </div>
 
@@ -101,7 +98,16 @@ const Resume = () => (
             </header>
             <div className="job">
               <div className="job-date">
-                <p>2019-11 - Present</p>
+                <p>2023-10 - Present</p>
+              </div>
+              <div className="job-info">
+                <h3>J.B. Hunt Transport Services, Inc.</h3>
+                <h4>Expert Software Engineer</h4>
+              </div>
+            </div>
+            <div className="job">
+              <div className="job-date">
+                <p>2019-11 - 2023-10</p>
               </div>
               <div className="job-info">
                 <h3>RevUnit</h3>
@@ -111,6 +117,9 @@ const Resume = () => (
                     Perform managerial duties for a team of 2 to 3 engineers
                   </li>
                   <li> Serve as Angular expert within the company</li>
+                  <li>
+                    Provide assistance in C#, Java, React and Vue projects
+                  </li>
                 </ul>
 
                 <h4>Senior Engineer | November 2019 - September 2021</h4>
