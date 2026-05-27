@@ -62,30 +62,12 @@ export const mySkills: SkillSetGroup[] = [
         footNotes: ''
       },
       {
-        title: 'React',
-        icon: <ReactLogo size={width} color={'#61DBFB'} />,
-        time: '2020 - Present',
-        skill: 60,
-        desire: 60,
-        subSkills: ['MUI', 'React Query', 'Styled Components'],
-        footNotes: ''
-      },
-      {
-        title: 'Vue.js',
-        icon: <VueLogo height={height} width={width} />,
-        time: '2017, 2022 - Present',
-        skill: 39,
-        desire: 70,
-        subSkills: ['Vue 2', 'Vue 3', 'Vuetify'],
-        footNotes: ''
-      },
-      {
         title: 'CI/CD - DevOps',
         icon: <Infinite height={height} width={width} />,
         time: '2020 - Present',
-        skill: 59,
+        skill: 60,
         desire: 90,
-        subSkills: ['GitHub Actions', 'Cloud Build', 'Azure Pipelines'],
+        subSkills: ['GitHub Actions', 'Azure Builds', 'Azure Pipelines'],
         footNotes: ''
       },
 
@@ -93,38 +75,39 @@ export const mySkills: SkillSetGroup[] = [
         title: 'Azure',
         icon: <AzureLogo height={height} width={width} />,
         time: '2022 - Present',
-        skill: 59,
+        skill: 60,
         desire: 50,
         subSkills: ['Azure Devops', 'Azure Pipelines'],
-        footNotes: ''
-      },
-      {
-        title: 'GCP',
-        icon: <GCPLogo height={height} width={width} />,
-        time: '2022 - Present',
-        skill: 58,
-        desire: 80,
-        subSkills: ['Cloud Run', 'Cloud Build', 'Firebase'],
         footNotes: ''
       },
       {
         title: 'Code Testing',
         icon: <TestTube size={height} color={'#026e00'} />,
         time: '2020 - Present',
-        skill: 50,
-        desire: 80,
+        skill: 70,
+        desire: 90,
         subSkills: ['Jest', 'Cypress', 'Vitest'],
         footNotes: ''
       },
       {
-        title: 'NodeJS',
-        icon: <Nodejs size={height} color={'#026e00'} />,
-        time: '2022 - Present',
-        skill: 38,
+        title: 'C# / .Net',
+        icon: <Code size={height} />,
+        time: '2007 - 2022, 2026 - Present',
+        skill: 60,
         desire: 60,
-        subSkills: ['Express', 'Generic Tasks'],
+        subSkills: ['.Net MVC', 'Web Api', 'Entity Framework', 'Web Forms'],
         footNotes: ''
       },
+      {
+        title: 'Java',
+        icon: <Code size={height} />,
+        time: '2021 - 2022, 2025 - Present',
+        skill: 38,
+        desire: 30,
+        subSkills: ['Spring'],
+        footNotes: ''
+      },
+
       {
         title: 'Docker',
         icon: <Docker size={height} color={'#0091e2'} />,
@@ -141,23 +124,43 @@ export const mySkills: SkillSetGroup[] = [
     description: 'Not actively using, but would consider revisiting',
     skills: [
       {
-        title: 'C# / .Net',
-        icon: <Code size={height} />,
-        time: '2007 - 2022',
+        title: 'React',
+        icon: <ReactLogo size={width} color={'#61DBFB'} />,
+        time: '2020 - 2023',
         skill: 60,
         desire: 60,
-        subSkills: ['.Net MVC', 'Web Api', 'Entity Framework', 'Web Forms'],
+        subSkills: ['MUI', 'React Query', 'Styled Components'],
         footNotes: ''
       },
       {
-        title: 'Java',
-        icon: <Code size={height} />,
-        time: '2021 - 2022',
-        skill: 38,
-        desire: 30,
-        subSkills: ['Spring'],
+        title: 'Vue.js',
+        icon: <VueLogo height={height} width={width} />,
+        time: '2017, 2022 - 2024',
+        skill: 39,
+        desire: 70,
+        subSkills: ['Vue 2', 'Vue 3', 'Vuetify'],
         footNotes: ''
       },
+
+      {
+        title: 'NodeJS',
+        icon: <Nodejs size={height} color={'#026e00'} />,
+        time: '2022 - 2023',
+        skill: 38,
+        desire: 60,
+        subSkills: ['Express', 'Generic Tasks'],
+        footNotes: ''
+      },
+      {
+        title: 'GCP',
+        icon: <GCPLogo height={height} width={width} />,
+        time: '2022 - 2024',
+        skill: 58,
+        desire: 80,
+        subSkills: ['Cloud Run', 'Cloud Build', 'Firebase'],
+        footNotes: ''
+      },
+
       {
         title: 'SQL',
         icon: <Code size={height} />,

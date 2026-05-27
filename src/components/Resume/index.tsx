@@ -53,6 +53,7 @@ const Resume = () => (
               <li>Angular 2+</li>
               <li>Angular Material</li>
               <li>NGRX</li>
+              <li>Cypress</li>
               <li>React</li>
               <li>MUI</li>
               <li>Apollo Client</li>
@@ -103,6 +104,28 @@ const Resume = () => (
               <div className="job-info">
                 <h3>J.B. Hunt Transport Services, Inc.</h3>
                 <h4>Expert Software Engineer</h4>
+                <ul>
+                  <li>
+                    Serve as FE architectural lead for a product with 2 - 3
+                    squads of engineers.
+                  </li>
+                  <li>
+                    Evaluate and provide guidance on implementing new
+                    technologies.
+                  </li>
+                  <li>
+                    Coach and mentor engineers through code reviews, pair
+                    programming and formal 1 on 1s.
+                  </li>
+                  <li>
+                    Provide scopes and estimates on features and enhancements to
+                    product.
+                  </li>
+                  <li>
+                    Develop and lead training sessions at a team and department
+                    level.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="job">
